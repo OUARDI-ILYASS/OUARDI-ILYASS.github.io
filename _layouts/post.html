@@ -3,6 +3,35 @@ layout: default
 ---
 
 <section class="post" style="max-width: 40rem;margin: auto;margin-top: -2rem;">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ page.title | escape }}",
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author | default: 'Author Name' }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title | escape }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ '/assets/images/profile1.png' | absolute_url }}"
+      }
+    },
+    "description": "{{ page.excerpt | strip_html | truncate: 160 }}",
+    {% if page.content_type contains 'islam' %}
+    "articleSection": "{{ page.islam_category }}",
+    {% endif %}
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}"
+    }
+  }
+  </script>
   <div class="" style="justify-content: space-between;display:flex; margin-bottom: 1rem;">
     {% if page.content_type contains 'article' %}
     <a href="/articles" style="text-decoration: none;">← All articles</a> <span>{% include reading-time.html %}</span> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
@@ -21,5 +50,3 @@ layout: default
   <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
     <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
 </section>
-
-

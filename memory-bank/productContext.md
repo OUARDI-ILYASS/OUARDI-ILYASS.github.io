@@ -1,7 +1,7 @@
 # Project Context
 
 ## Vision
-Personal academic portfolio and knowledge repository for Ilyas Ouardi
+Personal academic portfolio and knowledge repository for Ilyass Ouardi
 
 ## Core Components
 - Mathematical research documentation
