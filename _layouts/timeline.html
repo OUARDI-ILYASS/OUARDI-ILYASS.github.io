@@ -1,0 +1,27 @@
+---
+layout: default
+title: Timeline
+---
+{% include navigation.html %}
+<section class="timeline">
+  <h1>Timeline</h1>
+  <div class="timeline-container timeline-line">
+    <script src="{{ '/assets/js/timeline.js' | relative_url }}"></script>
+    {% assign sorted_posts = site.posts | where: "content_type", "timeline" | sort: 'event_date' | reverse %}
+    {% for post in sorted_posts %}
+        <article class="timeline-event">
+          <h2>{{ post.title }}</h2>
+          <time datetime="{{ post.event_date }}">{{ post.event_date | date: "%B %d, %Y" }}</time>
+          <p>{{ post.summary }}</p>
+          {% if post.image %}
+            <img src="{{ site.assets | append: post.image | relative_url }}" alt="Event image">
+          {% endif %}
+          <div class="links">
+            {% for link in post.links %}
+              <a href="{{ link.url }}">{{ link.title }}</a>
+            {% endfor %}
+          </div>
+        </article>
+    {% endfor %}
+  </div>
+</section>

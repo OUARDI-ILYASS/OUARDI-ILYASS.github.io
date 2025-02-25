@@ -1,0 +1,1976 @@
+This file is a merged representation of the entire codebase, combined into a single document by Repomix.
+
+================================================================
+File Summary
+================================================================
+
+Purpose:
+--------
+This file contains a packed representation of the entire repository's contents.
+It is designed to be easily consumable by AI systems for analysis, code review,
+or other automated processes.
+
+File Format:
+------------
+The content is organized as follows:
+1. This summary section
+2. Repository information
+3. Directory structure
+4. Multiple file entries, each consisting of:
+  a. A separator line (================)
+  b. The file path (File: path/to/file)
+  c. Another separator line
+  d. The full contents of the file
+  e. A blank line
+
+Usage Guidelines:
+-----------------
+- This file should be treated as read-only. Any changes should be made to the
+  original repository files, not this packed version.
+- When processing this file, use the file path to distinguish
+  between different files in the repository.
+- Be aware that this file may contain sensitive information. Handle it with
+  the same level of security as you would the original repository.
+
+Notes:
+------
+- Some files may have been excluded based on .gitignore rules and Repomix's configuration
+- Binary files are not included in this packed representation. Please refer to the Repository Structure section for a complete list of file paths, including binary files
+- Files matching patterns in .gitignore are excluded
+- Files matching default ignore patterns are excluded
+
+Additional Info:
+----------------
+
+================================================================
+Directory Structure
+================================================================
+_biographies/Leibniz.md
+_biographies/Newton.md
+_categories/computer-science.md
+_categories/mathematics.md
+_config.yml
+_data/navigation.yml
+_docs/publications.md
+_includes/anchor_headings.html
+_includes/head.html
+_includes/inline.scss
+_includes/mathjax.html
+_includes/navigation.html
+_includes/reading-time.html
+_layouts/compress.html
+_layouts/default.html
+_layouts/page.html
+_layouts/post.html
+_layouts/search.html
+_layouts/tag.html
+_layouts/tags.html
+_notes/calculus.md
+_notes/mathematics/calculus.md
+_notes/privacy_and_data_protection.md
+_pages/about.md
+_pages/articles.md
+_pages/cv.md
+_pages/notes.md
+_pages/search.md
+_plugins/tags.rb
+_posts/2024-08-29-BOOST24.md
+_posts/2024-09-04-HilberGodelTuring.md
+_posts/2024-12-27-theFirsts.md
+_posts/timeline/2024-09-05-mathTimeline.md
+_projects/research-project.md
+_sass/_main.scss
+.github/workflows/jekyll.yml
+.gitignore
+404.html
+assets/js/search-script.min.js
+atom.xml
+Gemfile
+index.html
+LICENSE.md
+robots.txt
+search.js
+search.json
+
+================================================================
+Files
+================================================================
+
+================
+File: _biographies/Leibniz.md
+================
+---
+title: "Gottfried Wilhelm Leibniz"
+layout: post
+collection: biographies
+---
+
+<!-- ### **Gottfried Wilhelm Leibniz: A Pioneer of Mathematics and Philosophy** -->
+
+Gottfried Wilhelm Leibniz was born on July 1, 1646, at 6:45 a.m. in Leipzig, Germany, during the final years of the Thirty Years’ War, one of the most catastrophic periods in European history. This prolonged conflict devastated much of Germany, leaving the economy and society in ruins. Leipzig, a prominent university city, was no exception, bearing the scars of war. Despite being born into such turbulent times, Leibniz would go on to become one of the most influential thinkers of his era. Leibniz’s parents, Friedrich Leibniz and Catharina Schmuck, were educated and moral individuals who instilled in him a love for learning and a strong ethical compass. His father, a professor of moral philosophy at the University of Leipzig, passed away when Leibniz was only six years old. Nevertheless, his father's scholarly influence and the intellectual environment of Leipzig laid the groundwork for Leibniz's insatiable curiosity and lifelong dedication to knowledge.
+
+### **Leibniz and the Discovery of Calculus**
+
+Leibniz is perhaps best known for his independent invention of calculus, a mathematical system that revolutionized the study of change and motion. While Isaac Newton also discovered calculus, Leibniz developed his version during a highly productive period between 1672 and 1676, when he lived in Paris. During this time, he immersed himself in mathematics, philosophy, and science, drawing inspiration from the works of prominent thinkers such as René Descartes and Blaise Pascal. Unlike Newton, who kept his discoveries private for many years, Leibniz published his work on calculus in two landmark papers in 1684 and 1686. These papers introduced not only his methods but also an ingenious system of notation that included the integral sign (∫) and the "d" for differentials—symbols still in use today. His emphasis on clear and simple explanations set him apart from other mathematicians of his time and made his work more accessible to future generations. By 1700, Leibniz was widely regarded as one of the greatest mathematicians in Europe. His contributions to calculus extended beyond its discovery; he worked tirelessly to refine it into a robust mathematical framework that could be used by others. He coined the term "calculus" and provided tools that became foundational for advances in physics, engineering, and economics. His notations and methods proved to be far superior to Newton's, and their practicality ensured their widespread adoption.
+
+### **The Calculus Controversy**
+
+Leibniz's calculus, however, was not without controversy. The independent and nearly simultaneous discovery of calculus by both Leibniz and Newton led to a bitter dispute over priority. While Leibniz published his results first, Newton had developed his methods earlier but had not disclosed them publicly. This rivalry grew into a nationalistic conflict between British and Continental European mathematicians, with each side defending their compatriot. The conflict was exacerbated by cultural and academic differences. As Bardi (2007) noted, England at the time showed little interest in foreign journals, which may have delayed the recognition of Leibniz's work there. Nevertheless, Leibniz's contributions remain integral to the history of mathematics, and his system of notation became the standard, outlasting Newton's methods.
+
+### **Leibniz’s Broader Contributions**
+
+Leibniz’s intellect was not confined to mathematics. He was a polymath whose work spanned philosophy, logic, engineering, and science. In philosophy, he is remembered as the co-creator of calculus alongside Newton and as a leading figure in rationalist thought, alongside Descartes and Spinoza. His metaphysical ideas, such as the concept of monads—indivisible and fundamental units of reality—greatly influenced Enlightenment philosophy. In logic, Leibniz anticipated many modern ideas, such as symbolic logic and binary systems, which later became the basis of computer science. He also contributed to the development of early mechanical calculators and made strides in natural sciences, including physics and geology.
+
+### **A Life of Intellectual Pursuits Amidst Turmoil**
+
+Leibniz’s life was shaped by the historical context of his time. Born during the Thirty Years' War, he witnessed firsthand the devastation wrought by conflict. His birthplace, Leipzig, was in the heart of the war, and his early years were marked by the social and economic challenges that followed. Despite these obstacles, Leibniz's brilliance and drive enabled him to rise above the hardships of his era. He spent much of his career traveling across Europe, serving as a diplomat, historian, and advisor to various royal courts. His work as a historian for the House of Brunswick-Lüneburg and his diplomatic efforts reflected his belief in the unification of knowledge and the application of reason to solve practical problems.
+
+### **Legacy**
+
+Leibniz's intellectual legacy is vast and enduring. His calculus remains a cornerstone of modern mathematics, and his notational system is still taught and used worldwide. His contributions to logic and philosophy have inspired countless scholars, and his vision of a unified system of knowledge continues to resonate in the modern age. As one of the most versatile and original thinkers of the 17th century, Leibniz bridged the gap between theory and practice, science and philosophy, and individual innovation and collaborative progress. His life and work remind us of the transformative power of curiosity, creativity, and perseverance.
+
+<!-- Gottfried Wilhelm Leibniz was born at 6:45 a.m. on July 1. 1646, in a home near the university of Leipzig.
+His parents were Friedrich Leibniz and Catharina Schmuck, both moral and well-educated individuals.
+
+
+“Leibniz came upon calculus ten years later, during the prolific time he spent in Paris around 1675. Over the next ten years,he refined his discovery and developed a completely original system of symbols and notations.” ([Bardi, 2007, p. vi](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=5&annotation=TWTK3VSI))
+
+“With these two papers,Leibniz was able to claim intellectual ownership for his original invention of calculus.And calculus was such a promising invention that, by the year 1700, Leibniz would be regarded by many in Europe as one of the greatest mathematicians alive.” ([Bardi, 2007, p. vi](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=5&annotation=PNQFR4UB))
+
+“invented calculus independently, and more important, he was the first to publish his ideas, developed calculus more than Newton, had far superior notation (one still used to this day), and worked for years to move calculus forward into a mathematical framework that others could use as well.” ([Bardi, 2007, p. viii](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=7&annotation=LQET79ZI))
+
+
+“Leibniz discovered calculus during the prolific time he spent in Paris between 1672 and 1676.” ([Bardi, 2007, p. 9](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=16&annotation=MT5CUI9P))
+
+“And since Leibniz believed in simple explanations rather than jargon, he invented a completely original and ingenious system of notation to go along with it.” ([Bardi, 2007, p. 9](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=16&annotation=L8PEWGJA))
+
+“then published his results in two scholarly papers that appeared in 1684 and 1686” ([Bardi, 2007, p. 9](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=16&annotation=LNWTPYGI))
+
+“The word calculus was even coined by Leibniz” ([Bardi, 2007, p. 9](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=16&annotation=WF2CISXQ))
+
+“The one place where Leibniz's mathematJ.cs had not yet caught on was in England. Part of the problem, apparently, was that the English lackedinterest in foreignjournals” ([Bardi, 2007, p. 9](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=16&annotation=NZ6A77ZQ))
+
+“He was born during one ofthe most horrible chapters in the history of Europe: the Thirty Years' War” ([Bardi, 2007, p. 15](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=22&annotation=C2M4X4VV))
+
+“What mattered was that Germany had been utterly shattered by it.” ([Bardi, 2007, p. 15](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=22&annotation=68LY5NUR))
+
+“Sweden's army that, in 1633, the army's expenses cost a fraction of what it had in 1630.” ([Bardi, 2007, p. 16](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=23&annotation=VEZGICDQ))
+
+“When Leibniz was born in 1646, the war was almost over” ([Bardi, 2007, p. 16](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=23&annotation=4NTHSH5A))
+
+“He was born in Leipzig, which had been in the heart ofthe war.” ([Bardi, 2007, p. 16](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=23&annotation=4AXN3D5N)) -->
+
+================
+File: _biographies/Newton.md
+================
+---
+title: "Sir Isaac Newton"
+layout: post
+collection: biographies
+---
+Sir Isaac Newton stands as one of the most remarkable figures in the history of
+science and mathematics. Born in the 17th century, Newton's contributions
+revolutionized not only mathematics but also our understanding of physics,
+light, and motion. His works laid the foundation for many scientific
+advancements that followed.
+
+### **The Development of Calculus**
+In the creative years of 1665 and 1666, during a retreat to his family estate
+amidst the Great Plague, Newton developed calculus—a mathematical breakthrough
+that would transform science. Known as the "method of fluxions and fluents," his
+approach to calculus provided tools for analyzing motion and change. Although
+Newton kept his findings a secret for much of his life, this work became a
+cornerstone of modern mathematics. His invention predated similar developments
+by Gottfried Wilhelm Leibniz, leading to one of the most famous disputes in the
+history of science regarding the priority of discovery.
+
+Calculus, as Newton envisioned it, allowed the calculation of infinitesimally
+small changes (differentials) and the summation of these changes across
+intervals (integrals), offering a systematic way to solve problems related to
+bodies in motion.
+
+### **Contributions to Optics and Light**
+Newton's interest in light and optics culminated in his publication *Opticks* 
+in 1704. Through years of independent experimentation, he concluded that light
+consists of particles and that white light is a mixture of distinct colors.
+Written in clear and authoritative language, *Opticks* was well received and had
+a profound impact on the scientific community both in England and abroad.
+Newton’s experiments with prisms and his theories on the nature of light
+demonstrated the breadth of his scientific curiosity and analytical prowess.
+
+### **The Principia and the Laws of Motion**
+Newton's *Philosophiæ Naturalis Principia Mathematica* (Principia), published in
+1687, is perhaps his most celebrated work. It introduced the three laws of
+motion and universal gravitation, providing a framework to describe and predict
+the motion of celestial bodies and terrestrial objects. These principles not
+only explained phenomena like planetary orbits but also unified the physics of
+the heavens and the Earth under a single theory.
+
+### **Later Years and Legacy**
+After leaving academia, Newton spent the final 30 years of his life in London,
+serving as a government administrator at the British Mint. During this time, he
+continued to refine his scientific ideas and published further works, including
+an appendix to *Opticks*, where he formally introduced his calculus methods to
+the world.
+
+The 17th century, during which Newton thrived, was marked by profound
+intellectual achievements across science and mathematics. Newton's
+contributions, however, stand apart as a singular achievement. As Bardi (2007)
+noted, “What emerged from these years is perhaps the greatest single body of
+knowledge any scientist has ever produced in such a short period.” Newton’s
+legacy, from his discoveries in calculus and optics to his formulation of the
+laws of motion, remains a testament to the power of human intellect and
+curiosity.
+
+<!-- Sir Isaac Newton was a great mathematician
+
+“One of the greatest intellectual legacies of the seventeenth cen­tury, calculus was developed first by Newton in his creative years of 1665 and 1666,when he was a young Cambridge University student on retreat in his country estate.” ([Bardi, 2007, p. v](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=4&annotation=3DCGWANB))
+
+“What emerged from these years is perhaps the greatest single body of knowledge any scientist has ever produced in such a short period.” ([Bardi, 2007, p. v](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=4&annotation=29DFQF96))
+
+“Newton had invented calculus, which he called his method of fluxions and fluents” ([Bardi, 2007, p. v](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=4&annotation=IWRLBWE8))
+
+“he kept this work a closely held secret for most of his life” ([Bardi, 2007, p. v](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=4&annotation=ZVWQ777C))
+
+
+“The book described Newton's experiments and conclusions about the basic physical behavior of light and optics derived through” ([Bardi, 2007, p. 1](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=8&annotation=QM3AX7ML))
+
+“years of independent experimentation” ([Bardi, 2007, p. 2](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=9&annotation=2ZJLIENW))
+
+“that hght was composed of emissions of particles and that white light was a mixture of different rays of distinct colors.” ([Bardi, 2007, p. 2](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=9&annotation=8U6JHNZ4))
+
+“Opticks had a huge impact, and it was well received at home and abroad.” ([Bardi, 2007, p. 2](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=9&annotation=NHP9TZUC))
+
+“It was written in the kind of clear language that only comes from an authoritative and comprehensive understanding of the subject-an understanding that Newton had cultivated over the course of a couple decades.” ([Bardi, 2007, p. 2](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=9&annotation=9MSYVH8J))
+
+“A significant portion of this work was described in Newton's Principia, published in 1687” ([Bardi, 2007, p. 3](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=10&annotation=EMBULF9M))
+
+“In 1704, Newton was no longer a professor at Cambridge and now lived in London, where he would spend the last thirty years of his life as a government administrator in charge of the British mint” ([Bardi, 2007, p. 3](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=10&annotation=Y4D8379T))
+
+“Nevertheless,it was also a first of sorts because, in it, he staked his claim to the invention of calculus.” ([Bardi, 2007, p. 5](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=12&annotation=5QNXRQ9D))
+
+“it had only a small section in the back on calculus, a treatise Newton had written a dozen years before, entitled Tractatus de Quadratura Curvarum (On the Quadrature of Curves)” ([Bardi, 2007, p. 5](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=12&annotation=YS2BX6I4))
+
+“As strange as it may seem for a mathematician as famous as Newton, this appendix was his first actual publication of a purely mathematical treatise.” ([Bardi, 2007, p. 5](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=12&annotation=T4T3WZXY))
+
+“For most of his life, the heart of his mathematical work was not published.” ([Bardi, 2007, p. 6](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=13&annotation=XVKEMUL9))
+
+“It might seem strange compared to today's publication-enamored academic world that anyone would sit on an intellectual development as huge as calculus for a period of months, let alone years or decades” ([Bardi, 2007, p. 6](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=13&annotation=RNLS8XG3))
+
+“Basically, calculus is a set of mathematical tools for analyzing these bodies in motion.” ([Bardi, 2007, p. 6](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=13&annotation=L5NSCFL7))
+
+“Dijferentials are small momentary increments or decreases in changing quantities” ([Bardi, 2007, p. 6](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=13&annotation=KMG86CRZ))
+
+“integrals are sums of infinitesimal intervals of geometrical curves or shapes” ([Bardi, 2007, p. 6](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=13&annotation=7D8N7VYU))
+
+“But Newton was the first to figure out a general system that enabled him to analyze these sorts of problems generally­ calculus or, as Newton called it, the method of fluxions and fluents.” ([Bardi, 2007, p. 9](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=16&annotation=6DBTIXSN))
+
+
+“Newton had suffered in quiet humiliation for years with the knowledge that he was first inventor of calculus, and he was a smoldering fire ready to be released into flames” ([Bardi, 2007, p. 10](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=17&annotation=9XZ7IHTB))
+
+“This was an interesting time in history, and the times in which the two had lived played a major role in the dispute that would eventually break out between them.” ([Bardi, 2007, p. 11](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=18&annotation=G6T77I83))
+
+“As Louis XIV famously said, "L'etat, c'est moi "-1 am the state.” ([Bardi, 2007, p. 12](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=19&annotation=9KKB7I5U))
+
+“the seventeenth century also saw some of the greatest scientific and mathematical advances made by some of the grea” ([Bardi, 2007, p. 12](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=19&annotation=2YXUHYMB))
+
+“est minds who ever lived” ([Bardi, 2007, p. 12](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=19&annotation=DH4JW6GW))
+
+“The nature of light and sound were discovered.The diameter of the Earth was estimated to within a few yards, and the speed of light was measured accurately. The orbits of planets and comets were tracked by telescopes and moons were discovered around Saturn and Jupiter.” ([Bardi, 2007, p. 12](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=19&annotation=D8LYVC8P))
+
+“The circulation of blood through the body was carefully charted, and microscopes led to the discovery of cells and a world of tiny organisms too small to be seen with the naked eye” ([Bardi, 2007, p. 12](zotero://select/library/items/QU4SUXGG)) ([pdf](zotero://open-pdf/library/items/942P6QRA?page=19&annotation=7B7ZUC3Z)) -->
+
+================
+File: _categories/computer-science.md
+================
+---
+title: Computer Science
+description: Research and notes about computer science concepts and developments
+---
+
+================
+File: _categories/mathematics.md
+================
+---
+title: Mathematics
+description: Research and notes about mathematical concepts and discoveries
+---
+
+================
+File: _config.yml
+================
+site: Ilyass Ouardi
+title: Ilyass Ouardi
+description: A blog
+twitter:
+  username: #yourusername
+  card: summary
+  creator: #yourusername
+author:
+  name: "Ilyass Ouardi"
+  avatar: "profile1.png"
+  bio: "Computer Science M.S. student at Università degli Studi di Milano. Interested in theoretical computer science, mathematics, software engineering"
+  permalink: pretty
+  email: "ilyassouardi@gmail.com"
+  github: "OUARDI-ILYASS"
+  instagram: "_ilyassouardi_"
+  twitter: "@ouardi_ilyass"
+
+# url: https://kurt-rhee.github.io
+
+highlighter: none
+
+exclude:
+  - .jekyll-cache
+  
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap  
+  - jekyll-toc
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:name
+  projects:
+    output: true
+    permalink: /:year/:month/:day/:slug
+  biographies:
+    output: true
+    permalink: /:collection/:name
+  notes:
+    output: true
+    permalink: /:collection/:name
+  
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+================
+File: _data/navigation.yml
+================
+links:
+- title: About
+  url: /
+- title: Articles
+  url: /articles
+- title: Lecture Notes
+  url: /notes
+- title: Curriculum Vitae
+  url: /cv
+- title: Search
+  url: /search
+# - title: Rss
+#   url: /atom.xml
+
+================
+File: _docs/publications.md
+================
+---
+title: Publications
+description: Research publications and academic works
+---
+
+================
+File: _includes/anchor_headings.html
+================
+{% capture headingsWorkspace %}
+  {% comment %}
+    Version 1.0.4
+      https://github.com/allejo/jekyll-anchor-headings
+
+    "Be the pull request you wish to see in the world." ~Ben Balter
+
+    Usage:
+      {% include anchor_headings.html html=content %}
+
+    Parameters:
+      * html          (string) - the HTML of compiled markdown generated by kramdown in Jekyll
+
+    Optional Parameters:
+      * beforeHeading (bool)   : false  - Set to true if the anchor should be placed _before_ the heading's content
+      * anchorAttrs   (string) :  ''    - Any custom HTML attributes that will be added to the `<a>` tag; you may NOT use `href`, `class` or `title`
+      * anchorBody    (string) :  ''    - The content that will be placed inside the anchor; the `%heading%` placeholder is available
+      * anchorClass   (string) :  ''    - The class(es) that will be used for each anchor. Separate multiple classes with a space
+      * anchorTitle   (string) :  ''    - The `title` attribute that will be used for anchors
+      * h_min         (int)    :  1     - The minimum header level to build an anchor for; any header lower than this value will be ignored
+      * h_max         (int)    :  6     - The maximum header level to build an anchor for; any header greater than this value will be ignored
+      * bodyPrefix    (string) :  ''    - Anything that should be inserted inside of the heading tag _before_ its anchor and content
+      * bodySuffix    (string) :  ''    - Anything that should be inserted inside of the heading tag _after_ its anchor and content
+
+    Output:
+      The original HTML with the addition of anchors inside of all of the h1-h6 headings.
+  {% endcomment %}
+
+  {% assign minHeader = include.h_min | default: 1 %}
+  {% assign maxHeader = include.h_max | default: 6 %}
+  {% assign beforeHeading = include.beforeHeading %}
+  {% assign nodes = include.html | split: '<h' %}
+
+  {% capture edited_headings %}{% endcapture %}
+
+  {% for _node in nodes %}
+    {% capture node %}{{ _node | strip }}{% endcapture %}
+
+    {% if node == "" %}
+      {% continue %}
+    {% endif %}
+
+    {% assign nextChar = node | replace: '"', '' | strip | slice: 0, 1 %}
+    {% assign headerLevel = nextChar | times: 1 %}
+
+    <!-- If the level is cast to 0, it means it's not a h1-h6 tag, so let's try to fix it -->
+    {% if headerLevel == 0 %}
+      {% if nextChar != '<' and nextChar != '' %}
+        {% capture node %}<h{{ node }}{% endcapture %}
+      {% endif %}
+
+      {% capture edited_headings %}{{ edited_headings }}{{ node }}{% endcapture %}
+      {% continue %}
+    {% endif %}
+
+    {% assign _workspace = node | split: '</h' %}
+    {% assign _idWorkspace = _workspace[0] | split: 'id="' %}
+    {% assign _idWorkspace = _idWorkspace[1] | split: '"' %}
+    {% assign html_id = _idWorkspace[0] %}
+
+    {% capture _hAttrToStrip %}{{ _workspace[0] | split: '>' | first }}>{% endcapture %}
+    {% assign header = _workspace[0] | replace: _hAttrToStrip, '' %}
+
+    <!-- Build the anchor to inject for our heading -->
+    {% capture anchor %}{% endcapture %}
+
+    {% if html_id and headerLevel >= minHeader and headerLevel <= maxHeader %}
+      {% capture anchor %}href="#{{ html_id }}"{% endcapture %}
+
+      {% if include.anchorClass %}
+        {% capture anchor %}{{ anchor }} class="{{ include.anchorClass }}"{% endcapture %}
+      {% endif %}
+
+      {% if include.anchorTitle %}
+        {% capture anchor %}{{ anchor }} title="{{ include.anchorTitle | replace: '%heading%', header }}"{% endcapture %}
+      {% endif %}
+
+      {% if include.anchorAttrs %}
+        {% capture anchor %}{{ anchor }} {{ include.anchorAttrs }}{% endcapture %}
+      {% endif %}
+
+      {% capture anchor %}<a {{ anchor }}>{{ include.anchorBody | replace: '%heading%', header | default: '' }}</a>{% endcapture %}
+
+      <!-- In order to prevent adding extra space after a heading, we'll let the 'anchor' value contain it -->
+      {% if beforeHeading %}
+        {% capture anchor %}{{ anchor }} {% endcapture %}
+      {% else %}
+        {% capture anchor %} {{ anchor }}{% endcapture %}
+      {% endif %}
+    {% endif %}
+
+    {% capture new_heading %}
+      <h{{ _hAttrToStrip }}
+        {{ include.bodyPrefix }}
+        {% if beforeHeading %}
+          {{ anchor }}{{ header }}
+        {% else %}
+          {{ header }}{{ anchor }}
+        {% endif %}
+        {{ include.bodySuffix }}
+      </h{{ _workspace | last }}
+    {% endcapture %}
+    {% capture edited_headings %}{{ edited_headings }}{{ new_heading }}{% endcapture %}
+  {% endfor %}
+{% endcapture %}{% assign headingsWorkspace = '' %}{{ edited_headings | strip }}
+
+================
+File: _includes/head.html
+================
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  {% seo title=false %}
+
+  <title>
+
+      {% if page.tag or page.title %}
+        {% if page.tag %}
+          {{ page.tag | escape }}
+        {% else %}
+          {{ page.title | escape }}
+        {% endif %}
+        -
+      {% endif %}
+      {% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}
+        Page {{ paginator.page }} of {{ paginator.total_pages }} -
+      {% endif %}
+      {{ site.title | escape }}
+      {% unless page.tag or page.title %}
+        - {{ site.description | escape }}
+      {% endunless %}
+    </title>
+    {% if page.mathjax %}
+  {% include mathjax.html %}
+{% endif %}
+  
+  <link rel="shortcut icon" href="{{ site.baseurl }}/profile1.png">
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+  <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ "/feed.json" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.baseurl }}/sitemap.xml" />
+      
+  <style>
+    {% capture include_to_scssify %}
+      {% include inline.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
+
+</head>
+
+================
+File: _includes/inline.scss
+================
+@import "main";
+
+================
+File: _includes/mathjax.html
+================
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      TeX: {
+        equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+      tex2jax: {
+        inlineMath: [ ['$','$'], ['\\(', '\\)'] ],
+        displayMath: [ ['$$','$$'] ],
+        processEscapes: true,
+      }
+    });
+  </script>
+  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+================
+File: _includes/navigation.html
+================
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
+<header role="banner" style="padding: 1rem 2rem 1rem 1rem;">
+      <!--<h1 class="logo">{{ site.title }}</h1>-->
+      <div class="author__avatar">
+         {% if author.avatar contains "://" %}
+            <img src="{{ author.avatar }}" alt="{{ author.name }}">
+         {% else %}
+            <img src="{{ author.avatar | prepend: "/assets/images/" }}" class="author__avatar" alt="{{ author.name }}">
+         {% endif %}
+       </div>
+     
+       <div class="author__content">
+         <h3 class="author__name">{{ author.name }}</h3>
+         {% if author.bio %}<p class="author__bio" style="width: max-content;max-width: 21rem;">{{ author.bio }}</p>{% endif %}
+       </div>
+      <nav role="navigation" style="margin-top: 2rem";">
+<ul>
+   {% for item in site.data.navigation.links %}
+      <li><a href="{{ item.url }}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
+</nav>
+</header>
+
+================
+File: _includes/reading-time.html
+================
+{% capture words %}
+{{ content | number_of_words | minus: 180 }}
+{% endcapture %}
+{% unless words contains '-' %}
+{{ words | plus: 150 | divided_by: 150 | append: ' min to read' }}
+{% endunless %}
+
+================
+File: _layouts/compress.html
+================
+---
+# Jekyll layout that compresses HTML
+# v3.0.4
+# http://jch.penibelst.de/
+# © 2014–2015 Anatol Broder
+# MIT License
+---
+
+{% capture _LINE_FEED %}
+{% endcapture %}{% if site.compress_html.ignore.envs contains jekyll.environment %}{{ content }}{% else %}{% capture _content %}{{ content }}{% endcapture %}{% assign _profile = site.compress_html.profile %}{% if site.compress_html.endings == "all" %}{% assign _endings = "html head body li dt dd optgroup option colgroup caption thead tbody tfoot tr td th" | split: " " %}{% else %}{% assign _endings = site.compress_html.endings %}{% endif %}{% for _element in _endings %}{% capture _end %}</{{ _element }}>{% endcapture %}{% assign _content = _content | remove: _end %}{% endfor %}{% if _profile and _endings %}{% assign _profile_endings = _content | size | plus: 1 %}{% endif %}{% for _element in site.compress_html.startings %}{% capture _start %}<{{ _element }}>{% endcapture %}{% assign _content = _content | remove: _start %}{% endfor %}{% if _profile and site.compress_html.startings %}{% assign _profile_startings = _content | size | plus: 1 %}{% endif %}{% if site.compress_html.comments == "all" %}{% assign _comments = "<!-- -->" | split: " " %}{% else %}{% assign _comments = site.compress_html.comments %}{% endif %}{% if _comments.size == 2 %}{% capture _comment_befores %}.{{ _content }}{% endcapture %}{% assign _comment_befores = _comment_befores | split: _comments.first %}{% for _comment_before in _comment_befores %}{% if forloop.first %}{% continue %}{% endif %}{% capture _comment_outside %}{% if _carry %}{{ _comments.first }}{% endif %}{{ _comment_before }}{% endcapture %}{% capture _comment %}{% unless _carry %}{{ _comments.first }}{% endunless %}{{ _comment_outside | split: _comments.last | first }}{% if _comment_outside contains _comments.last %}{{ _comments.last }}{% assign _carry = false %}{% else %}{% assign _carry = true %}{% endif %}{% endcapture %}{% assign _content = _content | remove_first: _comment %}{% endfor %}{% if _profile %}{% assign _profile_comments = _content | size | plus: 1 %}{% endif %}{% endif %}{% assign _pre_befores = _content | split: "<pre" %}{% assign _content = "" %}{% for _pre_before in _pre_befores %}{% assign _pres = _pre_before | split: "</pre>" %}{% assign _pres_after = "" %}{% if _pres.size != 0 %}{% if site.compress_html.blanklines %}{% assign _lines = _pres.last | split: _LINE_FEED %}{% capture _pres_after %}{% for _line in _lines %}{% assign _trimmed = _line | split: " " | join: " " %}{% if _trimmed != empty or forloop.last %}{% unless forloop.first %}{{ _LINE_FEED }}{% endunless %}{{ _line }}{% endif %}{% endfor %}{% endcapture %}{% else %}{% assign _pres_after = _pres.last | split: " " | join: " " %}{% endif %}{% endif %}{% capture _content %}{{ _content }}{% if _pre_before contains "</pre>" %}<pre{{ _pres.first }}</pre>{% endif %}{% unless _pre_before contains "</pre>" and _pres.size == 1 %}{{ _pres_after }}{% endunless %}{% endcapture %}{% endfor %}{% if _profile %}{% assign _profile_collapse = _content | size | plus: 1 %}{% endif %}{% if site.compress_html.clippings == "all" %}{% assign _clippings = "html head title base link meta style body article section nav aside h1 h2 h3 h4 h5 h6 hgroup header footer address p hr blockquote ol ul li dl dt dd figure figcaption main div table caption colgroup col tbody thead tfoot tr td th" | split: " " %}{% else %}{% assign _clippings = site.compress_html.clippings %}{% endif %}{% for _element in _clippings %}{% assign _edges = " <e;<e; </e>;</e>;</e> ;</e>" | replace: "e", _element | split: ";" %}{% assign _content = _content | replace: _edges[0], _edges[1] | replace: _edges[2], _edges[3] | replace: _edges[4], _edges[5] %}{% endfor %}{% if _profile and _clippings %}{% assign _profile_clippings = _content | size | plus: 1 %}{% endif %}{{ _content }}{% if _profile %} <table id="compress_html_profile_{{ site.time | date: "%Y%m%d" }}" class="compress_html_profile"> <thead> <tr> <td>Step <td>Bytes <tbody> <tr> <td>raw <td>{{ content | size }}{% if _profile_endings %} <tr> <td>endings <td>{{ _profile_endings }}{% endif %}{% if _profile_startings %} <tr> <td>startings <td>{{ _profile_startings }}{% endif %}{% if _profile_comments %} <tr> <td>comments <td>{{ _profile_comments }}{% endif %}{% if _profile_collapse %} <tr> <td>collapse <td>{{ _profile_collapse }}{% endif %}{% if _profile_clippings %} <tr> <td>clippings <td>{{ _profile_clippings }}{% endif %} </table>{% endif %}{% endif %}
+
+================
+File: _layouts/default.html
+================
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  {% if page.toc %}
+  <div class="toc" id="table-of-contents">
+    <ul>
+      <li><b>Table of contents</b></li>
+    </ul>
+    {% toc %}
+  </div>
+  {% endif %}
+  
+  <main role="main">
+
+
+
+    {{ content }}
+
+  </main>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+      const tocLinks = document.querySelectorAll(".toc a");
+
+      const observer = new IntersectionObserver(entries => {
+        let activeEntry = null;
+
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            activeEntry = entry;
+          }
+        });
+
+        if (activeEntry) {
+          const id = activeEntry.target.getAttribute("id");
+          tocLinks.forEach(link => link.classList.remove("active"));
+          const tocLink = document.querySelector(`.toc a[href="#${id}"]`);
+          if (tocLink) tocLink.classList.add("active");
+        }
+
+        if (window.scrollY === 0) {
+          tocLinks.forEach(link => link.classList.remove("active"));
+          tocLinks[0].classList.add("active");
+        }
+      }, {
+        rootMargin: '-50% 0px -50% 0px',
+        threshold: 0
+      });
+
+      headings.forEach(heading => observer.observe(heading));
+
+      if (window.scrollY === 0) {
+        tocLinks[0].classList.add("active");
+      }
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY === 0) {
+          tocLinks.forEach(link => link.classList.remove("active"));
+          tocLinks[0].classList.add("active");
+        }
+      });
+    });
+
+
+  </script>
+</body>
+
+</html>
+
+================
+File: _layouts/page.html
+================
+---
+layout: default
+---
+{% include navigation.html %}
+<section class="post">
+  <h2>{{ page.title }}</h2>
+  {{ content }}
+</section>
+
+================
+File: _layouts/post.html
+================
+---
+layout: default
+---
+
+<section class="post" style="max-width: 40rem;margin: auto;margin-top: -2rem;">
+  <div class="" style="justify-content: space-between;display:flex; margin-bottom: 1rem;">
+    {% if page.url contains 'post' %}
+    <a href="/articles" style="text-decoration: none;">← All articles</a> <span>{% include reading-time.html %}</span> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    {% else %}
+    <a href="/notes" style="text-decoration: none;">← List of notes</a> <span>{% include reading-time.html %}</span> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    {% endif %}
+    
+    </div>
+    <hr>
+  <h1 class="title">{{ page.title }}</h1>
+  {{ content }}
+  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time> &middot; {% for tag in page.tags %}
+    <a href="/tag/{{tag}}">{{tag}}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+</section>
+
+================
+File: _layouts/search.html
+================
+---
+layout: default
+title: Search
+---
+
+<!-- Html Elements for Search -->
+<div id="search-container">
+<input type="text" id="search-input" placeholder="search...">
+<ul id="results-container"></ul>
+</div>
+
+<!-- Script pointing to search-script.js -->
+<script src="/search.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json',
+  searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a></li>',
+  noResultsText: 'No results found',
+  limit: 10,
+  fuzzy: false,
+  exclude: ['Welcome']
+})
+</script>
+
+================
+File: _layouts/tag.html
+================
+---
+layout: default
+---
+
+<section class="posts">
+<h1>Tag #{{page.tag}}</h1>
+    <ul>
+      {% for post in site.posts %}
+      {% if post.tags contains page.tag %}
+      <li><a class="post" href="{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m-%d-%Y" }}</time></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+	
+</section>
+
+================
+File: _layouts/tags.html
+================
+---
+layout: default
+title: Tags
+---
+
+<section class="posts">
+	<h1>{{ page.title }}</h1>
+{% assign tags = site.tags | sort %}
+<ul>
+{% for tag in tags %}
+ <li><a href="/tag/{{ tag | first | slugify }}/">{{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }}){% unless forloop.last %}, {% endunless %}</a></li>
+{% endfor %}
+</ul>
+
+</section>
+
+================
+File: _notes/calculus.md
+================
+---
+title: 'Calculus'
+layout: post
+date: 2024-08-29
+permalink: /notes/calculus/single-variable
+tags: [Lecture Notes, Mathematics, Calculus]
+mathjax: true
+---
+
+## Introduction
+
+Calculus is one of the most powerful and fundamental branches of mathematics, dealing with change and motion. At its core, calculus is the study of how things change, enabling us to understand the rates at which quantities increase or decrease and to calculate the total accumulation of quantities. It is divided into two main areas: **differential calculus** and **integral calculus**. Differential calculus focuses on rates of change, such as the slope of a curve or the velocity of an object, while integral calculus deals with accumulation, like finding the area under a curve or the total distance traveled.
+
+### A Brief History: The Calculus Controversy
+
+The development of calculus is attributed to two of the greatest mathematicians in history: Sir Isaac Newton and Gottfried Wilhelm Leibniz. Both independently developed the fundamental principles of calculus in the late 17th century, though their approaches and notations differed significantly. Newton, working primarily in England, developed calculus to solve problems related to motion and gravitation. He called his method "the method of fluxions," focusing on the concept of instantaneous rates of change.
+
+Meanwhile, Leibniz, working in continental Europe, developed a more formalized system with a different notation, which is the one we predominantly use today. His work on the infinitesimal calculus provided a more rigorous foundation for the subject, focusing on the sum of infinitely small quantities.
+
+This simultaneous development led to a bitter dispute over the invention of calculus, often referred to as the "Calculus Controversy" or the "War of Calculus." Newton's followers accused Leibniz of plagiarism, while Leibniz's supporters claimed the opposite. Despite the controversy, both Newton and Leibniz's contributions were monumental, and modern calculus is a synthesis of their ideas.
+
+Today, calculus is essential in a wide range of fields, from physics and engineering to economics and biology. It provides the mathematical tools needed to model and analyze systems that change continuously, making it a cornerstone of modern science and technology.
+
+In this course, we will embark on a journey through the fundamental concepts of calculus like to limits, derivatives, and integrals. By the end, we'll have a solid understanding of how calculus can be used to solve real-world problems and model continuous change.
+Let's dive in!
+
+## Functions and models
+The fundamental objects that we deal with in calculus are functions.    
+> A **function** $f$ is a rule that assigns to each element $x$ in a set $D$ exactly one element, called $f(x)$, in a set $E$.   
+
+<!-- We usually consider functions for which the sets $D$ and $E$ are sets of real
+numbers. The set $D$ is called the **domain** of the function. The number $f(x)$
+is the **value of $f$ at $x$** and is read "$f$ of $x$". ([Stewart, 2008, p.
+11](zotero://select/library/items/DSRIMBQR))
+([pdf](zotero://open-pdf/library/items/UHZUUI3W?page=39&annotation=6BEVIGTQ)) -->
+
+We usually consider functions for which the sets $D$ and $E$ are sets of real
+numbers. The set $D$ is called the **domain** of the function. The number $f(x)$
+is the value of $f$ at $x$ and is read *“$f$ of $x$.”* The **range** of $f$ is
+the set of all possible values of $f(x)$ as $x$ varies throughout the domain. A
+symbol that represents an arbitrary number in the domain of a function is called
+an **independent variable**. A symbol that represents a number in the range of
+$f$ is called a **dependent variable**. In *Example A*, for instance, $r$ is the
+independent variable and $A$ is the dependent variable.
+
+![function as an arrow diagram](/assets/images/func_machine.png){:
+width="300" }
+<br>  
+*Figure 2: Machine diagram for a function $ƒ$*
+{: style="color:gray; font-size: 80%; text-align: center;"}
+
+It’s helpful to think of a function as a **machine** (see *Figure 2*). If $x$ is in the domain of the function $f$, then when $x$ enters the machine, it’s accepted as an **input** and the machine produces an **output** $f(x)$ according to the rule of the function. Thus we can think of the domain as the set of all possible inputs and the range as the set of all possible outputs.
+
+<!-- The preprogrammed functions in a calculator are good examples of a function as a
+machine. For example, the square root key on your calculator computes such a
+function. You press the key labeled $\sqrt{x}$ (or $x^{1/2}$) and enter the
+input $x$. If $x < 0$, then $x$ is not in the domain of this function; that is,
+$x$ is not an acceptable input, and the calculator will indicate an error. If $x
+\geq 0$, then an approximation to $\sqrt{x}$ will appear in the display. Thus
+the $\sqrt{x}$ key on your calculator is not quite the same as the exact
+mathematical function defined by $f(x) = \sqrt{x}$. -->
+
+![function as an arrow diagram](/assets/images/calculus_arrow_diagram.png){:
+width="300" }
+<br>  
+*Figure 3: Arrow diagram for $ƒ$*
+{: style="color:gray; font-size: 80%; text-align: center;"}
+
+Another way to picture a function is by an **arrow diagram** as in *Figure 3*. Each arrow connects an element of $D$ to an element of $E$. The arrow indicates that $f(a) = b$, $f(c) = d$, $f(e) = a$, and so on.
+
+The most common method for visualizing a function is its **graph**. If $f$ is a
+function with domain $D$, then its graph is the set of ordered pairs
+$$ \{(x, f(x)) \mid x \in D \}. $$
+(Notice that these are input-output pairs.) In other words, the graph of $f$ consists of all points $(x, y)$ in the coordinate plane such that $y = f(x)$ and $x$ is in the domain of $f$.
+
+The graph of a function gives us a useful picture of the behavior or *“life
+history”* of a function. Since the $y$-coordinate of any point on the graph is
+$f(x)$, we can read the value of $f(x)$ from the graph as being the **height**
+of the graph above the point $x$ (see *Figure 4*). The graph of $f$ also allows
+us to picture the **domain** of $f$ on the $x$-axis and its **range** on the
+$y$-axis as in *Figure 5*.
+
+
+![f(x) as the height of the function](/assets/images/calculus_height_of_func.png){:width="300"} | ![domain of $f$ on the $x$-axis and its range on the $y$-axis](/assets/images/calculus_x_y.png){:width="300" }
+*Figure 4* | *Figure 5*
+{: style="color:gray; font-size: 80%; text-align: center;"}
+
+### Representation of functions
+
+There are four possible ways to represent a function:
+
+- **Verbally** (by a description in words)  
+- **Numerically** (by a table of values)  
+- **Visually** (by a graph)  
+- **Algebraically** (by an explicit formula)  
+
+If a single function can be represented in all four ways, it’s often useful to
+go from one representation to another to gain additional insight into the
+function. But certain functions are described more naturally by one method than
+by another.
+
+The graph of a function is a curve in the $xy$-plane. But the question arises: Which
+curves in the -plane are graphs of functions? This is answered by the following
+test.
+
+>**The vertical line test**: A curve in the $xy$-plane is the graph of a function of
+>$f$ if and only if no vertical line intersects the curve more than once.
+
+================
+File: _notes/mathematics/calculus.md
+================
+---
+title: Calculus Notes
+description: Detailed notes about calculus concepts and applications
+---
+
+================
+File: _notes/privacy_and_data_protection.md
+================
+---
+title: 'Privacy and Data Protection'
+layout: post
+date: 2024-11-25
+permalink: /notes/privacy_data_protection
+tags: [Lecture Notes, Privacy, Data Protection]
+mathjax: true
+---
+# Microdata Protection Techniques: Balancing Privacy and Utility
+
+The digital age, characterized by the rapid evolution of Information and Communication Technology (ICT), has revolutionized how we collect, process, and share data. While this transformation has unlocked immense potential, it has also introduced significant risks to privacy and confidentiality. Organizations, whether private companies or government agencies, face the challenge of sharing valuable data while protecting sensitive information.
+
+This article delves into microdata protection techniques, exploring their importance, methodologies, and challenges in safeguarding individual and organizational privacy.
+
+---
+
+## Why Protecting Microdata Matters
+
+Microdata consists of detailed, individual-level data records, such as responses to surveys or individual health statistics. Unlike macrodata, which aggregates data into summary statistics, microdata presents a higher risk of revealing sensitive information. The inherent challenge lies in balancing two objectives:
+1. **Data Utility**: Enabling meaningful research and analysis.
+2. **Privacy Protection**: Preventing the reidentification of individuals or disclosure of sensitive attributes.
+
+To achieve this balance, robust techniques are required to mitigate risks while maintaining the usability of the data.
+
+---
+
+## Key Risks in Microdata Disclosure
+
+The release of microdata entails several types of risks:
+- **Identity Disclosure**: Identifying a respondent based on unique attributes such as a combination of birthdate, ZIP code, and gender.
+- **Attribute Disclosure**: Revealing sensitive information about an individual, such as health conditions or income levels.
+- **Inferential Disclosure**: Inferring sensitive information with high confidence based on statistical correlations in the data.
+
+These risks underscore the need for techniques that limit the possibility of unauthorized or unintended data breaches.
+
+---
+
+## Microdata Protection Techniques
+
+Various methodologies have been developed to protect microdata. These can be broadly categorized into approaches applied before or after data release.
+
+### 1. **Pre-Release Techniques**
+These methods are applied to the data before it is shared or published:
+- **Data Masking**: Transforming the original data so that statistical analyses remain valid, but individual records cannot be traced. Common methods include:
+  - **Data Suppression**: Removing or hiding sensitive information.
+  - **Aggregation**: Combining data points into broader categories.
+  - **Generalization**: Reducing the specificity of data, such as replacing an exact birthdate with an age range.
+- **Synthetic Data Generation**: Replacing real data with artificially generated data that retains similar statistical properties.
+- **K-Anonymity**: Ensuring that each record is indistinguishable from at least \(k-1\) others based on a set of quasi-identifiers.
+
+### 2. **Post-Release Techniques**
+These methods ensure that the released data is resistant to reidentification:
+- **Noise Addition**: Introducing random variations to the data to obscure individual records while preserving overall trends.
+- **Swapping**: Exchanging data attributes between records to break direct linkages while maintaining dataset consistency.
+- **Random Rounding**: Rounding numerical values in a controlled way to prevent exact inferences.
+
+---
+
+## Challenges in Microdata Protection
+
+Despite the advancements in microdata protection techniques, several challenges persist:
+- **Trade-Off Between Privacy and Utility**: Increasing privacy protections often reduces the utility of the data for research and decision-making.
+- **Evolving Threat Landscape**: Advances in data mining and machine learning techniques increase the risk of reidentification.
+- **Complexity of Modern Datasets**: High-dimensional datasets with numerous variables amplify the risk of disclosure and complicate the application of protection methods.
+
+---
+
+## Future Directions
+
+The landscape of microdata protection is continually evolving, driven by technological advancements and regulatory requirements:
+- **Differential Privacy**: A mathematical framework that provides strong privacy guarantees by bounding the impact of any single individual's data on the dataset's outputs.
+- **AI-Powered Anonymization**: Leveraging machine learning to dynamically identify and mitigate privacy risks in complex datasets.
+- **Policy and Legal Frameworks**: Strengthening regulations, such as the GDPR, to enforce stringent data protection standards.
+
+---
+
+## Conclusion
+
+Microdata protection is a cornerstone of modern data sharing practices, ensuring that sensitive information remains confidential while enabling valuable research and insights. As the volume and complexity of data continue to grow, researchers, policymakers, and organizations must collaborate to develop innovative solutions that strike the right balance between privacy and utility. Through ongoing advancements and responsible data practices, we can harness the power of data without compromising individual or organizational confidentiality.
+
+================
+File: _pages/about.md
+================
+---
+layout: page
+title: About Me
+author_profile: true
+permalink: "/"
+---
+
+<!-- ![profile picture]({{ site.url }}/assets/images/profile1.png#center) -->
+
+### Hello, my name is Ilyass Ouardi.
+
+I’m a Computer Science student at the University of Milan, driven by a passion for blending technology, math, and a touch of social good. My journey into the world of problem-solving began with high school coding and math competitions, and that spark has only grown since. From developing tools to assist non-profits to diving into the depths of machine learning, I’m always on the lookout for ways to push the boundaries of what tech can do.
+
+Research is where my heart lies, and I'm particularly fascinated by machine learning, theoretical computer science, and software engineering. My goal is to contribute to cutting-edge advancements and pursue a PhD in the United States.
+
+When I’m not buried in code or research papers, I’m on the field—whether it’s playing football or shooting hoops. I’ve also dabbled in modeling in Milan, where I’ve met some amazing people and broadened my perspective.
+
+Thanks for stopping by!
+
+<!-- ---
+
+#### My Links
+- [Linkedin](https://www.linkedin.com/in/simonkurtisrhee/)
+- [ORCID](https://orcid.org/0000-0003-4604-9531?lang=en)
+- [Github](https://github.com/kurt-rhee)
+- Email:  \<first-name\>\<last-name\>@gmail\<dot\>com -->
+
+================
+File: _pages/articles.md
+================
+---
+layout: page
+title: Articles
+permalink: "/articles"
+---
+
+<section class="posts archive">
+<ul>
+{% for post in site.posts %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time></li>
+{% endfor %}
+</ul>
+</section>
+
+================
+File: _pages/cv.md
+================
+---
+layout: page
+title: Curriculum Vitae
+author_profile: true
+permalink: "/cv"
+---
+
+## Education
+* LAUREA IN INFORMATICA - (Classe L-31)  
+  Università degli studi di Milano  
+  2020 - 2024  
+  Final grade: 110/110 cum laude 
+* Diploma di Maturità - Perito Informatico   
+  lstituto Tecnico Tecnologico "G. e M. Montani"   
+  2015 - 2020   
+  Final grade: 100/100 cum laude  
+
+## Work experience
+* Jun 2022 - present: Back-end and Front-end developer/counsultant
+  * Value Process SRL
+  * Duties included: developing web applications using spring framework and react  
+
+* Apr 2019 - Jun 2019: Back-end and Front-end developer
+  * PC & Informatica SRL
+  * Duties included: Internship in which I was able to  
+    extend my knowledge about web programming both  
+front-end and back-end  
+  
+## Skills
+* JAVA
+* JavaScript (React, Redux, ...)
+* C
+* Golang
+* Python
+* Ocaml
+* Scala
+* Erlang
+* HTML, CSS, PHP, SQL
+
+================
+File: _pages/notes.md
+================
+---
+layout: page
+title: Lecture Notes
+permalink: "/notes"
+---
+
+<section class="posts archive">
+<ul>
+{% for post in site.notes %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time></li>
+{% endfor %}
+</ul>
+</section>
+
+================
+File: _pages/search.md
+================
+---
+layout: page
+title: Search
+---
+
+<style>
+	#search-container {
+	    max-width: 100%;
+	}
+
+	input[type=text] {
+		font-size: normal;
+	    outline: none;
+	    padding: 1rem;
+		background: rgb(236, 237, 238);
+	    width: 100%;
+		-webkit-appearance: none;
+		font-family: inherit;
+		font-size: 100%;
+		border: none;
+	}
+	#results-container {
+		margin: .5rem 0;
+	}
+</style>
+
+<!-- Html Elements for Search -->
+<div id="search-container">
+<input type="text" id="search-input" placeholder="Search...">
+<ol id="results-container"></ol>
+</div>
+
+<!-- Script pointing to search-script.js -->
+<script src="/search.js" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script type="text/javascript">
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  json: '/search.json',
+  searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a></li>',
+  noResultsText: 'No results found',
+  limit: 10,
+  fuzzy: false,
+  exclude: ['Welcome']
+})
+</script>
+
+================
+File: _plugins/tags.rb
+================
+module Jekyll
+  class TagPageGenerator < Generator
+    safe true
+
+    def generate(site)
+      tags = site.posts.docs.flat_map { |post| post.data['tags'] || [] }.to_set
+      tags.each do |tag|
+        site.pages << TagPage.new(site, site.source, tag)
+      end
+    end
+  end
+
+  class TagPage < Page
+    def initialize(site, base, tag)
+      @site = site
+      @base = base
+      @dir  = File.join('tag', tag)
+      @name = 'index.html'
+
+      self.process(@name)
+      self.read_yaml(File.join(base, '_layouts'), 'tag.html')
+      self.data['tag'] = tag
+      self.data['title'] = "Tag: #{tag}"
+    end
+  end
+end
+
+================
+File: _posts/2024-08-29-BOOST24.md
+================
+---
+title: 'My exeperience at BOOST24'
+date: 2024-08-29
+permalink: /posts/2024/08/boost24/
+toc: true
+tags: [Summer School, BOOST24, Computer Science, Research, Innovation, ELICSIR]
+---
+Recently, I had the opportunity to participate in the Bologna Orthogonal Summer Term (BOOST 24), organized by ELICSIR. This experience was much more than just a summer course; it was a true immersion into the world of innovation and advanced research. In this post, I want to share some of my reflections and highlights from this incredible adventure.
+
+## What is BOOST 24 Summer School?
+
+BOOST 24 is an summer school that focuses on advanced topics such as artificial intelligence, machine learning, applied mathematics, and many other cutting-edge subjects. The program is designed for students eager to get inspired by listening and talking to experts on this topics.
+
+The goal of the summer school is to provide both theoretical and practical understanding of emerging technologies through interactive lectures and inspiring talks.
+
+### The Program and Activities
+
+The program was intense and rich in content, with a combination of theoretical lectures and informal opportunities to chat with the professors. Here are some highlights from my experience (still work in progress):
+- **Alessandro Panconesi and the History of Computer Science:** Alessandro Panconesi's lecture on the history of computer science was both enlightening and inspiring, providing a dive into the key events and figures that have shaped the field. His insights highlighted the importance of understanding and studing math to drive future innovation in technology. Figures like Turing, Godel and Hilbert are important to study and admire. Another important take from the professor's talk is that "reaserch like sports is an activity done well when we are young".
+
+- **Keshav Pingali's Lectures:** Keshav elegantly demonstrated how dataflow techniques can be used to explain complex algorithms like gradient descent, using an innovative concept called "Parametrized Programs". This lecture inspired me to further explore both machine learning, programming languages and Keashav's work.
+
+- **Zelal talk on AI and Medicine:** One of the most inspiring sessions was about the Medex startup, which is developing technologies based on deep learning and reinforcement learning to support doctors in the diagnostic process. The idea of combining AI and medicine made me think about the potential of these tools to transform the healthcare industry.
+
+- **Lorenzo Orecchia's Lectures on Gradient Descent Algorithms:** Lorenzo explored how gradient descent algorithms can be used to solve graph problems more efficiently than traditional approaches. I appreciated his formal and precise approach and his ability to answer all questions with great clarity. I'm really looking foward to achieve his same mental clarity and maybe one day work with him.
+
+<!-- - **Abe Davis's Lectures:** Abe illustrated how deep learning can be used to fuse data from different sensors to create a cohesive and accurate representation of complex scenarios. This made me think about how such techniques could be applied in various fields, from security to medicine. -->
+
+- **Valeria Cardellini on Elastic and Cloud Computing:** discussions with Valeria opened my eyes to the challenges and opportunities offered by cloud computing, especially from the service provider's perspective. She made me realize how important it is to consider not only the technology but also the architecture and scalability of resources.
+
+- **Özalp Babaoğlu on BSD Linux:** One of the greats. Was truly special listen to him talk about how his work on BSD linux came to be.
+
+## The Human Experience and Networking
+
+Beyond the technical learning, one of the most rewarding aspects of the summer school was the opportunity to meet and interact with people from all over the world. I had the pleasure of meeting some cool guys with whom I could discuss ideas and projects. These encounters allowed me to build meaningful relationships and offered me new perspectives on research and innovation.
+
+## My Personal Reflections
+
+This experience enriched me not only academically but also personally. I particularly appreciated:
+
+- **The Stimulating Environment:** Being surrounded by passionate and dedicated people motivated me to give my best. I realized that research is a path I want to pursue with determination, without limiting myself to a single field.
+- **Access to Industry Experts:** Having the opportunity to learn directly from leaders and innovators was incredibly valuable. In particular, Keshav Pingali's presentation inspired me to further explore the field of programming languages.
+- **The Combination of Theory and Practice:** The balance between theoretical lessons and practical workshops made learning more effective and engaging. It allowed me to immediately apply what I learned, making the learning process even more rewarding.
+
+## Future Projects and Ideas
+
+The BOOST 24 experience also inspired me to develop several personal projects:
+
+1. **Studing Mathematics and Computer Science History:** I am thinking of creating a project that explore the history of mathematics and computer science. This project would allow me to delve deeper into these disciplines and share my discoveries with a wider audience.
+   
+2. **Experimenting with Neural Networks:** I would like to create a simple neural network that recognizes and classifies agricultural products from smartphone photos. This project could be a first step to further deepening my understanding of machine learning and an opportunity to expand my thesis web application.
+
+3. **Exploring AI in Medicine and Sports:** I am considering focusing on how deep learning can be applied in fields such as medicine and sports, two very different but equally fascinating areas.
+
+<!-- ## **Tips for Future Participants**
+
+If you are considering participating in the next edition of BOOST 24 summer school, here are some tips that might be useful:
+
+1. **Prepare in Advance:** Familiarize yourself with the topics and technologies that will be covered. Reading some books or articles before the start of the lectures can be very helpful.
+2. **Participate Actively:** Be proactive during the sessions and don't be afraid to ask questions. Interaction with lecturers and other students is key to getting the most out of this experience.
+3. **Network:** Use this opportunity to build relationships with your peers and lecturers. Networking can open doors to future collaborations and professional opportunities. -->
+
+## Conclusion
+
+In conclusion, the BOOST 24 summer school was an extraordinary experience that I highly recommend to anyone interested in exploring new frontiers in computer science, mathematics, and machine learning. It is a unique opportunity to grow both professionally and personally, and I look forward to applying what I have learned to my future work.
+
+I would like to extend my heartfelt thanks to Professor Alessandro Panconesi, Lorenzo Alvisi, Özalp Babaoğlu and Gianfranco Bilardi for organizing such beautiful experince. Their dedication and passion have made this experience truly unforgettable and have made me want to be more and more like them. I am deeply grateful for the knowledge and inspiration I gained during my time at the summer school.
+
+Thank you for reading all the way through! If you have any questions about my experience or want to learn more about the summer school, feel free to reach out to me.
+
+================
+File: _posts/2024-09-04-HilberGodelTuring.md
+================
+---
+title: "Hilbert, Godel, Turing: Computers 'R' Us"
+date: 2024-09-04
+toc: true
+permalink: /posts/2024/09/HilberGodelTuring/
+tags: [Summer School, BOOST24, Computer Science, Research, Innovation, ELICSIR]
+---
+
+
+_This blog post serves as a summary of the inspiring Professor Alessandro Panconesi's lecture presented at BOOST24._
+
+In a world where digital devices and algorithms shape almost every aspect of our lives, it’s easy to forget that the foundations of this technological revolution were laid by a few brilliant minds who lived long before the first computer was ever built. In a recent lecture titled "Hilbert, Gödel, Turing: Computers 'R' Us," I was able explored the profound impact of three such thinkers—David Hilbert, Kurt Gödel, and Alan Turing—whose work not only transformed mathematics but also paved the way for the modern computer age.
+
+#### The Ambitious Vision of David Hilbert
+
+At the dawn of the 20th century, mathematician David Hilbert stood at the forefront of a grand project. He sought to formalize all of mathematics, believing that with the right set of axioms, every mathematical truth could be derived logically, and all mathematical problems could be solved. This was the essence of Hilbert’s Program: a quest for completeness and consistency in mathematics.
+
+Hilbert’s vision reflected a broader cultural optimism in the power of human reason. However, this dream would soon be challenged by a young logician who would prove that not everything can be captured by formal systems.
+
+![Hilbert’s Problems](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Hilbert.jpg/220px-Hilbert.jpg#center)
+
+*Image: David Hilbert, a pioneer in the quest for mathematical completeness.*
+
+#### Gödel’s Incompleteness Theorems: A Shattering Blow
+
+Enter Kurt Gödel, who in 1931 delivered a groundbreaking revelation that would forever change the landscape of mathematics. Gödel’s incompleteness theorems demonstrated that in any sufficiently powerful formal system, there are true statements that cannot be proven within the system. Furthermore, he showed that no formal system could prove its own consistency.
+
+Gödel’s theorems dealt a severe blow to Hilbert’s Program. They introduced inherent limits to what could be achieved through formalization and brought a new level of uncertainty to mathematics. This revelation was not only a mathematical milestone but also a profound philosophical statement about the limits of human knowledge.
+
+![Gödel's Incompleteness Theorems](https://images.aeonmedia.co/images/cbe24f46-9853-474f-a94c-7099963121f6/essay-gettyimages-53466661.jpg#center)
+*Image: Kurt Gödel, whose incompleteness theorems redefined the boundaries of mathematics.*
+
+#### Alan Turing and the Birth of the Turing Machine
+
+While Gödel revealed the limitations of formal systems, Alan Turing took these ideas and transformed them into the concept of computation. In his 1936 paper, Turing introduced the Turing machine, an abstract mathematical model that could simulate the logic of any computer algorithm. This machine was not a physical device but a theoretical construct that defined what it means to compute.
+
+Turing’s work didn’t stop there. He answered a key question posed by Hilbert, the Entscheidungsproblem, by proving that there is no general algorithmic method for solving all mathematical problems—there are problems that no machine can solve. This concept of undecidability marked the beginning of computer science as we know it.
+
+![Turing Machine Concept](https://www.indy100.com/media-library/picture.jpg?id=28116902&width=1245&height=700&quality=85&coordinates=118%2C0%2C118%2C0)
+*Image: A young Alan Turing, who would go on to define the concept of computation.*
+
+#### Cultural and Philosophical Impact
+
+Turing’s ideas have had a lasting impact not only on mathematics and computer science but also on culture and philosophy. His work on the Turing machine laid the groundwork for the digital revolution, and his exploration of artificial intelligence raised deep questions about the nature of intelligence, consciousness, and the human mind.
+
+The Turing Test, introduced in 1950, challenged us to consider whether machines could think—an idea that continues to drive discussions in AI and cognitive science today. Moreover, Turing’s life and legacy have become cultural symbols, representing both the triumph of intellectual curiosity and the tragic consequences of societal prejudice.
+
+
+#### Conclusion: Computers 'R' Us
+
+The lecture concluded with a reflection on how the work of Hilbert, Gödel, and Turing connects us to the very essence of computation. Computers are not just machines; they are extensions of human thought and creativity. The phrase "Computers 'R' Us" encapsulates this reality, highlighting how deeply intertwined our identities have become with the technology we create.
+
+As we continue to advance in the digital age, it’s crucial to remember the lessons of these great thinkers. Their work reminds us that while we can achieve remarkable things through computation, there will always be mysteries that elude us and ethical challenges that demand our attention. The story of computation is, at its heart, a story about humanity—about our quest to understand the world and ourselves.
+
+================
+File: _posts/2024-12-27-theFirsts.md
+================
+---
+title: 'The Firsts: Trendsetters, Revivers, and Strangers'
+date: 2024-08-27
+permalink: /posts/2024/12/Islam/
+toc: true
+tags: [Islam]
+---
+
+## A Journey Through Inspirational Figures in Islam
+
+In Islam, there is a recurring theme in the Qur'an and Sunnah that highlights the importance of those who are the "firsts"—the forerunners who rush towards doing good deeds and leading by example. These individuals are celebrated not just for their actions but for the lessons they impart through their perseverance, faith, and commitment to righteousness. The concept of the *firsts* is central to the Islamic tradition, encouraging Muslims to strive for excellence and set a higher standard in all aspects of life.
+
+This blog post explores a unique series focusing on the profound significance of these *firsts* in Islamic history, offering insights into how their stories can inspire us today. The series will delve into individuals, groups, and actions that exemplify the qualities of rushing towards goodness, leading others by example, and remaining steadfast in the pursuit of what is right, even when faced with challenges or opposition. 
+
+While the firsts discussed will span across various time periods and contexts, the main goal is not simply to recount their biographies, but to understand the profound implications of their pioneering roles and the lessons we can learn from them. These *firsts* are not just historical figures—they are models for us to aspire to, guiding us toward becoming better versions of ourselves as individuals, communities, and followers of Islam.
+
+Through this series, we will explore the concept of *Asabihuna al-Awwalu*—the firsts—and understand why their actions are so highly revered, both in the hereafter and in their worldly impact. Whether it is the first believer, the first martyr, or the first to act with integrity and justice, each example carries with it a wealth of wisdom that we can incorporate into our daily lives. As we embark on this journey, we will reflect on how we, too, can become forerunners in doing good, setting trends of righteousness, and, ultimately, achieving the honor of being among those first to enter Paradise.
+
+### Categories of Firsts in Islam
+
+The concept of the *firsts* in Islam is not just about chronological events but about setting a precedent in faith, action, and character that can inspire future generations. This section delves deeper into the five categories of *firsts* discussed in the video: *As-Sabiqun* (the forerunners), trendsetters, strangers, revivers, and distinguished individuals. These categories are foundational to understanding the Islamic pursuit of excellence and how each of us can aspire to embody these characteristics in our own lives.
+
+#### The Forerunners (*As-Sabiqun*)
+
+The first category discussed is *As-Sabiqun*—the forerunners, those who rush towards doing good and lead by example. The Qur'an and Hadith describe these individuals as people who do not wait for others to act but are the first to respond to opportunities for righteousness. These forerunners are driven by an inner ambition (*‘iluww al-himma*) that propels them toward excellence, both in their faith and their deeds. They don't hesitate when an opportunity for good presents itself; instead, they act swiftly and decisively, motivated by the desire to please Allah.
+
+In the Qur'an, Allah describes them as individuals who "rush and compete for good" (*yusari'una fi al-khayrat*), showing that their actions are not only immediate but also marked by a spirit of competition with themselves to reach ever higher levels of goodness. The Prophet Muhammad (PBUH) reinforced this attitude by urging his followers to "rush to do good deeds," underscoring the importance of acting promptly and with purpose.
+
+On the Day of Judgment, the forerunners will not only be the first to enter Paradise, but they will also be closest to Allah, enjoying the shade of His throne. They are distinguished from the *Ahl al-Yamin* (the people of the right hand) and the *Ashab al-Shimal* (the people of the left hand) by their exceptional commitment to doing good. Their reward will be greater because of their early and sustained devotion to Allah's commands, which sets them apart as exemplars for the rest of the believers.
+
+The beauty of this category is that it encourages all of us to strive for excellence in our actions, even if we may not be the first in every circumstance. The forerunners show us that what matters is the speed with which we respond to the call of good, how we make righteousness a priority, and how we challenge ourselves to keep growing spiritually and morally.
+
+#### Trendsetters
+
+The second category of *firsts* in Islam is the *trendsetters*. These individuals are those who introduce good practices into the community, creating positive change that others will inevitably follow. The Prophet Muhammad (PBUH) highlighted the importance of setting a good example when he saw the companions hesitating to give charity to a group of impoverished Bedouins. When one of the Ansar responded quickly and brought a purse of silver to the Prophet (PBUH), others followed suit, and the Prophet’s face went from disappointment to joy as the companions raced to contribute.
+The second category of *firsts* in Islam is the *trendsetters*. These individuals are those who introduce good practices into the community, creating positive change that others will inevitably follow. The Prophet Muhammad (PBUH) highlighted the importance of setting a good example when he saw the companions hesitating to give charity to a group of impoverished Bedouins. When one of the Ansar responded quickly and brought a purse of silver to the Prophet (PBUH), others followed suit, and the Prophet’s face went from disappointment to joy as the companions raced to contribute.
+
+The concept of being a trendsetter is beautifully captured in the hadith: "Whoever introduces a good practice in Islam, and it is followed by others, will have the reward of those who act upon it without their reward being diminished in any way." This highlights a profound principle of reward in Islam: when someone introduces a positive action and others follow, the initiator continues to receive the reward for those actions indefinitely, even long after their own lifetime.
+
+Trendsetters in Islam are not merely those who perform acts of goodness but also those who create a ripple effect, inspiring others to follow their example. The Prophet (PBUH) emphasized that this reward is not just for the first person who acts but for everyone who continues the good practice after them, reinforcing the idea that one person’s good deed can have an exponentially positive impact.
+
+For contemporary Muslims, this category encourages us to lead by example in all aspects of our lives. Whether it’s through charity, kindness, or spiritual practices, the trendsetters show us that we have the power to shape the behavior of those around us, inspiring collective progress towards goodness.
+
+#### The Strangers (*Al-Ghuraba*)
+
+The third category, *Al-Ghuraba* (the strangers), is one that resonates deeply in today’s world. The Prophet Muhammad (PBUH) said, “Islam began as something strange and will return to being strange, so glad tidings to the strangers.” This category refers to those who follow the truth and remain steadfast in their faith, even when it becomes unpopular or socially challenging. These individuals often stand alone in their commitment to righteousness, refusing to conform to societal norms when those norms conflict with their faith.
+
+The *strangers* are those who choose to be different when the majority of people are indulging in corruption or immoral behavior. In the modern context, these are the individuals who refuse to compromise their values for the sake of fitting in or gaining societal approval. They are the ones who uphold the truth, even when it requires personal sacrifice or makes them socially isolated.
+
+This category challenges Muslims today to be courageous in their faith, even when standing up for what is right goes against the mainstream or popular culture. The *strangers* are celebrated not for conforming but for their commitment to preserving the purity of Islam, acting as role models for others who may be struggling with societal pressures.
+
+#### The Revivers (*Al-Mujaddid*)
+
+Revivers, or *Al-Mujaddid*, form the fourth category of firsts. These individuals are the ones who renew and restore aspects of Islam that have been lost or corrupted over time. The Prophet Muhammad (PBUH) foretold that Allah would send a reviver at the beginning of every century to bring the faith back to its original purity. These revivers are instrumental in revitalizing Islamic practices, values, and knowledge, ensuring that the community remains true to its roots.
+
+One notable historical example is Umar ibn Abdulaziz, whose reign as a caliph is often cited as a period of revival in the Islamic world. He worked tirelessly to restore justice and equity, reviving the practices of the Prophet (PBUH) and his companions in a time when corruption had set in. Revivers like him are those who recognize what has been lost or overlooked in the community and take it upon themselves to restore it, whether that is through social reform, spiritual guidance, or intellectual contributions.
+
+For contemporary Muslims, the concept of *Tajdeed* (revival) invites us to look for areas in our lives and communities where good practices may have been forgotten or neglected. Reviving these practices, whether they are individual acts of worship or collective efforts for societal improvement, makes us part of this vital tradition of renewal in Islam.
+
+#### The Distinguished (*Al-Muhsineen*)
+
+The final category of firsts is *Al-Muhsineen*—the distinguished individuals who excel in doing good to such a degree that they stand out among their peers. The *Muhsineen* are those who not only do good but do it in the best possible way, with sincerity and excellence. The Prophet Muhammad (PBUH) taught that excellence in good deeds, or *Ihsan*, involves not just quantity but quality. It is the pursuit of perfection in everything one does for the sake of Allah.
+
+In this category, excellence is the defining feature. *Ihsan* is about going above and beyond what is required, seeking to do more than what others might expect, and striving to perfect every aspect of one's faith and actions. These are the people who, through their deep devotion to Allah, inspire others to elevate their own actions and commitment to righteousness.
+
+The *Muhsineen* are distinguished not just by their good deeds but by the quality of their hearts and intentions. They are the individuals who inspire others through the beauty and depth of their character, setting the standard for what it means to live a life of true excellence in Islam.
+
+### Practical Implications for Our Lives
+
+In this section, we explore how we can practically apply the concepts of the "firsts" — the forerunners, trendsetters, strangers, revivers, and distinguished individuals — to our own lives. Each category provides a unique lesson and an opportunity for personal growth, spiritual development, and societal contribution.
+
+#### 1. **Being a Forerunner (As-Sabiqun)**
+   - **Act Quickly to Do Good**: The forerunners in Islam are those who immediately rush to do good when they hear or see an opportunity. For us, this means not hesitating when it comes to charitable actions, helping others, or fulfilling our duties as Muslims. The challenge lies in overcoming our natural tendency to delay or procrastinate. Whether it’s helping someone in need, volunteering for a good cause, or simply offering a kind word, we can emulate the forerunners by responding quickly and decisively to opportunities for good.
+   - **Striving for Excellence in Worship**: Just as the forerunners are always in competition with themselves to reach higher levels of goodness, we too should aim for excellence in our worship, work, and interactions with others. This means not waiting for the perfect circumstances to pray, fast, or engage in acts of kindness, but rather taking action whenever we are able to.
+
+#### 2. **Setting Good Trends (Trendsetters)**
+   - **Lead by Example**: The trendsetters in Islam are those who introduce good practices that others follow. In our own lives, we can set positive trends by leading by example. Whether it’s practicing honesty in business, being generous with our time and resources, or showing kindness to those around us, our actions can inspire others to follow. The Prophet (salallahu alayhi wa sallam) taught us that those who set a good example receive the same reward as those who follow them. By embodying positive behaviors, we not only help improve our own character but also contribute to a culture of goodness within our communities.
+   - **Start Small, Think Big**: Often, being a trendsetter doesn’t require grand gestures. Small actions, such as being punctual in prayer or starting a charity initiative, can ripple outwards, inspiring others to adopt similar practices. The important part is taking that first step and being consistent in our efforts.
+
+#### 3. **Embracing the Role of the Stranger (Al-Ghuraba)**
+   - **Stay True to Your Principles**: The "strangers" in Islam are those who hold fast to the truth when everyone around them is adopting corrupt or harmful practices. In our modern world, we often face pressures to conform to societal norms, whether in terms of lifestyle, values, or behavior. Embracing the role of the stranger means resisting the temptation to compromise our beliefs and principles just to fit in. This could mean standing up for justice, rejecting harmful cultural practices, or simply not participating in actions that contradict our faith.
+   - **Lead with Patience and Integrity**: While it can be difficult to stand apart from the crowd, the reward for being a stranger in times of widespread corruption is great. We can take comfort in the fact that being steadfast in our faith, even if we are in the minority, is a noble act. This requires patience and resilience, as well as a strong connection to Allah and His guidance.
+
+#### 4. **Reviving What Is Lost (Al-Mujaddidun)**
+   - **Bring Back Forgotten Practices**: Just as the revivers of the faith bring back lost practices, we can revive aspects of our faith that may have been forgotten or overlooked. This could mean returning to traditional Islamic practices like regular dhikr, prayer, or fasting on specific days, or even reviving acts of kindness and charity that may have been neglected. Reviving these practices requires not only knowledge of our faith but also the courage to bring them back into our communities and homes.
+   - **Innovating Within the Faith**: Revival doesn’t always mean doing things exactly the way they were done in the past; it can also mean finding new ways to embody the principles of Islam in our modern lives. Whether it’s through technology, education, or community service, we can contribute to the revival of our faith by applying its timeless principles to the challenges of our time.
+
+#### 5. **Becoming Distinguished (Al-Muhsinin)**
+   - **Pursue Excellence in Every Action**: The distinguished individuals (Muhsinin) are those who go above and beyond in their good deeds. In our own lives, this means striving for excellence in everything we do, whether it’s in our personal worship, professional work, or how we treat others. We should aim to do our best in all areas of life, making every action a reflection of our commitment to excellence.
+   - **Quality Over Quantity**: The key lesson from the Muhsinin is that it’s not about how much we do, but how well we do it. This teaches us to focus on the quality of our deeds — the sincerity with which we perform them and the impact they have. Whether it’s a small act of kindness or a significant personal sacrifice, doing it with the utmost dedication and devotion to Allah is what distinguishes the Muhsinin.
+
+### Conclusion
+
+As we come to the end of this reflection on the "firsts" in Islam — the forerunners, trendsetters, strangers, revivers, and distinguished individuals — it’s important to recognize that these categories are not merely historical concepts, but practical ideals that we can strive to embody in our own lives. The examples set by these exemplary figures serve as a reminder that each of us has the potential to contribute positively to our communities, our faith, and our personal growth.
+
+#### **Call to Action: Aspiring to Be Among the "Firsts"**
+
+The challenge for us is to aspire to be among these "firsts" in our own time. Whether we are striving to be forerunners in good deeds, trendsetters in positive change, strangers holding fast to our values, revivers of forgotten practices, or distinguished in our excellence, we should always aim to lead by example and strive for excellence in all aspects of our lives. These categories provide us with practical and achievable goals — goals that not only elevate our own spiritual journey but also have the potential to inspire and uplift those around us.
+
+#### **A Prayer for Guidance**
+
+We must humbly ask Allah to guide us in our efforts to emulate these remarkable qualities. May He grant us the strength and perseverance to follow in the footsteps of those who came before us — the forerunners who rushed to do good, the trendsetters who pioneered positive change, the strangers who remained steadfast in their faith, the revivers who brought back the lost practices, and the distinguished who excelled in every action. As we embark on this journey, we pray that Allah makes us among those who are honored to be the first to please Him, who are remembered for their good deeds, and who are admitted into Paradise.
+
+#### **Invitation to Follow the Series**
+
+This is just the beginning of a long and enriching journey. Over the course of this series, we will delve deeper into each of these categories, exploring the lives of those who have made history, and drawing lessons that can help us better embody these qualities in our own lives. I invite you to continue following this series, as we explore how we can learn from the past, aspire to live with purpose, and contribute to a better future, insha’Allah.
+
+May Allah grant us success in our endeavors, and may He make us among the "firsts" on the Day of Judgment. Ameen.
+
+================
+File: _posts/timeline/2024-09-05-mathTimeline.md
+================
+---
+title: "Mathematics' Timeline"
+date: 2024-09-04
+permalink: /posts/2024/09/math-timeline/
+tags: [Mathematics, Research]
+---
+
+## Early Modern Period
+- **1642** 
+    - [Sir Isaac Newton]({% link _biographies/Newton.md %}) was born.
+    - Galileo Galilei died.
+- **1646** - [Gottfried Wilhelm Leibniz]({% link _biographies/Leibniz.md %}) was born.
+<!-- - **1637** - [René Descartes](biographies/descartes.md) introduces the Cartesian coordinate system in *La Géométrie*. -->
+- **1664** - [Sir Isaac Newton]({% link _biographies/Newton.md %}) begins his work on [calculus](notes/calculus.md).
+
+================
+File: _projects/research-project.md
+================
+---
+title: Research Project
+description: Ongoing research project in mathematics and computer science
+---
+
+================
+File: _sass/_main.scss
+================
+header ul, :after, :before {
+	padding:0;
+}
+
+.archive ul, :after, :before {
+	padding:0;
+}
+
+*,:after,:before {
+	box-sizing:border-box;
+	background-color:inherit;
+	color:inherit;
+	margin:0;
+	//padding:0;
+}
+
+
+
+body {
+	font-family: system-ui, sans-serif;
+	-webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+	line-height:1.5;
+	font-size: 1rem;
+	color: rgb(22, 23, 26);
+}
+
+.author__avatar {
+	display: table-cell;
+	vertical-align: top;
+	//width: 50px;
+	// set width only, for non-square avatars
+	// height: 36px;
+  
+	img {
+	  max-width: 100px;
+	  //border-radius: 50%;
+	}
+}
+
+// nav ul {
+// 	border-left: 1px solid #edf2f7;
+// }
+
+a {
+    color: #000;
+    text-decoration-skip-ink: auto;
+    text-decoration: underline;
+}
+
+pre {
+	margin: .5rem 0;
+	padding: .5rem;
+}
+
+.post p {
+	margin: .5rem 0;
+}
+
+.post h1, .post h2, .post h3, .post h4 {
+	margin: 1rem 0;
+}
+
+.post h2:first-child, .project h2:first-child, .photo h2:first-child {
+	margin-top: 0;
+}
+
+.meta {
+	margin: 2rem 0;
+}
+
+code,pre {
+	background: rgb(236, 237, 238);
+}
+
+code {
+	padding: .1rem;
+}
+
+pre code {
+	border: none;
+}
+
+pre {
+	padding: 1rem;
+	overflow-x: auto;
+}
+
+img {
+	max-width:100%;
+}
+
+img[src*='#center'] { 
+    display: block;
+    margin: auto;
+}
+
+hr {
+	background: #000;
+    height: 1px;
+    border: 0;
+}
+
+header {
+	flex-basis:10rem;
+	flex-grow:1;
+	position:relative;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header li {
+	margin-bottom: .2rem;
+	text-align: left;
+	padding-left: 0.5rem;
+}
+
+header a.active {
+	font-weight: bold;
+}
+
+header li:has(> a.active)   {
+	border-left: 2px solid #000;
+}
+
+header,section {
+	padding:1rem;
+}
+
+blockquote {
+	font-style: italic;
+    border-left: 5px solid #ececec;
+    padding-left: 1rem;
+}
+
+h1,h2,h3,h4,h5 {
+	line-height: 1;
+	margin: 1rem 0;
+	font-weight: 600;
+}
+h1.title{
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin: 2rem auto;
+	max-width: 80%;
+}
+
+section h1:first-child {
+	margin-top: 0;
+}
+
+strong, b {
+	font-weight: bold;
+}
+
+.photos ul {
+	list-style: none;
+}
+
+.photos li {
+	margin-bottom: 1.5rem;
+}
+
+.photo picture, .project picture {
+	margin-bottom: 0.5rem;
+}
+
+.posts ul,header ul {
+	list-style:none;
+}
+
+.posts li {
+	align-items:center;
+	display:flex;
+	justify-content:space-between;
+	margin-bottom: .5rem;
+}
+
+.posts li a, .posts li div, .projects li a {
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	text-decoration: none;
+}
+
+.posts li time, .projects li time {
+	padding-left: 1rem;
+	white-space: nowrap;
+	font-variant-numeric: tabular-nums;
+}
+
+// .post ul, .project ul, .post ol  {
+// 	//list-style-position: inside;
+// }
+
+main {
+	display:flex;
+	flex-wrap:wrap;
+	max-width:70rem;
+	margin:1.5rem auto;
+	padding:1rem;
+}
+
+.toc{
+	z-index: 10;
+    position: sticky;
+    top: 15em;
+    height: 0px;
+	font-size: 90%;
+}
+
+.toc ul {
+    list-style: none;
+	line-height: 1.5rem;
+}
+.toc a{
+	text-decoration: none;
+}
+
+.toc a.active {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 45rem ) {
+header li {
+    display: inline;
+	margin-right: 1rem;
+}
+.logo {
+	padding-bottom: 1rem;
+}
+header ul {
+	border-bottom: 1px solid #edf2f7;
+	padding-bottom: 2rem;	
+}
+nav ul {
+    border-right: 0px;
+}
+
+.photos ul {
+	margin-top: 0.5rem;
+}
+
+}
+
+section {
+	flex-basis:0;
+	flex-grow:999;
+	//min-width:70%;
+	display:flex;
+	flex-direction:column;
+	
+}
+
+figcaption {
+    font-size: smaller;
+}
+
+================
+File: .github/workflows/jekyll.yml
+================
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+name: Deploy Jekyll site to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@8575951200e472d5f2d95c625da0c7bec8217c42 # v1.161.0
+        with:
+          ruby-version: '3.1' # Not needed with a .ruby-version file
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+          cache-version: 0 # Increment this number if you need to re-download cached gems
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Build with Jekyll
+        # Outputs to the './_site' directory by default
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+      - name: Upload artifact
+        # Automatically uploads an artifact from the './_site' directory by default
+        uses: actions/upload-pages-artifact@v3
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+================
+File: .gitignore
+================
+tmp
+*.rdb
+.env
+.sass-cache
+.DS_Store
+.jekyll-cache
+.git
+old
+_site
+Gemfile.lock
+sources
+
+================
+File: 404.html
+================
+---
+layout: page
+title: "404: Page not found"
+permalink: 404.html
+---
+
+
+
+Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.
+
+================
+File: assets/js/search-script.min.js
+================
+/*!
+  * Simple-Jekyll-Search v1.7.2 (https://github.com/christian-fei/Simple-Jekyll-Search)
+  * Copyright 2015-2018, Christian Fei
+  * Licensed under the MIT License.
+  */
+!function(){"use strict";var f={load:function w(t,e){var n=function r(){return window.XMLHttpRequest?new window.XMLHttpRequest:new ActiveXObject("Microsoft.XMLHTTP")}();n.open("GET",t,!0),n.onreadystatechange=function i(e,n){return function(){if(4===e.readyState&&200===e.status)try{n(null,JSON.parse(e.responseText))}catch(t){n(t,null)}}}(n,e),n.send()}};(function y(t){if(!function e(t){return!!t&&"undefined"!=typeof t.required&&t.required instanceof Array}(t))throw new Error("-- OptionsValidator: required options missing");if(!(this instanceof y))return new y(t);var r=t.required;this.getRequiredOptions=function(){return r},this.validate=function(e){var n=[];return r.forEach(function(t){"undefined"==typeof e[t]&&n.push(t)}),n}});var n=function g(t,e){var n=e.length,r=t.length;if(n<r)return!1;if(r===n)return t===e;t:for(var i=0,o=0;i<r;i++){for(var u=t.charCodeAt(i);o<n;)if(e.charCodeAt(o++)===u)continue t;return!1}return!0},e=new function t(){this.matches=function(t,e){return n(e.toLowerCase(),t.toLowerCase())}};var r=new function O(){this.matches=function(e,t){return!!e&&(e=e.trim().toLowerCase(),(t=t.trim().toLowerCase()).split(" ").filter(function(t){return 0<=e.indexOf(t)}).length===t.split(" ").length)}};var l={put:function z(t){if(c(t))return s(t);if(function e(t){return Boolean(t)&&"[object Array]"===Object.prototype.toString.call(t)}(t))return function i(t){var e=[];a();for(var n=0,r=t.length;n<r;n++)c(t[n])&&e.push(s(t[n]));return e}(t);return undefined},clear:a,search:function S(t){return t?function a(t,e,n,r){for(var i=[],o=0;o<t.length&&i.length<r.limit;o++){var u=d(t[o],e,n,r);u&&i.push(u)}return i}(o,t,u.searchStrategy,u).sort(u.sort):[]},setOptions:function q(t){(u=t||{}).fuzzy=t.fuzzy||!1,u.limit=t.limit||10,u.searchStrategy=t.fuzzy?e:r,u.sort=t.sort||i}};function i(){return 0}var o=[],u={};function a(){return o.length=0,o}function c(t){return Boolean(t)&&"[object Object]"===Object.prototype.toString.call(t)}function s(t){return o.push(t),o}function d(t,e,n,r){for(var i in t)if(!p(t[i],r.exclude)&&n.matches(t[i],e))return t}function p(t,e){for(var n=!1,r=0,i=(e=e||[]).length;r<i;r++){var o=e[r];!n&&new RegExp(t).test(o)&&(n=!0)}return n}u.fuzzy=!1,u.limit=10,u.searchStrategy=u.fuzzy?e:r,u.sort=i;var h={compile:function j(r){return m.template.replace(m.pattern,function(t,e){var n=m.middleware(e,r[e],m.template);return void 0!==n?n:r[e]||t})},setOptions:function C(t){m.pattern=t.pattern||m.pattern,m.template=t.template||m.template,"function"==typeof t.middleware&&(m.middleware=t.middleware)}},m={};m.pattern=/\{(.*?)\}/g,m.template="",m.middleware=function(){};var v={merge:function L(t,e){var n={};for(var r in t)n[r]=t[r],"undefined"!=typeof e[r]&&(n[r]=e[r]);return n},isJSON:function M(t){try{return!!(t instanceof Object&&JSON.parse(JSON.stringify(t)))}catch(e){return!1}}};!function(t){var o={searchInput:null,resultsContainer:null,json:[],success:Function.prototype,searchResultTemplate:'<li><a href="{url}" title="{description}">{title}</a></li>',templateMiddleware:Function.prototype,sortMiddleware:function(){return 0},noResultsText:"No results found",limit:10,fuzzy:!1,exclude:[]},n=["searchInput","resultsContainer","json"],r=function y(e){if(!function n(t){return!!t&&"undefined"!=typeof t.required&&t.required instanceof Array}(e))throw new Error("-- OptionsValidator: required options missing");if(!(this instanceof y))return new y(e);var r=e.required;this.getRequiredOptions=function(){return r},this.validate=function(e){var n=[];return r.forEach(function(t){"undefined"==typeof e[t]&&n.push(t)}),n}}({required:n});function i(t){o.success(t),l.put(t),function e(){o.searchInput.addEventListener("keyup",function(t){(function e(t){return-1===[13,16,20,37,38,39,40,91].indexOf(t)})(t.which)&&(u(),c(t.target.value))})}()}function u(){o.resultsContainer.innerHTML=""}function a(t){o.resultsContainer.innerHTML+=t}function c(t){(function e(t){return t&&0<t.length})(t)&&(u(),function i(t,e){var n=t.length;if(0===n)return a(o.noResultsText);for(var r=0;r<n;r++)t[r].query=e,a(h.compile(t[r]))}(l.search(t),t))}function s(t){throw new Error("SimpleJekyllSearch --- "+t)}t.SimpleJekyllSearch=function(t){return 0<r.validate(t).length&&s("You must specify the following required options: "+n),o=v.merge(o,t),h.setOptions({template:o.searchResultTemplate,middleware:o.templateMiddleware}),l.setOptions({fuzzy:o.fuzzy,limit:o.limit,sort:o.sortMiddleware}),v.isJSON(o.json)?i(o.json):function e(n){f.load(n,function(t,e){t&&s("failed to get JSON ("+n+")"),i(e)})}(o.json),{search:c}}}(window)}();
+
+================
+File: atom.xml
+================
+---
+layout: null
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>{{ site.title }}</title>
+ <link href="{{ site.url }}{{ site.baseurl }}/atom.xml" rel="self"/>
+ <link href="{{ site.url }}{{ site.baseurl }}/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>{{ site.url }}</id>
+ <author>
+   <name>{{ site.author.name }}</name>
+   <email>{{ site.author.email }}</email>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title | xml_escape }}</title>
+   <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>{{ site.url }}{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+
+</feed>
+
+================
+File: Gemfile
+================
+source "https://rubygems.org"
+gem 'jekyll'
+gem 'jekyll-paginate'
+gem 'jekyll-seo-tag'
+gem 'jekyll-sitemap'
+gem 'jekyll-toc'
+
+================
+File: index.html
+================
+---
+layout: default
+---
+
+<section class="posts">
+<ul>
+{% for post in site.posts %}
+    <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time></li>
+{% endfor %}
+</ul>
+</section>
+
+================
+File: LICENSE.md
+================
+MIT License
+
+Copyright (c) 2020 Ronalds Vilciņš
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================
+File: robots.txt
+================
+---
+layout: none
+---
+User-agent: *
+Sitemap: {{ site.url }}/sitemap.xml
+
+================
+File: search.js
+================
+/*!
+  * Simple-Jekyll-Search v1.7.2 (https://github.com/christian-fei/Simple-Jekyll-Search)
+  * Copyright 2015-2018, Christian Fei
+  * Licensed under the MIT License.
+  */
+!function(){"use strict";var f={load:function w(t,e){var n=function r(){return window.XMLHttpRequest?new window.XMLHttpRequest:new ActiveXObject("Microsoft.XMLHTTP")}();n.open("GET",t,!0),n.onreadystatechange=function i(e,n){return function(){if(4===e.readyState&&200===e.status)try{n(null,JSON.parse(e.responseText))}catch(t){n(t,null)}}}(n,e),n.send()}};(function y(t){if(!function e(t){return!!t&&"undefined"!=typeof t.required&&t.required instanceof Array}(t))throw new Error("-- OptionsValidator: required options missing");if(!(this instanceof y))return new y(t);var r=t.required;this.getRequiredOptions=function(){return r},this.validate=function(e){var n=[];return r.forEach(function(t){"undefined"==typeof e[t]&&n.push(t)}),n}});var n=function g(t,e){var n=e.length,r=t.length;if(n<r)return!1;if(r===n)return t===e;t:for(var i=0,o=0;i<r;i++){for(var u=t.charCodeAt(i);o<n;)if(e.charCodeAt(o++)===u)continue t;return!1}return!0},e=new function t(){this.matches=function(t,e){return n(e.toLowerCase(),t.toLowerCase())}};var r=new function O(){this.matches=function(e,t){return!!e&&(e=e.trim().toLowerCase(),(t=t.trim().toLowerCase()).split(" ").filter(function(t){return 0<=e.indexOf(t)}).length===t.split(" ").length)}};var l={put:function z(t){if(c(t))return s(t);if(function e(t){return Boolean(t)&&"[object Array]"===Object.prototype.toString.call(t)}(t))return function i(t){var e=[];a();for(var n=0,r=t.length;n<r;n++)c(t[n])&&e.push(s(t[n]));return e}(t);return undefined},clear:a,search:function S(t){return t?function a(t,e,n,r){for(var i=[],o=0;o<t.length&&i.length<r.limit;o++){var u=d(t[o],e,n,r);u&&i.push(u)}return i}(o,t,u.searchStrategy,u).sort(u.sort):[]},setOptions:function q(t){(u=t||{}).fuzzy=t.fuzzy||!1,u.limit=t.limit||10,u.searchStrategy=t.fuzzy?e:r,u.sort=t.sort||i}};function i(){return 0}var o=[],u={};function a(){return o.length=0,o}function c(t){return Boolean(t)&&"[object Object]"===Object.prototype.toString.call(t)}function s(t){return o.push(t),o}function d(t,e,n,r){for(var i in t)if(!p(t[i],r.exclude)&&n.matches(t[i],e))return t}function p(t,e){for(var n=!1,r=0,i=(e=e||[]).length;r<i;r++){var o=e[r];!n&&new RegExp(t).test(o)&&(n=!0)}return n}u.fuzzy=!1,u.limit=10,u.searchStrategy=u.fuzzy?e:r,u.sort=i;var h={compile:function j(r){return m.template.replace(m.pattern,function(t,e){var n=m.middleware(e,r[e],m.template);return void 0!==n?n:r[e]||t})},setOptions:function C(t){m.pattern=t.pattern||m.pattern,m.template=t.template||m.template,"function"==typeof t.middleware&&(m.middleware=t.middleware)}},m={};m.pattern=/\{(.*?)\}/g,m.template="",m.middleware=function(){};var v={merge:function L(t,e){var n={};for(var r in t)n[r]=t[r],"undefined"!=typeof e[r]&&(n[r]=e[r]);return n},isJSON:function M(t){try{return!!(t instanceof Object&&JSON.parse(JSON.stringify(t)))}catch(e){return!1}}};!function(t){var o={searchInput:null,resultsContainer:null,json:[],success:Function.prototype,searchResultTemplate:'<li><a href="{url}" title="{description}">{title}</a></li>',templateMiddleware:Function.prototype,sortMiddleware:function(){return 0},noResultsText:"No results found",limit:10,fuzzy:!1,exclude:[]},n=["searchInput","resultsContainer","json"],r=function y(e){if(!function n(t){return!!t&&"undefined"!=typeof t.required&&t.required instanceof Array}(e))throw new Error("-- OptionsValidator: required options missing");if(!(this instanceof y))return new y(e);var r=e.required;this.getRequiredOptions=function(){return r},this.validate=function(e){var n=[];return r.forEach(function(t){"undefined"==typeof e[t]&&n.push(t)}),n}}({required:n});function i(t){o.success(t),l.put(t),function e(){o.searchInput.addEventListener("keyup",function(t){(function e(t){return-1===[13,16,20,37,38,39,40,91].indexOf(t)})(t.which)&&(u(),c(t.target.value))})}()}function u(){o.resultsContainer.innerHTML=""}function a(t){o.resultsContainer.innerHTML+=t}function c(t){(function e(t){return t&&0<t.length})(t)&&(u(),function i(t,e){var n=t.length;if(0===n)return a(o.noResultsText);for(var r=0;r<n;r++)t[r].query=e,a(h.compile(t[r]))}(l.search(t),t))}function s(t){throw new Error("SimpleJekyllSearch --- "+t)}t.SimpleJekyllSearch=function(t){return 0<r.validate(t).length&&s("You must specify the following required options: "+n),o=v.merge(o,t),h.setOptions({template:o.searchResultTemplate,middleware:o.templateMiddleware}),l.setOptions({fuzzy:o.fuzzy,limit:o.limit,sort:o.sortMiddleware}),v.isJSON(o.json)?i(o.json):function e(n){f.load(n,function(t,e){t&&s("failed to get JSON ("+n+")"),i(e)})}(o.json),{search:c}}}(window)}();
+
+================
+File: search.json
+================
+---
+layout: null
+---
+[
+  {% assign everything = site.posts | concat: site.notes %}
+
+  {% for post in everything %}
+    {
+
+      "title"    : "{{ post.title | strip_html | escape }}",
+      "description" : "{{ post.description | escape }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "category" : "{{post.categories | join: ', '}}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "date"     : "{{ post.date }}"
+
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+
+
+
+================================================================
+End of Codebase
+================================================================

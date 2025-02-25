@@ -1,0 +1,73 @@
+---
+layout: default
+title: Islam
+---
+
+{% include navigation.html %}
+<div class="islam-container">
+  <!-- Sidebar with static categories -->
+  <!-- <aside class="islam-sidebar">
+    <h2>Categories</h2>
+    <nav class="category-nav">
+      <ul>
+        <li><a href="#" data-category="historical">Historical</a></li>
+        <li><a href="#" data-category="inspirational">Inspirational</a></li>
+        <li><a href="#" data-category="scholarly">Scholarly</a></li>
+      </ul>
+    </nav>
+  </aside> -->
+
+  <!-- Main content area -->
+  <main class="islam-content">
+    <h1>Islamic Articles</h1>
+    {% for post in site.posts %}
+      {% if post.content_type == "islam" %}
+        <article class="islam-post" data-categories="{{ post.islam_category | downcase }}">
+          <h2>{{ post.title }}</h2>
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+          <div class="post-content">
+            {{ post.content }}
+          </div>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </main>
+</div>
+
+<!-- <style>
+.islam-container {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.islam-sidebar {
+  flex: 0 0 250px;
+  padding: 1rem;
+  background: #f8f8f8;
+  border-radius: 8px;
+}
+
+.islam-content {
+  flex-grow: 1;
+}
+
+.category-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.category-nav li {
+  margin-bottom: 0.5rem;
+}
+
+.islam-post {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+</style> -->

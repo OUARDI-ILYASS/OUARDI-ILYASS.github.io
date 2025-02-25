@@ -1,13 +1,15 @@
 links:
-- title: About
-  url: /
-- title: Articles
-  url: /articles
-- title: Lecture Notes
-  url: /notes
-- title: Curriculum Vitae
-  url: /cv
-- title: Search
-  url: /search
-# - title: Rss
-#   url: /atom.xml
+  - title: About
+    url: /
+  - title: Articles
+    url: /articles
+  - title: Notes
+    url: /notes
+  - title: Timeline
+    url: /timeline
+  - title: Islam
+    url: /islam
+  - title: Curriculum Vitae
+    url: /cv
+  - title: Search
+    url: /search

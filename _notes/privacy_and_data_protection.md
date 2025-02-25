@@ -5,6 +5,7 @@ date: 2024-11-25
 permalink: /notes/privacy_data_protection
 tags: [Lecture Notes, Privacy, Data Protection]
 mathjax: true
+content_type: notes
 ---
 # Microdata Protection Techniques: Balancing Privacy and Utility
 

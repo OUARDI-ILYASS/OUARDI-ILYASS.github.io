@@ -1,16 +1,22 @@
-header ul, :after, :before {
-	padding:0;
+header ul,
+:after,
+:before {
+	padding: 0;
 }
 
-.archive ul, :after, :before {
-	padding:0;
+.archive ul,
+:after,
+:before {
+	padding: 0;
 }
 
-*,:after,:before {
-	box-sizing:border-box;
-	background-color:inherit;
-	color:inherit;
-	margin:0;
+*,
+:after,
+:before {
+	box-sizing: border-box;
+	background-color: inherit;
+	color: inherit;
+	margin: 0;
 	//padding:0;
 }
 
@@ -19,8 +25,8 @@ header ul, :after, :before {
 body {
 	font-family: system-ui, sans-serif;
 	-webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-	line-height:1.5;
+	text-rendering: optimizeLegibility;
+	line-height: 1.5;
 	font-size: 1rem;
 	color: rgb(22, 23, 26);
 }
@@ -31,10 +37,10 @@ body {
 	//width: 50px;
 	// set width only, for non-square avatars
 	// height: 36px;
-  
+
 	img {
-	  max-width: 100px;
-	  //border-radius: 50%;
+		max-width: 100px;
+		//border-radius: 50%;
 	}
 }
 
@@ -43,9 +49,9 @@ body {
 // }
 
 a {
-    color: #000;
-    text-decoration-skip-ink: auto;
-    text-decoration: underline;
+	color: #000;
+	text-decoration-skip-ink: auto;
+	text-decoration: underline;
 }
 
 pre {
@@ -57,11 +63,16 @@ pre {
 	margin: .5rem 0;
 }
 
-.post h1, .post h2, .post h3, .post h4 {
+.post h1,
+.post h2,
+.post h3,
+.post h4 {
 	margin: 1rem 0;
 }
 
-.post h2:first-child, .project h2:first-child, .photo h2:first-child {
+.post h2:first-child,
+.project h2:first-child,
+.photo h2:first-child {
 	margin-top: 0;
 }
 
@@ -69,7 +80,8 @@ pre {
 	margin: 2rem 0;
 }
 
-code,pre {
+code,
+pre {
 	background: rgb(236, 237, 238);
 }
 
@@ -87,24 +99,24 @@ pre {
 }
 
 img {
-	max-width:100%;
+	max-width: 100%;
 }
 
-img[src*='#center'] { 
-    display: block;
-    margin: auto;
+img[src*='#center'] {
+	display: block;
+	margin: auto;
 }
 
 hr {
 	background: #000;
-    height: 1px;
-    border: 0;
+	height: 1px;
+	border: 0;
 }
 
 header {
-	flex-basis:10rem;
-	flex-grow:1;
-	position:relative;
+	flex-basis: 10rem;
+	flex-grow: 1;
+	position: relative;
 }
 
 header a {
@@ -121,26 +133,32 @@ header a.active {
 	font-weight: bold;
 }
 
-header li:has(> a.active)   {
+header li:has(> a.active) {
 	border-left: 2px solid #000;
 }
 
-header,section {
-	padding:1rem;
+header,
+section {
+	padding: 1rem;
 }
 
 blockquote {
 	font-style: italic;
-    border-left: 5px solid #ececec;
-    padding-left: 1rem;
+	border-left: 5px solid #ececec;
+	padding-left: 1rem;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
 	line-height: 1;
 	margin: 1rem 0;
 	font-weight: 600;
 }
-h1.title{
+
+h1.title {
 	text-align: center;
 	font-size: 2.5rem;
 	font-weight: bold;
@@ -152,7 +170,8 @@ section h1:first-child {
 	margin-top: 0;
 }
 
-strong, b {
+strong,
+b {
 	font-weight: bold;
 }
 
@@ -164,29 +183,34 @@ strong, b {
 	margin-bottom: 1.5rem;
 }
 
-.photo picture, .project picture {
+.photo picture,
+.project picture {
 	margin-bottom: 0.5rem;
 }
 
-.posts ul,header ul {
-	list-style:none;
+.posts ul,
+header ul {
+	list-style: none;
 }
 
 .posts li {
-	align-items:center;
-	display:flex;
-	justify-content:space-between;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
 	margin-bottom: .5rem;
 }
 
-.posts li a, .posts li div, .projects li a {
-	white-space:nowrap;
-	overflow:hidden;
-	text-overflow:ellipsis;
+.posts li a,
+.posts li div,
+.projects li a {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	text-decoration: none;
 }
 
-.posts li time, .projects li time {
+.posts li time,
+.projects li time {
 	padding-left: 1rem;
 	white-space: nowrap;
 	font-variant-numeric: tabular-nums;
@@ -197,64 +221,151 @@ strong, b {
 // }
 
 main {
-	display:flex;
-	flex-wrap:wrap;
-	max-width:70rem;
-	margin:1.5rem auto;
-	padding:1rem;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 70rem;
+	margin: 1.5rem auto;
+	padding: 1rem;
 }
 
-.toc{
+.toc {
 	z-index: 10;
-    position: sticky;
-    top: 15em;
-    height: 0px;
+	position: sticky;
+	top: 15em;
+	height: 0px;
 	font-size: 90%;
 }
 
 .toc ul {
-    list-style: none;
+	list-style: none;
 	line-height: 1.5rem;
 }
-.toc a{
+
+.toc a {
 	text-decoration: none;
 }
 
 .toc a.active {
-    font-weight: bold;
+	font-weight: bold;
 }
 
-@media screen and (max-width: 45rem ) {
-header li {
-    display: inline;
-	margin-right: 1rem;
-}
-.logo {
-	padding-bottom: 1rem;
-}
-header ul {
-	border-bottom: 1px solid #edf2f7;
-	padding-bottom: 2rem;	
-}
-nav ul {
-    border-right: 0px;
-}
+@media screen and (max-width: 45rem) {
+	header li {
+		display: inline;
+		margin-right: 1rem;
+	}
 
-.photos ul {
-	margin-top: 0.5rem;
-}
+	.logo {
+		padding-bottom: 1rem;
+	}
+
+	header ul {
+		border-bottom: 1px solid #edf2f7;
+		padding-bottom: 2rem;
+	}
+
+	nav ul {
+		border-right: 0px;
+	}
+
+	.photos ul {
+		margin-top: 0.5rem;
+	}
 
 }
 
 section {
-	flex-basis:0;
-	flex-grow:999;
+	flex-basis: 0;
+	flex-grow: 999;
 	//min-width:70%;
-	display:flex;
-	flex-direction:column;
-	
+	display: flex;
+	flex-direction: column;
+
 }
 
 figcaption {
-    font-size: smaller;
+	font-size: smaller;
+}
+
+// Timeline styling
+.timeline-container {
+  position: relative;
+  padding: 2rem 0;
+  max-width: 80%;
+  margin: 0 auto; 
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: -40px;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background: #2b6cb0;
+  }
+}
+
+.timeline-event {
+  position: relative;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 2rem 0;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: -47.5px;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+	border: 4px solid #2b6cb0;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+  h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+  }
+
+  time {
+    display: block;
+    color: #666;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 1rem 0;
+  }
+
+  .links {
+    margin-top: 1rem;
+    a {
+      display: inline-block;
+      padding: 0.25rem 0.5rem;
+      background: #f5f5f5;
+      border-radius: 4px;
+      margin-right: 0.5rem;
+      font-size: 0.85rem;
+    }
+  }
+}
+
+// Add horizontal scroll indicators
+.timeline-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.timeline-container::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 4px;
 }

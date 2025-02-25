@@ -4,12 +4,16 @@ layout: default
 
 <section class="post" style="max-width: 40rem;margin: auto;margin-top: -2rem;">
   <div class="" style="justify-content: space-between;display:flex; margin-bottom: 1rem;">
-    {% if page.url contains 'post' %}
+    {% if page.content_type contains 'article' %}
     <a href="/articles" style="text-decoration: none;">← All articles</a> <span>{% include reading-time.html %}</span> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
-    {% else %}
+    {% endif %}
+    {% if page.content_type contains 'notes' %}
     <a href="/notes" style="text-decoration: none;">← List of notes</a> <span>{% include reading-time.html %}</span> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
     {% endif %}
-    
+    {% if page.content_type contains 'islam' %}
+    <a href="/islam" style="text-decoration: none;">← All islam articles</a> <span>{% include reading-time.html %}</span> <time
+      datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    {% endif %}
     </div>
     <hr>
   <h1 class="title">{{ page.title }}</h1>

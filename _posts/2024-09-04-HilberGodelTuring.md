@@ -4,6 +4,7 @@ date: 2024-09-04
 toc: true
 permalink: /posts/2024/09/HilberGodelTuring/
 tags: [Summer School, BOOST24, Computer Science, Research, Innovation, ELICSIR]
+content_type: article
 ---
 
 

@@ -5,6 +5,7 @@ date: 2024-08-29
 permalink: /notes/calculus/single-variable
 tags: [Lecture Notes, Mathematics, Calculus]
 mathjax: true
+content_type: notes
 ---
 
 ## Introduction

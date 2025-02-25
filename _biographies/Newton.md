@@ -2,6 +2,7 @@
 title: "Sir Isaac Newton"
 layout: post
 collection: biographies
+content_type: timeline
 ---
 Sir Isaac Newton stands as one of the most remarkable figures in the history of
 science and mathematics. Born in the 17th century, Newton's contributions
