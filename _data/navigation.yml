@@ -5,10 +5,12 @@ links:
     url: /articles
   - title: Notes
     url: /notes
-  - title: Timeline
-    url: /timeline
+  # - title: Timeline
+  #   url: /timeline
   - title: Islam
     url: /islam
+  - title: Books
+    url: /books
   - title: Curriculum Vitae
     url: /cv
   - title: Search

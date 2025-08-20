@@ -1,15 +1,16 @@
 {
-    "cSpell.words": [
-        "Alfi",
-        "datasource",
-        "diffusometers",
-        "Djikstra's",
-        "Kolmogorov",
-        "Meteonorm's",
-        "Nevados",
-        "pyranometer",
-        "pyranometers",
-        "pyrnaometer",
-        "Systs"
-    ]
+  "cSpell.words": [
+    "Alfi",
+    "datasource",
+    "diffusometers",
+    "Djikstra's",
+    "Kolmogorov",
+    "Meteonorm's",
+    "Nevados",
+    "pyranometer",
+    "pyranometers",
+    "pyrnaometer",
+    "Systs"
+  ],
+  "editor.rulers": [1000]
 }
