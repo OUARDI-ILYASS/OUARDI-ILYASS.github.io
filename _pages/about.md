@@ -8,21 +8,16 @@ permalink: "/"
 <!-- ![profile picture]({{ site.url }}/assets/images/profile1.png#center) -->
 
 ### **Hey, I’m Ilyass Ouardi!**  
-I’ve always been drawn to challenges. As a kid, math was my favorite subject—not just because it was tough, but because it felt like a puzzle waiting to be solved. While others avoided it, I saw it as an opportunity to push myself. I remember watching movies about geniuses, fascinated by the way they tackled impossible problems. I even used to look up unsolved math problems, dreaming about solving one myself. Sure, I was a naive little kid, but that fascination never really left me.  
 
-That same drive eventually led me to computer science. It felt like the perfect playground for my curiosity and honestly, my curiosity doesn’t stop there. I want to know *everything*. If I had enough time, I’d study every subject, dive into every discipline, and try to understand as much as humanly possible. Science, history, philosophy—there’s nothing that doesn’t intrigue me. The world is full of things to discover, and I can’t help but want to learn them all.  
+I've always been drawn to challenges. As a kid, math was my favorite subject, not despite being hard, but because of it. Where others saw something to avoid, I saw a puzzle waiting to be solved. I'd watch movies about geniuses cracking impossible problems and then go look up unsolved math questions, half-dreaming I'd solve one myself. Naive, sure, but that instinct, to chase the hardest open question in the room, is exactly what pulls me toward research today.
 
-Right now, I’m especially excited about **artificial intelligence, machine learning, and large language models**—especially the ways AI is pushing the boundaries of creativity and problem-solving. But I also have a deep appreciation for the **theoretical side of computer science**, where the line between math and computation becomes razor-thin. I love seeing **formal, elegant problem formulations** and solutions that feel almost like mathematical poetry. 
+Computer science became the natural playground for that curiosity, and over the last year it has sharpened into a clear direction: I want to understand what actually happens inside large language models. We've built systems that do extraordinary things while barely understanding how they work, and I've decided to spend my energy on closing that gap — the field of mechanistic interpretability, and the broader question of what makes these models reliable, transparent, and safe. What I love is that this sits right where computer science turns razor-thin against math: elegant, formal problems whose solutions read almost like mathematical poetry.
 
-<!-- 
-At the same time, I’m fascinated by **software engineering**—not just writing code, but understanding how to **build large, complex systems the right way**. There’s something incredibly satisfying about designing software that’s not just functional, but **scalable, maintainable, and beautifully structured**.  
- -->
+For me research isn't just an aspiration I talk about, but something I'm already experimenting with. In the last academic year I've carried three research projects from question to result as projects for my exams, the most important of which studies the internal geometry of "truth" in LLMs and is now becoming my Master's thesis, in collaboration with a PhD student and a professor at my department. That work, and the others, led three different labs to invite me to collaborate. My next goals are simple and ambitious: a strong thesis, a first publication why not at a top venue, and a PhD in mechanistic interpretability.
 
-Beyond tech, my other great passion is **football**. I’ve played since I was a kid—on the streets, in teams, even at a semipro level. I live for the competition, the dribbles, the battles, the long runs. In recent years, I’ve also picked up **basketball**, my go-to way to unwind when I need a break from studying. I’ve even stepped into the world of **modeling**, which has introduced me to incredible people and given me a fresh perspective on creativity and expression.  
+Outside research, my other great passion is football, I've played since I was a kid, from the streets to semi-pro, and I live for the competition. Basketball is how I switch off after a long day of studying, and I've even done some modeling, which introduced me to great people and a different take on creativity. I think the same thing drives all of it: the thrill of pushing myself and getting better.
 
-If any of this resonates with you—whether it’s **AI, problem-solving, football, or just the thrill of taking on challenges**—feel free to reach out. I’m always up for an interesting discussion, a new project, or just exchanging ideas. 
-
-
+If any of this resonates, mech interp, AI, hard problems, or just the drive to take on something difficult, reach out. I'm always up for a good conversation, a new project, or trading ideas.
 <!-- 
 ### Hello, my name is Ilyass Ouardi.
 
