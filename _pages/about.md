@@ -18,7 +18,9 @@ For me research isn't just an aspiration I talk about, but something I'm already
 Outside research, my other great passion is football, I've played since I was a kid, from the streets to semi-pro, and I live for the competition. Basketball is how I switch off after a long day of studying, and I've even done some modeling, which introduced me to great people and a different take on creativity. I think the same thing drives all of it: the thrill of pushing myself and getting better.
 
 If any of this resonates, mech interp, AI, hard problems, or just the drive to take on something difficult, reach out. I'm always up for a good conversation, a new project, or trading ideas.
-<!-- 
+
+
+<!-- ---
 ### Hello, my name is Ilyass Ouardi.
 
 I’m a Computer Science student at the University of Milan, driven by a passion for blending technology, math, and a touch of social good. My journey into the world of problem-solving began with high school coding and math competitions, and that spark has only grown since. From developing tools to assist non-profits to diving into the depths of machine learning, I’m always on the lookout for ways to push the boundaries of what tech can do.
