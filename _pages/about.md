@@ -10,12 +10,12 @@ permalink: "/"
 ### **Hey, I’m Ilyass Ouardi!**  
 
 <div class="phd-callout">
-  <h4>Looking for PhD Positions & Fellowships (2026–2027)</h4>
+  <h4>Prospective Collaborations & Inquiries</h4>
   <p>
-    I am actively exploring <strong>PhD positions, pre-doctoral fellowships, and lab collaborations</strong> in <strong>mechanistic interpretability</strong> and <strong>representation geometry</strong> starting in 2026/2027.
+    I am actively seeking <strong>PhD positions, pre-doctoral fellowships, and lab collaborations</strong> starting in 2026/2027. If your research group works on mechanistic interpretability, representation geometry, or verifiable AI safety, I welcome the opportunity to discuss shared research directions.
   </p>
   <p>
-    If you are a PI, researcher, or lab working on these problems, I would love to connect: <a href="mailto:ilyassouardi@gmail.com">ilyassouardi@gmail.com</a>.
+    <strong>Contact:</strong> <a href="mailto:ilyassouardi@gmail.com">ilyassouardi@gmail.com</a> &bull; <a href="https://github.com/OUARDI-ILYASS">GitHub</a> &bull; <a href="https://www.linkedin.com/in/ilyass-ouardi/">LinkedIn</a> &bull; <a href="/cv">View Curriculum Vitae</a>
   </p>
 </div>
 
@@ -28,16 +28,6 @@ For me research isn't just an aspiration I talk about, but something I'm already
 Outside research, my other great passion is football, I've played since I was a kid, from the streets to semi-pro, and I live for the competition. Basketball is how I switch off after a long day of studying, and I've even done some modeling, which introduced me to great people and a different take on creativity. I think the same thing drives all of it: the thrill of pushing myself and getting better.
 
 If any of this resonates, mech interp, AI, hard problems, or just the drive to take on something difficult, reach out. I'm always up for a good conversation, a new project, or trading ideas.
-
----
-
-### **Research Highlights & Projects**
-Check out my latest research projects, manuscripts, and code on the [**Research**](/research) page:
-- **[The Multidimensional Geometry of Truth in LLMs](https://github.com/OUARDI-ILYASS/truth_cones):** Concept-cone extension of the Linear Representation Hypothesis (TDO/TCO).
-- **[What Does a Heart Sound Classifier Actually Learn?](https://github.com/OUARDI-ILYASS/apr-heart-sounds):** Diagnostic audit and shortcut learning refutation on PhysioNet CinC 2016.
-- **[The Legend Challenge](https://github.com/OUARDI-ILYASS/SOASEC-project):** Embedding ethical compliance into LLMs via champion narratives (GenderEqGLUE benchmark).
-
-
 
 ---
 

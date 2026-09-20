@@ -25,31 +25,47 @@ The two are connected, since an intervention built on the wrong picture of the g
 ## Education
 
 **M.Sc. in Computer Science** (Laurea Magistrale in Informatica, LM-18)  
-_University of Milan, Italy_  
-`Sep 2024 – Present`
-
+_University of Milan, Italy_ &bull; `Sep 2024 – Present`  
 - **Thesis:** _The Geometry of Absence, Opposite, and the Activation Manifold in Representation-Level Interventions on LLMs_
 - **Advisors:** Prof. Alfio Ferrara & Elisabetta Rocchetti (University of Milan)
 - **Focus:** Investigating representation-level interventions (linear concept erasure, steering) and studying how models encode the absence of a concept versus its opposite on the activation manifold.
-- **Expected defense:** Summer 2027 (July 2027)
-- **Weighted average:** **29.13/30** (3.88/4.00)
-- **Selected coursework:** Natural Language Processing (30 _cum laude_), Distributed and Pervasive Systems (30 _cum laude_), Security of Service-Oriented Architectures (30 _cum laude_), Advanced Biometrics (30), Audio Pattern Recognition (30), Privacy and Data Protection (29)
+- **Expected defense:** Summer 2027 (July 2027) &bull; **Weighted Average:** **29.13/30** (3.88/4.00)
+
+<details class="coursework-accordion" open>
+  <summary>M.Sc. Advanced Coursework Highlights</summary>
+  <div class="coursework-grid">
+    <div class="course-card"><span class="course-title">Natural Language Processing</span> <span class="grade-badge grade-laude">30L</span></div>
+    <div class="course-card"><span class="course-title">Distributed & Pervasive Systems</span> <span class="grade-badge grade-laude">30L</span></div>
+    <div class="course-card"><span class="course-title">Security of SOA Architectures</span> <span class="grade-badge grade-laude">30L</span></div>
+    <div class="course-card"><span class="course-title">Advanced Biometrics</span> <span class="grade-badge grade-top">30</span></div>
+    <div class="course-card"><span class="course-title">Audio Pattern Recognition</span> <span class="grade-badge grade-top">30</span></div>
+    <div class="course-card"><span class="course-title">Privacy and Data Protection</span> <span class="grade-badge grade-top">29</span></div>
+  </div>
+</details>
 
 **B.Sc. in Computer Science** (Laurea in Informatica, L-31)  
-_University of Milan, Italy_  
-`Sep 2020 – Oct 2024`
-
-- **Final grade:** **110/110 _cum laude_**; **weighted average:** **28.55/30** (3.81/4.00)
+_University of Milan, Italy_ &bull; `Sep 2020 – Oct 2024`  
+- **Final grade:** **110/110 _cum laude_** &bull; **Weighted Average:** **28.55/30** (3.81/4.00)
 - **Thesis:** _Design and development of a donation-tracking system for RECUP APS_ (_Sviluppo di uno strumento di supporto all'associazione Recup_)
 - **Advisor:** Prof. Carlo Maria Bellettini
-- **Mathematical and theoretical foundations:** Discrete Mathematics (30 _cum laude_), Mathematical Logic (30 _cum laude_), Automata and Formal Languages (30 _cum laude_), Programming Languages (30 _cum laude_), Artificial Intelligence I (30 _cum laude_), Calculus (30), Statistics and Data Analysis (30), Algorithms and Data Structures (30)
+
+<details class="coursework-accordion" open>
+  <summary>B.Sc. Mathematical & Theoretical Foundations</summary>
+  <div class="coursework-grid">
+    <div class="course-card"><span class="course-title">Discrete Mathematics</span> <span class="grade-badge grade-laude">30L</span></div>
+    <div class="course-card"><span class="course-title">Mathematical Logic</span> <span class="grade-badge grade-laude">30L</span></div>
+    <div class="course-card"><span class="course-title">Automata & Formal Languages</span> <span class="grade-badge grade-laude">30L</span></div>
+    <div class="course-card"><span class="course-title">Programming Languages</span> <span class="grade-badge grade-laude">30L</span></div>
+    <div class="course-card"><span class="course-title">Artificial Intelligence I</span> <span class="grade-badge grade-laude">30L</span></div>
+    <div class="course-card"><span class="course-title">Calculus</span> <span class="grade-badge grade-top">30</span></div>
+    <div class="course-card"><span class="course-title">Statistics & Data Analysis</span> <span class="grade-badge grade-top">30</span></div>
+    <div class="course-card"><span class="course-title">Algorithms & Data Structures</span> <span class="grade-badge grade-top">30</span></div>
+  </div>
+</details>
 
 **Diploma, Computer Science (Perito Informatico)**  
-_ITT "G. e M. Montani", Fermo, Italy_  
-`Sep 2015 – Jul 2020`
-
-- **Final grade:** **100/100 _cum laude_**
-- Focus on Programming and Computer Networks
+_ITT "G. e M. Montani", Fermo, Italy_ &bull; `Sep 2015 – Jul 2020`  
+- **Final grade:** **100/100 _cum laude_** (Focus on Programming and Computer Networks)
 
 ## Research Experience
 

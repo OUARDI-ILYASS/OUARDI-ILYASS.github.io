@@ -3,12 +3,14 @@ links:
     url: /
   - title: Research
     url: /research
+#  - title: Statement
+#    url: /statement
+  - title: Reading List
+    url: /reading-list
   - title: Articles
     url: /articles
   - title: Notes
     url: /notes
-  - title: Books
-    url: /books
   - title: Islam
     url: /islam
   - title: Curriculum Vitae

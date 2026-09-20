@@ -2,18 +2,17 @@
 layout: null
 ---
 [
-  {% assign everything = site.posts | concat: site.notes %}
-
+  {% assign everything = site.pages | concat: site.posts | concat: site.notes %}
   {% for post in everything %}
+    {% if post.title and post.title != "" and post.url != "/search" and post.url != "/feed.json" and post.url != "/search.json" and post.url != "/robots.txt" and post.url != "/sitemap.xml" %}
     {
-
-      "title"    : "{{ post.title | strip_html | escape }}",
-      "description" : "{{ post.description | escape }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "category" : "{{post.categories | join: ', '}}",
-      "tags"     : "{{ post.tags | join: ', ' }}",
-      "date"     : "{{ post.date }}"
-
-    } {% unless forloop.last %},{% endunless %}
+      "title"       : {{ post.title | strip_html | jsonify }},
+      "description" : {{ post.description | default: post.excerpt | strip_html | strip_newlines | truncate: 140 | jsonify }},
+      "url"         : "{{ site.baseurl }}{{ post.url }}",
+      "category"    : "{% if post.content_type %}{{ post.content_type }}{% elsif post.layout %}{{ post.layout }}{% else %}page{% endif %}",
+      "tags"        : {{ post.tags | join: ', ' | jsonify }},
+      "date"        : "{{ post.date | date: '%Y-%m-%d' }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endif %}
   {% endfor %}
 ]

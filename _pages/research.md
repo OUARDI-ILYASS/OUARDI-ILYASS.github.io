@@ -7,12 +7,12 @@ mathjax: true
 ---
 
 <div class="phd-callout">
-  <h4>Looking for PhD Positions & Fellowships (2026–2027)</h4>
+  <h4>Prospective Collaborations & Inquiries</h4>
   <p>
-    I am actively exploring PhD positions, <strong>pre-doctoral fellowships</strong>, and <strong>lab collaborations</strong> in <strong>mechanistic interpretability</strong>, <strong>representation geometry</strong> and <strong>AI safety</strong> starting in 2026/2027.
+    I am actively seeking <strong>PhD positions, pre-doctoral fellowships, and lab collaborations</strong> starting in 2026/2027. If your research group works on mechanistic interpretability, representation geometry, or verifiable AI safety, I welcome the opportunity to discuss shared research directions.
   </p>
   <p>
-    If you are a PI, researcher, or lab interested in collaborating, please reach out at <a href="mailto:ilyassouardi@gmail.com">ilyassouardi@gmail.com</a>.
+    <strong>Contact:</strong> <a href="mailto:ilyassouardi@gmail.com">ilyassouardi@gmail.com</a> &bull; <a href="https://github.com/OUARDI-ILYASS">GitHub</a> &bull; <a href="https://www.linkedin.com/in/ilyass-ouardi/">LinkedIn</a> &bull; <a href="/cv">View Curriculum Vitae</a>
   </p>
 </div>
 
