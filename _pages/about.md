@@ -9,6 +9,16 @@ permalink: "/"
 
 ### **Hey, I’m Ilyass Ouardi!**  
 
+<div class="phd-callout">
+  <h4>Looking for PhD Positions & Fellowships (2026–2027)</h4>
+  <p>
+    I am actively exploring <strong>PhD positions, pre-doctoral fellowships, and lab collaborations</strong> in <strong>mechanistic interpretability</strong> and <strong>representation geometry</strong> starting in 2026/2027.
+  </p>
+  <p>
+    If you are a PI, researcher, or lab working on these problems, I would love to connect: <a href="mailto:ilyassouardi@gmail.com">ilyassouardi@gmail.com</a>.
+  </p>
+</div>
+
 I've always been drawn to challenges. As a kid, math was my favorite subject, not despite being hard, but because of it. Where others saw something to avoid, I saw a puzzle waiting to be solved. I'd watch movies about geniuses cracking impossible problems and then go look up unsolved math questions, half-dreaming I'd solve one myself. Naive, sure, but that instinct, to chase the hardest open question in the room, is exactly what pulls me toward research today.
 
 Computer science became the natural playground for that curiosity, and over the last year it has sharpened into a clear direction: I want to understand what actually happens inside large language models. We've built systems that do extraordinary things while barely understanding how they work, and I've decided to spend my energy on closing that gap — the field of mechanistic interpretability, and the broader question of what makes these models reliable, transparent, and safe. What I love is that this sits right where computer science turns razor-thin against math: elegant, formal problems whose solutions read almost like mathematical poetry.
@@ -26,6 +36,8 @@ Check out my latest research projects, manuscripts, and code on the [**Research*
 - **[The Multidimensional Geometry of Truth in LLMs](https://github.com/OUARDI-ILYASS/truth_cones):** Concept-cone extension of the Linear Representation Hypothesis (TDO/TCO).
 - **[What Does a Heart Sound Classifier Actually Learn?](https://github.com/OUARDI-ILYASS/apr-heart-sounds):** Diagnostic audit and shortcut learning refutation on PhysioNet CinC 2016.
 - **[The Legend Challenge](https://github.com/OUARDI-ILYASS/SOASEC-project):** Embedding ethical compliance into LLMs via champion narratives (GenderEqGLUE benchmark).
+
+
 
 ---
 

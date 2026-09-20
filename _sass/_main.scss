@@ -476,6 +476,45 @@ figcaption {
   }
 }
 
+// PhD Intent & Collaboration Callout
+.phd-callout {
+  background: #f0f7ff;
+  border: 1px solid #bfdbfe;
+  border-left: 4px solid #2563eb;
+  border-radius: 6px;
+  padding: 1.25rem 1.4rem;
+  margin: 2rem 0;
+
+  h3, h4 {
+    margin-top: 0;
+    margin-bottom: 0.45rem;
+    color: #1e3a8a;
+    font-size: 1.15rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0.4rem 0;
+    color: #1e293b;
+    font-size: 0.95rem;
+    line-height: 1.55;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    color: #1d4ed8;
+    font-weight: 500;
+    text-decoration: underline;
+
+    &:hover {
+      color: #1e40af;
+    }
+  }
+}
+
 // Rouge syntax highlighting
 .highlight {
   background: #f8fafc;

@@ -6,6 +6,16 @@ permalink: "/research"
 mathjax: true
 ---
 
+<div class="phd-callout">
+  <h4>Looking for PhD Positions & Fellowships (2026–2027)</h4>
+  <p>
+    I am actively exploring PhD positions, <strong>pre-doctoral fellowships</strong>, and <strong>lab collaborations</strong> in <strong>mechanistic interpretability</strong>, <strong>representation geometry</strong> and <strong>AI safety</strong> starting in 2026/2027.
+  </p>
+  <p>
+    If you are a PI, researcher, or lab interested in collaborating, please reach out at <a href="mailto:ilyassouardi@gmail.com">ilyassouardi@gmail.com</a>.
+  </p>
+</div>
+
 <div class="research-intro">
   <p>
     I am interested in <strong>AI safety</strong> and <strong>mechanistic interpretability</strong>. To me, interpretability is not an academic exercise for its own sake, but a pragmatic tool to make model safety measurable and verifiable on the path toward safe AGI. Right now I am particularly focused on the <strong>geometry of representations</strong>: how abstract concepts — like refusal and truth — are encoded within a model's activation space.
@@ -18,6 +28,8 @@ Two questions follow from this:
 The two are connected, since an intervention built on the wrong picture of the geometry is precisely one whose side-effects go unmeasured.
   </p>
 </div>
+
+
 
 
 
