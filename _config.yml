@@ -1,23 +1,29 @@
 site: Ilyass Ouardi
 title: Ilyass Ouardi
-description: A blog
+description: "Research in Mechanistic Interpretability, Representation Geometry, and AI Safety"
+url: "https://ouardi-ilyass.github.io"
+baseurl: ""
+
 twitter:
-  username: #yourusername
+  username: ouardi_ilyass
   card: summary
-  creator: #yourusername
+  creator: ouardi_ilyass
+
 author:
   name: "Ilyass Ouardi"
   avatar: "profile1.png"
-  bio: "Computer Science M.S. student at Università degli Studi di Milano. Interested in mechanistic interpretability, safety and alignment of LLM, theoretical computer science, mathematics"
+  bio: "M.Sc. Computer Science Student at University of Milan. Researching mechanistic interpretability, representation geometry, and verifiable AI safety."
   permalink: pretty
   email: "ilyassouardi@gmail.com"
   github: "OUARDI-ILYASS"
-  instagram: "_ilyassouardi_"
-  twitter: "@ouardi_ilyass"
+  linkedin: "ilyass-ouardi"
+  twitter: "ouardi_ilyass"
 
-# url: https://kurt-rhee.github.io
-
-highlighter: none
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 exclude:
   - .jekyll-cache

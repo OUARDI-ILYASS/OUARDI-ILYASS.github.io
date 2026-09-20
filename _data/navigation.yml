@@ -1,16 +1,16 @@
 links:
   - title: About
     url: /
+  - title: Research
+    url: /research
   - title: Articles
     url: /articles
   - title: Notes
     url: /notes
-  # - title: Timeline
-  #   url: /timeline
-  - title: Islam
-    url: /islam
   - title: Books
     url: /books
+  - title: Islam
+    url: /islam
   - title: Curriculum Vitae
     url: /cv
   - title: Search

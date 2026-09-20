@@ -19,15 +19,22 @@ Outside research, my other great passion is football, I've played since I was a 
 
 If any of this resonates, mech interp, AI, hard problems, or just the drive to take on something difficult, reach out. I'm always up for a good conversation, a new project, or trading ideas.
 
+---
 
+### **Research Highlights & Projects**
+Check out my latest research projects, manuscripts, and code on the [**Research**](/research) page:
+- **[The Multidimensional Geometry of Truth in LLMs](https://github.com/OUARDI-ILYASS/truth_cones):** Concept-cone extension of the Linear Representation Hypothesis (TDO/TCO).
+- **[What Does a Heart Sound Classifier Actually Learn?](https://github.com/OUARDI-ILYASS/apr-heart-sounds):** Diagnostic audit and shortcut learning refutation on PhysioNet CinC 2016.
+- **[The Legend Challenge](https://github.com/OUARDI-ILYASS/SOASEC-project):** Embedding ethical compliance into LLMs via champion narratives (GenderEqGLUE benchmark).
 
-<!-- ---
+---
 
-#### My Links
-- [Linkedin](https://www.linkedin.com/in/simonkurtisrhee/)
-- [ORCID](https://orcid.org/0000-0003-4604-9531?lang=en)
-- [Github](https://github.com/kurt-rhee)
-- Email:  \<first-name\>\<last-name\>@gmail\<dot\>com -->
+### **Connect**
+- **Email:** [ilyassouardi@gmail.com](mailto:ilyassouardi@gmail.com)
+- **GitHub:** [github.com/OUARDI-ILYASS](https://github.com/OUARDI-ILYASS)
+- **LinkedIn:** [linkedin.com/in/ilyass-ouardi](https://www.linkedin.com/in/ilyass-ouardi/)
+- **X / Twitter:** [@ouardi_ilyass](https://x.com/ouardi_ilyass)
+- **Curriculum Vitae:** [View CV](/cv)
 
 
 

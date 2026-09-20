@@ -5,6 +5,13 @@ author_profile: true
 permalink: "/cv"
 ---
 
+<p style="margin-bottom: 1.5rem;">
+  <a href="{{ site.baseurl }}/assets/cv-ilyass-ouardi.pdf" target="_blank" style="display: inline-flex; align-items: center; gap: 0.45rem; padding: 0.45rem 0.9rem; background: #2b6cb0; color: #ffffff; text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 0.95rem;">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+    Download Academic CV (PDF)
+  </a>
+</p>
+
 ## Research Interests
 
 I am interested in **AI safety** and **mechanistic interpretability**. To me, interpretability is not an academic exercise for its own sake, but a pragmatic tool to make model safety measurable and verifiable on the path toward safe AGI. Right now I am particularly focused on the **geometry of representations**: how abstract concepts — like refusal and truth — are encoded within a model's activation space.

@@ -7,7 +7,7 @@ layout: default
   "@context": "https://schema.org",
   "@type": "WebPage",
   "headline": "{{ page.title | escape }}",
-  "description": "{{ page.excerpt | strip_html | truncate: 160 }}",
+  "description": "{{ page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ page.url | absolute_url }}"
@@ -16,7 +16,7 @@ layout: default
 </script>
 
 {% include navigation.html %}
-<section class="post">
+<section class="post {% if page.url == '/' or page.title == 'About Me' %}about-post{% endif %}">
   <h2>{{ page.title }}</h2>
   {{ content }}
 </section>

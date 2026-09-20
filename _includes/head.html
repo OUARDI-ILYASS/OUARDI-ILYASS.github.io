@@ -1,50 +1,124 @@
 <head>
   <meta charset="UTF-8">
-  
-  {% seo title=false %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% assign meta_title = page.seo_title | default: page.title | default: site.title %}
+  {% if page.description and page.description != "" %}
+    {% assign meta_desc = page.description %}
+  {% elsif page.excerpt and page.excerpt != "" %}
+    {% assign stripped_excerpt = page.excerpt | strip_html | strip_newlines | strip %}
+    {% if stripped_excerpt != "" %}
+      {% assign meta_desc = stripped_excerpt %}
+    {% else %}
+      {% assign meta_desc = site.description %}
+    {% endif %}
+  {% else %}
+    {% assign meta_desc = site.description %}
+  {% endif %}
+  {% assign meta_description = meta_desc | strip_html | strip_newlines | truncate: 160 %}
+  {% assign canonical_url = page.url | absolute_url %}
+
+  <title>
+    {% if page.seo_title %}
+      {{ page.seo_title | escape }}
+    {% elsif page.url == '/' or page.url == '' %}
+      {{ site.title | escape }} &ndash; Mechanistic Interpretability & AI Safety
+    {% elsif page.title %}
+      {{ page.title | escape }} &ndash; {{ site.title | escape }}
+    {% else %}
+      {{ site.title | escape }} &ndash; {{ site.description | escape }}
+    {% endif %}
+  </title>
+
+  <meta name="description" content="{{ meta_description | escape }}">
+  <meta name="author" content="{{ site.author.name | default: 'Ilyass Ouardi' }}">
+  <meta name="keywords" content="{{ site.keywords | default: 'Ilyass Ouardi, Ouardi Ilyass, Ouardi, mechanistic interpretability, representation geometry, AI safety, concept cones, UNIMI, University of Milan' }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+
+  {% if site.google_site_verification and site.google_site_verification != '' %}
+  <meta name="google-site-verification" content="{{ site.google_site_verification }}">
+  {% endif %}
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="{{ page.title | escape }}">
-  <meta property="og:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+  <meta property="og:title" content="{{ meta_title | escape }}">
+  <meta property="og:description" content="{{ meta_description | escape }}">
+  <meta property="og:url" content="{{ canonical_url }}">
   <meta property="og:site_name" content="{{ site.title | escape }}">
   {% if page.image %}
   <meta property="og:image" content="{{ page.image | absolute_url }}">
   {% else %}
-  <meta property="og:image" content="{{ '/assets/images/profile1.png' | absolute_url }}">
+  <meta property="og:image" content="{{ '/profile1.png' | absolute_url }}">
   {% endif %}
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title | escape }}">
-  <meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 160 }}">
+  <meta name="twitter:site" content="@{{ site.twitter.username }}">
+  <meta name="twitter:creator" content="@{{ site.twitter.creator }}">
+  <meta name="twitter:title" content="{{ meta_title | escape }}">
+  <meta name="twitter:description" content="{{ meta_description | escape }}">
   {% if page.image %}
   <meta name="twitter:image" content="{{ page.image | absolute_url }}">
   {% else %}
-  <meta name="twitter:image" content="{{ '/assets/images/profile1.png' | absolute_url }}">
+  <meta name="twitter:image" content="{{ '/profile1.png' | absolute_url }}">
   {% endif %}
 
-  <title>
-      {% if page.tag or page.title %}
-        {% if page.tag %}
-          {{ page.tag | escape }}
-        {% else %}
-          {{ page.title | escape }}
-        {% endif %}
-        -
-      {% endif %}
-      {% if paginator and paginator.page and paginator.total_pages > 1 and paginator.page > 1 %}
-        Page {{ paginator.page }} of {{ paginator.total_pages }} -
-      {% endif %}
-      {{ site.title | escape }}
-      {% unless page.tag or page.title %}
-        - {{ site.description | escape }}
-      {% endunless %}
-    </title>
-    {% if page.mathjax %}
+  <!-- Schema.org JSON-LD Structured Data for Google Knowledge Graph -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "{{ site.url }}/#person",
+        "name": "Ilyass Ouardi",
+        "alternateName": ["Ouardi Ilyass", "Ilyass Ouardi UNIMI", "Ilyass Ouardi Milan"],
+        "url": "{{ site.url }}",
+        "image": "{{ '/profile1.png' | absolute_url }}",
+        "jobTitle": "Graduate Researcher",
+        "worksFor": {
+          "@type": "EducationalOrganization",
+          "name": "University of Milan",
+          "alternateName": "Università degli Studi di Milano",
+          "url": "https://www.unimi.it"
+        },
+        "alumniOf": {
+          "@type": "EducationalOrganization",
+          "name": "University of Milan",
+          "url": "https://www.unimi.it"
+        },
+        "sameAs": [
+          "https://github.com/OUARDI-ILYASS",
+          "https://www.linkedin.com/in/ilyass-ouardi/",
+          "https://x.com/ouardi_ilyass"
+        ],
+        "knowsAbout": [
+          "Mechanistic Interpretability",
+          "Representation Geometry",
+          "Concept Cones",
+          "AI Safety",
+          "Large Language Models",
+          "Deep Learning",
+          "Computer Science"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}",
+        "name": "{{ site.title | escape }}",
+        "description": "{{ site.description | escape }}",
+        "publisher": {
+          "@id": "{{ site.url }}/#person"
+        }
+      }
+    ]
+  }
+  </script>
+
+  {% if page.mathjax %}
   {% include mathjax.html %}
-{% endif %}
+  {% endif %}
   
   <link rel="shortcut icon" href="{{ site.baseurl }}/profile1.png">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
