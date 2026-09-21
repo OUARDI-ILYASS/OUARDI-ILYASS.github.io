@@ -1,6 +1,6 @@
 ---
 title: "Why Truth in Large Language Models Lives in a Cone, Not a Line"
-date: 2026-09-20
+date: 2026-09-30
 toc: true
 permalink: /posts/2026/09/truth-lives-in-a-cone/
 tags: [Mechanistic Interpretability, Representation Geometry, LLMs, AI Safety, nnsight]
