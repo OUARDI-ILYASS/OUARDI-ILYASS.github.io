@@ -47,43 +47,43 @@ _University of Milan, Italy_ &bull; `Sep 2024 – Present`
         <td><strong>Natural Language Processing</strong></td>
         <td class="col-center"><span class="grade-badge grade-laude">30 e lode</span></td>
         <td class="col-date">27/11/2025</td>
-        <td>Mechanistic Interpretability, LLMs & Truth Cones</td>
+        <td>LLMs & Deep Learning for NLP, Syntactic & Semantic Analysis, Transfer Learning, Text Classification & Generation (PyTorch)</td>
       </tr>
       <tr>
         <td><strong>Distributed and Pervasive Systems</strong></td>
         <td class="col-center"><span class="grade-badge grade-laude">30 e lode</span></td>
         <td class="col-date">10/06/2026</td>
-        <td>Distributed Consensus & Large-Scale Systems</td>
+        <td>Distribution Transparency, Consistency & Replication, Distributed Consensus, P2P/Cloud/Edge Architectures, Context-Awareness & Sensor Streams</td>
       </tr>
       <tr>
         <td><strong>Security of Service-Oriented Architectures</strong></td>
         <td class="col-center"><span class="grade-badge grade-laude">30 e lode</span></td>
         <td class="col-date">26/02/2026</td>
-        <td>Systems & Protocol Security, Applied Cryptography</td>
+        <td>Confidentiality & Integrity in Semi-Structured Data, Web Services Identity & Access Control, Authorization Languages, Security Assurance & Certification</td>
       </tr>
       <tr>
         <td><strong>Audio Pattern Recognition</strong></td>
         <td class="col-center"><span class="grade-badge grade-top">30</span></td>
         <td class="col-date">02/07/2026</td>
-        <td>Representation Learning, ML Auditing & Shortcuts</td>
+        <td>Audio Signal Processing & Feature Extraction, Statistical Modeling, Hidden Markov Models, Neural Networks, Clustering & Classification Pipelines</td>
       </tr>
       <tr>
         <td><strong>Advanced Biometrics (Complementi di Biometria)</strong></td>
         <td class="col-center"><span class="grade-badge grade-top">30</span></td>
         <td class="col-date">15/01/2026</td>
-        <td>Statistical Pattern Recognition & Feature Spaces</td>
+        <td>Biometric Systems Design & Evaluation, Behavioral Biometrics, Continuous Authentication, Mobile Biometrics, Template Protection & User Privacy</td>
       </tr>
       <tr>
         <td><strong>Privacy and Data Protection</strong></td>
         <td class="col-center"><span class="grade-badge grade-high">29</span></td>
         <td class="col-date">04/02/2025</td>
-        <td>AI Governance & Regulatory Compliance</td>
+        <td>Authentication & Access Control, Privacy-Preserving Data Publishing, Microdata/Macrodata Protection, Cloud Security, Third-Party Processing Risks</td>
       </tr>
       <tr>
         <td><strong>Methods for Image Processing</strong></td>
         <td class="col-center"><span class="grade-badge grade-high">28</span></td>
         <td class="col-date">21/02/2025</td>
-        <td>Computer Vision & Spatial Transformations</td>
+        <td>Spatial & Frequency Domain Filtering, Intensity Transformations & Histograms, Morphological Processing, Segmentation & Edge Detection, Image Compression</td>
       </tr>
     </tbody>
   </table>
@@ -103,7 +103,7 @@ _University of Milan, Italy_ &bull; `Sep 2020 – Oct 2024`
         <th>Subject / Examination</th>
         <th class="col-center">Grade</th>
         <th class="col-date">Date</th>
-        <th>Area</th>
+        <th>Area & Topics</th>
       </tr>
     </thead>
     <tbody>
@@ -111,73 +111,73 @@ _University of Milan, Italy_ &bull; `Sep 2020 – Oct 2024`
         <td><strong>Mathematical Logic (Logica Matematica)</strong></td>
         <td class="col-center"><span class="grade-badge grade-laude">30 e lode</span></td>
         <td class="col-date">22/09/2023</td>
-        <td>Formal Logic, Model Theory & Completeness</td>
+        <td>Propositional & First-Order Predicate Logic, Formal Proof Systems, Soundness & Completeness, Model Theory & Countermodels</td>
       </tr>
       <tr>
         <td><strong>Discrete Mathematics (Matematica Discreta)</strong></td>
         <td class="col-center"><span class="grade-badge grade-laude">30 e lode</span></td>
         <td class="col-date">21/06/2022</td>
-        <td>Combinatorics, Graph Theory & Algebra</td>
+        <td>Set Theory & Relations, Combinatorics, Modular Arithmetic, Algebraic Structures (Groups, Rings), Linear Algebra & Graph Theory</td>
       </tr>
       <tr>
         <td><strong>Automata and Formal Languages (Automi e Linguaggi Formali)</strong></td>
         <td class="col-center"><span class="grade-badge grade-laude">30 e lode</span></td>
         <td class="col-date">26/01/2022</td>
-        <td>Chomsky Hierarchy, Computability & Complexity</td>
+        <td>Chomsky Hierarchy, Regular Languages, DFAs/NFAs, Kleene's Theorem, State Minimization, Context-Free Grammars & Pushdown Automata</td>
       </tr>
       <tr>
         <td><strong>Programming Languages (Linguaggi di Programmazione)</strong></td>
         <td class="col-center"><span class="grade-badge grade-laude">30 e lode</span></td>
         <td class="col-date">19/02/2024</td>
-        <td>Formal Semantics, Type Systems & Lambda Calculus</td>
+        <td>Programming Paradigms (Functional, Concurrent, OOP, Declarative), Operational Semantics, Type Systems & Memory Models</td>
       </tr>
       <tr>
         <td><strong>Artificial Intelligence I (Intelligenza Artificiale I)</strong></td>
         <td class="col-center"><span class="grade-badge grade-laude">30 e lode</span></td>
         <td class="col-date">23/01/2024</td>
-        <td>Search Algorithms, Logic Agents & Heuristics</td>
+        <td>Problem Solving & Heuristic Search (A*, Minimax), Constraint Satisfaction (CSP), Knowledge Representation & Automated Reasoning, Planning & ML Basics</td>
       </tr>
       <tr>
         <td><strong>Computer Programming (Programmazione I)</strong></td>
         <td class="col-center"><span class="grade-badge grade-laude">30 e lode</span></td>
         <td class="col-date">25/01/2021</td>
-        <td>Core Programming & Memory Models</td>
+        <td>Imperative Structured Programming, Elementary Algorithms, Data Types & Scope, Control Flow, Functions, Memory Layout & Debugging</td>
       </tr>
       <tr>
         <td><strong>Computer Architecture (Architettura degli Elaboratori I)</strong></td>
         <td class="col-center"><span class="grade-badge grade-laude">30 e lode</span></td>
         <td class="col-date">28/01/2021</td>
-        <td>Processor Architecture & Microarchitecture</td>
+        <td>Digital Logic & Boolean Algebra, Combinational/Sequential Circuits, ALU Design, MIPS Instruction Set Architecture, Datapath & Memory Hierarchy</td>
       </tr>
       <tr>
         <td><strong>Databases (Basi di Dati)</strong></td>
         <td class="col-center"><span class="grade-badge grade-laude">30 e lode</span></td>
         <td class="col-date">26/06/2023</td>
-        <td>Relational Algebra, SQL & Storage Engines</td>
+        <td>Relational Data Model & Relational Algebra, SQL (DDL/DML), Conceptual & Logical E-R Design, DBMS Architecture, Transaction Management (ACID)</td>
       </tr>
       <tr>
         <td><strong>Algorithms and Data Structures (Algoritmi e Strutture Dati)</strong></td>
         <td class="col-center"><span class="grade-badge grade-top">30</span></td>
         <td class="col-date">10/03/2022</td>
-        <td>Asymptotic Analysis & Advanced Algorithms</td>
+        <td>Asymptotic Complexity (O, Ω, Θ), Sorting & Searching, Fundamental Data Structures (Trees, Heaps, Hash Tables), Graph Algorithms & Dynamic Programming</td>
       </tr>
       <tr>
         <td><strong>Continuo Mathematics / Calculus (Matematica del Continuo)</strong></td>
         <td class="col-center"><span class="grade-badge grade-top">30</span></td>
         <td class="col-date">15/06/2022</td>
-        <td>Real Analysis, Multivariate Calculus & Series</td>
+        <td>Differential & Integral Calculus (Limits, Derivatives, Taylor Expansions, Riemann Integrals), Sequences & Series, Multivariable Functions</td>
       </tr>
       <tr>
         <td><strong>Statistics and Data Analysis (Statistica e Analisi Dati)</strong></td>
         <td class="col-center"><span class="grade-badge grade-top">30</span></td>
         <td class="col-date">04/10/2022</td>
-        <td>Probability, Statistical Inference & Modeling</td>
+        <td>Descriptive Statistics, Probability Distributions, Parametric Statistical Inference (Hypothesis Testing, Confidence Intervals), Exploratory Data Analysis (Python)</td>
       </tr>
       <tr>
         <td><strong>Software Engineering (Ingegneria del Software)</strong></td>
         <td class="col-center"><span class="grade-badge grade-high">29</span></td>
         <td class="col-date">24/07/2023</td>
-        <td>Software Architecture, Design Patterns & Testing</td>
+        <td>Software Lifecycle (Agile, Scrum), Requirements Engineering, UML Modeling, Architectural & Design Patterns (GoF), Unit/Integration Testing & QA</td>
       </tr>
     </tbody>
   </table>
