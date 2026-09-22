@@ -31,7 +31,7 @@ _University of Milan, Italy_ &bull; `Sep 2024 – Present`
 - **Focus:** Investigating representation-level interventions (linear concept erasure, steering) and studying how models encode the absence of a concept versus its opposite on the activation manifold.
 - **Expected defense:** Summer 2027 (July 2027) &bull; **Weighted Average:** **29.13/30** (3.88/4.00)
 
-<details class="coursework-accordion" open>
+<details class="coursework-accordion">
   <summary>M.Sc. Advanced Coursework & Examinations (Weighted Avg: 29.13/30 &bull; GPA: 3.88/4.00)</summary>
   <table class="transcript-table">
     <thead>
@@ -95,7 +95,7 @@ _University of Milan, Italy_ &bull; `Sep 2020 – Oct 2024`
 - **Thesis:** _Design and development of a donation-tracking system for RECUP APS_ (_Sviluppo di uno strumento di supporto all'associazione Recup_)
 - **Advisor:** Prof. Carlo Maria Bellettini
 
-<details class="coursework-accordion" open>
+<details class="coursework-accordion">
   <summary>B.Sc. Mathematical & Theoretical Foundations (Graduated 110/110 cum laude)</summary>
   <table class="transcript-table">
     <thead>

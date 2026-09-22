@@ -528,15 +528,19 @@ figcaption {
     font-weight: 600;
     cursor: pointer;
     background: #f8fafc;
-    border-bottom: 1px solid #e2e8f0;
     user-select: none;
     outline: none;
     font-size: 0.95rem;
     color: #1e293b;
+    transition: background-color 0.15s ease;
 
     &:hover {
       background: #f1f5f9;
     }
+  }
+
+  &[open] > summary {
+    border-bottom: 1px solid #e2e8f0;
   }
 
   .coursework-grid {
