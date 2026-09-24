@@ -646,6 +646,76 @@ figcaption {
   }
 }
 
+// Book List / Reading Log (Hanging Indent & Aligned Date Column)
+.book-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+
+  li, .book-item {
+    display: flex;
+    align-items: baseline;
+    gap: 1.15rem;
+    margin-bottom: 0.95rem;
+    line-height: 1.55;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .book-badge, code:first-child {
+    flex-shrink: 0;
+    display: inline-block;
+    width: 5.2rem;
+    text-align: center;
+    padding: 0.18rem 0.45rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    background: #f1f5f9;
+    color: #475569;
+    border: 1px solid #cbd5e1;
+    box-sizing: border-box;
+    letter-spacing: 0.02em;
+
+    &.reading {
+      background: #eff6ff;
+      color: #1d4ed8;
+      border-color: #bfdbfe;
+    }
+  }
+
+  .book-info {
+    flex: 1;
+    min-width: 0;
+    color: #1e293b;
+
+    strong {
+      color: #0f172a;
+      font-weight: 600;
+    }
+
+    em {
+      color: #475569;
+      font-style: italic;
+    }
+  }
+
+  @media (max-width: 480px) {
+    li, .book-item {
+      gap: 0.75rem;
+    }
+
+    .book-badge, code:first-child {
+      width: 4.8rem;
+      font-size: 0.75rem;
+      padding: 0.15rem 0.35rem;
+    }
+  }
+}
+
 
 // Global Cmd+K Search Modal
 .search-modal-backdrop {

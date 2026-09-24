@@ -13,7 +13,17 @@ I’ve always leaned more towards movies than books, since I often felt that stu
 
 Here you’ll find what I’m currently reading alongside a selection of the books I’ve read over the past few years.
 
-
-`reading`   **Perfectly Reasonable Deviations from the Beaten Track: The Letters of Richard P. Feynman** - _Richard P. Feynman_  
-`2025-08`   **Atomic Habits** - _James Clear_  
-`2025-07`   **Il Corano** - _Traduzione di Hamza Pizzardo_  
+<ul class="book-list">
+  <li>
+    <span class="book-badge reading">reading</span>
+    <span class="book-info"><strong>Perfectly Reasonable Deviations from the Beaten Track: The Letters of Richard P. Feynman</strong> &mdash; <em>Richard P. Feynman</em></span>
+  </li>
+  <li>
+    <span class="book-badge">2025-08</span>
+    <span class="book-info"><strong>Atomic Habits</strong> &mdash; <em>James Clear</em></span>
+  </li>
+  <li>
+    <span class="book-badge">2025-07</span>
+    <span class="book-info"><strong>Il Corano</strong> &mdash; <em>Traduzione di Hamza Pizzardo</em></span>
+  </li>
+</ul>
