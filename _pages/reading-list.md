@@ -36,3 +36,15 @@ permalink: "/reading-list"
     </a>
   </div>
 </div>
+
+<div class="project-card">
+  <h3>🖋️ Phrases to Live By</h3>
+  <div class="project-desc">
+    A personal commonplace book and living anthology of timeless quotes, poems, and aphorisms collected over the years that shape my thinking, keep me grounded, and offer clarity.
+  </div>
+  <div class="project-actions">
+    <a href="/phrases-to-live-by">
+      Explore Phrases &rarr;
+    </a>
+  </div>
+</div>

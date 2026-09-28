@@ -1,0 +1,39 @@
+# Phrases, Quotes, and Poems to Live By
+# Add entries here. They will automatically be displayed on /phrases-to-live-by in chronological order.
+#
+# Fields:
+#   quote: The quote or poem (use `|` for multi-line poems/stanzas to preserve line breaks)
+#   author: The person who said or wrote it
+#   source: Optional: book title, speech, letter, or context
+#   url: Optional link to source / reference
+#   date: When you recorded or encountered it (YYYY-MM)
+#   category: Optional tag (e.g., Perspective, Resilience, Poetry, Philosophy, Science)
+#   is_poem: true/false (applies elegant serif stanza styling if true)
+#   note: Optional personal reflection on what this means to you
+
+- quote: |
+    "You should find out how the rest of the world is."
+  author: "John C. Slater"
+  source: "Advising Richard Feynman to leave MIT for Princeton (1939)"
+  date: "2026-09"
+  category: "Perspective"
+  is_poem: false
+  note: "A reminder not to linger in the comfort of what is already familiar, but to venture outwards and test your ideas against the broader world."
+
+- quote: |
+    "Il successo accademico come riscatto di classe è un peso troppo grande sulle spalle di bambini che non possono permettersi neanche le figurine."
+  author: "@madonnafreeda"
+  source: "Instagram post"
+  date: "2026-09"
+  category: "Roots"
+  is_poem: false
+  note: "Remembering where I came from, and consciously choosing to turn external pressure into an intrinsic, lifelong joy for research."
+
+- quote: |
+    "I would rather have questions that can't be answered than answers that can't be questioned."
+  author: "Richard P. Feynman"
+  source: "The Pleasure of Finding Things Out"
+  date: "2026-09"
+  category: "Curiosity"
+  is_poem: false
+  note: "The essence of the scientific mindset: embracing uncertainty and having the courage to challenge dogma."

@@ -5,14 +5,16 @@ links:
     url: /research
 #  - title: Statement
 #    url: /statement
-  - title: Reading List
-    url: /reading-list
-  - title: Articles
-    url: /articles
-  - title: Notes
-    url: /notes
-  - title: Islam
-    url: /islam
+#  - title: Reading List
+#    url: /reading-list
+  - title: Phrases to Live By
+    url: /phrases-to-live-by
+#  - title: Articles
+#    url: /articles
+#  - title: Notes
+#    url: /notes
+#  - title: Islam
+#    url: /islam
   - title: Curriculum Vitae
     url: /cv
   - title: Search

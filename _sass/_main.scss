@@ -875,3 +875,117 @@ figcaption {
   .m, .mf, .mi, .mo { color: #d69e2e; } /* Number */
   .o, .ow { color: #e53e3e; } /* Operator */
 }
+
+// Phrases to Live By / Commonplace Cards
+.phrase-list {
+  margin: 1.5rem 0 3rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.phrase-card {
+  position: relative;
+  padding: 1.35rem 1.6rem;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-left: 3px solid #0f172a;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+
+  &:hover {
+    border-color: #cbd5e1;
+    border-left-color: #2563eb;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  }
+
+  .phrase-meta-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.85rem;
+    font-size: 0.8rem;
+  }
+
+  .phrase-date {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    color: #64748b;
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .phrase-category {
+    font-size: 0.72rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.12rem 0.5rem;
+    border-radius: 9999px;
+    background: #f1f5f9;
+    color: #475569;
+    border: 1px solid #e2e8f0;
+  }
+
+  .phrase-body {
+    font-size: 1.05rem;
+    line-height: 1.65;
+    color: #1e293b;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    font-style: italic;
+
+    &.is-poem {
+      font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+      line-height: 1.8;
+      font-style: normal;
+      padding-left: 0.5rem;
+      border-left: 2px solid #e2e8f0;
+    }
+  }
+
+  .phrase-attribution {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.35rem;
+    font-size: 0.9rem;
+    color: #475569;
+
+    .phrase-author {
+      font-weight: 600;
+      color: #0f172a;
+      font-style: normal;
+    }
+
+    .phrase-source {
+      color: #64748b;
+      font-style: italic;
+
+      a {
+        color: inherit;
+        text-decoration: underline;
+        text-underline-offset: 2px;
+      }
+    }
+  }
+
+  .phrase-reflection {
+    margin-top: 1rem;
+    padding-top: 0.75rem;
+    border-top: 1px dashed #e2e8f0;
+    font-size: 0.88rem;
+    color: #64748b;
+    line-height: 1.5;
+
+    strong {
+      color: #334155;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      margin-right: 0.35rem;
+    }
+  }
+}
