@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% include navigation.html %}
+
+<section class="post phrase-detail-container" style="max-width: 44rem; margin: auto;">
+  <div class="phrase-detail-nav" style="margin-bottom: 1.5rem;">
+    <a href="{{ '/phrases-to-live-by' | relative_url }}" class="phrase-back-link" style="text-decoration: none; font-size: 0.9rem; color: #64748b;">
+      &larr; Back to all phrases
+    </a>
+  </div>
+
+  <article class="phrase-card phrase-detail-card" style="margin-top: 0.5rem;">
+    <div class="phrase-meta-top">
+      {% if page.category %}
+      <span class="phrase-category">{{ page.category }}</span>
+      {% else %}
+      <span></span>
+      {% endif %}
+      {% if page.date %}
+      <time class="phrase-date">{{ page.date | date: "%B %Y" }}</time>
+      {% endif %}
+    </div>
+
+    <blockquote class="phrase-body is-full {% if page.is_poem %}is-poem{% endif %}" style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 1.25rem;">
+      {{ content | strip | newline_to_br }}
+    </blockquote>
+
+    <div class="phrase-attribution">
+      &mdash; <span class="phrase-author">{{ page.author }}</span>{% if page.source %}, <span class="phrase-source">{% if page.source_url %}<a href="{{ page.source_url }}" target="_blank" rel="noopener noreferrer">{{ page.source }}</a>{% else %}{{ page.source }}{% endif %}</span>{% endif %}
+    </div>
+
+    {% if page.note %}
+    <div class="phrase-reflection">
+      <strong>Personal Reflection:</strong>
+      <p style="margin-top: 0.35rem; margin-bottom: 0;">{{ page.note }}</p>
+    </div>
+    {% endif %}
+  </article>
+</section>

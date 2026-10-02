@@ -14,7 +14,8 @@ permalink: "/phrases-to-live-by"
 </div>
 
 <div class="phrase-list">
-  {% for item in site.data.phrases %}
+  {% assign sorted_phrases = site.phrases | sort: 'date' | reverse %}
+  {% for item in sorted_phrases %}
   <article class="phrase-card">
     <div class="phrase-meta-top">
       {% if item.category %}
@@ -23,23 +24,23 @@ permalink: "/phrases-to-live-by"
       <span></span>
       {% endif %}
       {% if item.date %}
-      <time class="phrase-date">{{ item.date }}</time>
+      <time class="phrase-date">{{ item.date | date: "%B %Y" }}</time>
       {% endif %}
     </div>
 
-    <blockquote class="phrase-body {% if item.is_poem %}is-poem{% endif %}">
-      {{ item.quote | strip | newline_to_br }}
+    <blockquote class="phrase-body is-truncated {% if item.is_poem %}is-poem{% endif %}">
+      {{ item.content | strip_html | strip | newline_to_br }}
     </blockquote>
 
     <div class="phrase-attribution">
-      &mdash; <span class="phrase-author">{{ item.author }}</span>{% if item.source %}, <span class="phrase-source">{% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.source }}</a>{% else %}{{ item.source }}{% endif %}</span>{% endif %}
+      &mdash; <span class="phrase-author">{{ item.author }}</span>{% if item.source %}, <span class="phrase-source">{% if item.source_url %}<a href="{{ item.source_url }}" target="_blank" rel="noopener noreferrer">{{ item.source }}</a>{% else %}{{ item.source }}{% endif %}</span>{% endif %}
     </div>
 
-    {% if item.note %}
-    <div class="phrase-reflection">
-      <strong>Note:</strong> {{ item.note }}
+    <div class="phrase-card-footer">
+      <a href="{{ item.url | relative_url }}" class="phrase-read-more">
+        Read full piece &rarr;
+      </a>
     </div>
-    {% endif %}
   </article>
   {% endfor %}
 </div>

@@ -944,6 +944,15 @@ figcaption {
       padding-left: 0.5rem;
       border-left: 2px solid #e2e8f0;
     }
+
+    &.is-truncated {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-bottom: 0.85rem;
+    }
   }
 
   .phrase-attribution {
@@ -972,6 +981,27 @@ figcaption {
     }
   }
 
+  .phrase-card-footer {
+    margin-top: 1rem;
+    padding-top: 0.65rem;
+    border-top: 1px solid #f1f5f9;
+    display: flex;
+    justify-content: flex-end;
+
+    .phrase-read-more {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: #2563eb;
+      text-decoration: none;
+      transition: color 0.15s ease;
+
+      &:hover {
+        color: #1d4ed8;
+        text-decoration: underline;
+      }
+    }
+  }
+
   .phrase-reflection {
     margin-top: 1rem;
     padding-top: 0.75rem;
@@ -986,6 +1016,32 @@ figcaption {
       text-transform: uppercase;
       letter-spacing: 0.03em;
       margin-right: 0.35rem;
+    }
+  }
+}
+
+.phrase-detail-container {
+  .phrase-back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    color: #64748b;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.15s ease;
+
+    &:hover {
+      color: #0f172a;
+      text-decoration: underline;
+    }
+  }
+
+  .phrase-detail-card {
+    .phrase-body.is-full {
+      font-size: 1.15rem;
+      line-height: 1.8;
+      margin: 1.25rem 0;
     }
   }
 }
