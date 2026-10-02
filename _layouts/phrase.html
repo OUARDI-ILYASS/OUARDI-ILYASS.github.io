@@ -2,40 +2,53 @@
 layout: default
 ---
 
-{% include navigation.html %}
-
-<section class="post phrase-detail-container" style="max-width: 44rem; margin: auto;">
-  <div class="phrase-detail-nav" style="margin-bottom: 1.5rem;">
-    <a href="{{ '/phrases-to-live-by' | relative_url }}" class="phrase-back-link" style="text-decoration: none; font-size: 0.9rem; color: #64748b;">
-      &larr; Back to all phrases
-    </a>
+<section class="post" style="max-width: 40rem;margin: auto;margin-top: -2rem;">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ page.title | escape }}",
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ page.author | default: site.author.name | default: site.author | default: 'Ilyass Ouardi' }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title | escape }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ '/assets/images/profile1.png' | absolute_url }}"
+      }
+    },
+    "description": "{{ page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 }}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}"
+    }
+  }
+  </script>
+  <div class="" style="justify-content: space-between;display:flex; margin-bottom: 1rem;">
+    <a href="/phrases-to-live-by" style="text-decoration: none;">← All phrases</a> <span>{% include reading-time.html %}</span> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
   </div>
+  <hr>
+  <h1 class="title">{{ page.title }}</h1>
 
-  <article class="phrase-card phrase-detail-card" style="margin-top: 0.5rem;">
-    <div class="phrase-meta-top">
-      {% if page.category %}
-      <span class="phrase-category">{{ page.category }}</span>
-      {% else %}
-      <span></span>
-      {% endif %}
-      {% if page.date %}
-      <time class="phrase-date">{{ page.date | date: "%B %Y" }}</time>
-      {% endif %}
-    </div>
+  {{ content }}
 
-    <blockquote class="phrase-body is-full {% if page.is_poem %}is-poem{% endif %}" style="font-size: 1.15rem; line-height: 1.8; margin-bottom: 1.25rem;">
-      {{ content | strip | newline_to_br }}
-    </blockquote>
+  {% if page.author or page.source %}
+  <p style="margin-top: 1.5rem; color: #4a5568; font-style: italic;">
+    &mdash; {% if page.author %}<strong style="font-style: normal; color: #16171a;">{{ page.author }}</strong>{% endif %}{% if page.source %}, {% if page.source_url %}<a href="{{ page.source_url }}" target="_blank" rel="noopener noreferrer">{{ page.source }}</a>{% else %}{{ page.source }}{% endif %}{% endif %}
+  </p>
+  {% endif %}
 
-    <div class="phrase-attribution">
-      &mdash; <span class="phrase-author">{{ page.author }}</span>{% if page.source %}, <span class="phrase-source">{% if page.source_url %}<a href="{{ page.source_url }}" target="_blank" rel="noopener noreferrer">{{ page.source }}</a>{% else %}{{ page.source }}{% endif %}</span>{% endif %}
-    </div>
+  {% if page.note %}
+  <div style="margin-top: 2rem; padding-top: 1rem; border-top: 1px dashed #cbd5e0;">
+    <p style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: #718096; margin-bottom: 0.35rem;"><strong>Reflection</strong></p>
+    <p style="color: #2d3748; line-height: 1.6;">{{ page.note }}</p>
+  </div>
+  {% endif %}
 
-    {% if page.note %}
-    <div class="phrase-reflection">
-      <strong>Personal Reflection:</strong>
-      <p style="margin-top: 0.35rem; margin-bottom: 0;">{{ page.note }}</p>
-    </div>
-    {% endif %}
-  </article>
+  <span class="meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.category %} &middot; <span class="tag">{{ page.category }}</span>{% endif %}</span>
 </section>
