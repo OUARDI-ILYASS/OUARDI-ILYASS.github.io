@@ -29,10 +29,10 @@ _University of Milan, Italy_ &bull; `Sep 2024 – Present`
 - **Thesis:** _The Geometry of Absence, Opposite, and the Activation Manifold in Representation-Level Interventions on LLMs_
 - **Advisors:** Prof. Alfio Ferrara & Elisabetta Rocchetti (University of Milan)
 - **Focus:** Investigating representation-level interventions (linear concept erasure, steering) and studying how models encode the absence of a concept versus its opposite on the activation manifold.
-- **Expected defense:** Summer 2027 (July 2027) &bull; **Weighted Average:** **29.13/30** (3.88/4.00)
+- **Expected defense:** Summer 2027 (July 2027) &bull; **Weighted Average:** **29.22/30** (3.90/4.00)
 
 <details class="coursework-accordion">
-  <summary>M.Sc. Advanced Coursework & Examinations (Weighted Avg: 29.13/30 &bull; GPA: 3.88/4.00)</summary>
+  <summary>M.Sc. Advanced Coursework & Examinations (Weighted Avg: 29.22/30 &bull; GPA: 3.90/4.00)</summary>
   <table class="transcript-table">
     <thead>
       <tr>
@@ -66,6 +66,12 @@ _University of Milan, Italy_ &bull; `Sep 2024 – Present`
         <td class="col-center"><span class="grade-badge grade-top">30</span></td>
         <td class="col-date">02/07/2026</td>
         <td>Audio Signal Processing & Feature Extraction, Statistical Modeling, Hidden Markov Models, Neural Networks, Clustering & Classification Pipelines</td>
+      </tr>
+      <tr>
+        <td><strong>Enterprise Security Management (Gestione della Sicurezza nelle Imprese)</strong></td>
+        <td class="col-center"><span class="grade-badge grade-top">30</span></td>
+        <td class="col-date">23/09/2026</td>
+        <td>Enterprise Risk Management, Information Security Governance, Business Continuity, Compliance & Regulatory Frameworks (ISO 27001, GDPR), Security Economics & Threat Modeling</td>
       </tr>
       <tr>
         <td><strong>Advanced Biometrics (Complementi di Biometria)</strong></td>
