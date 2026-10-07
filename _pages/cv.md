@@ -28,8 +28,9 @@ The two are connected, since an intervention built on the wrong picture of the g
 _University of Milan, Italy_ &bull; `Sep 2024 – Present`  
 - **Thesis:** _The Geometry of Absence, Opposite, and the Activation Manifold in Representation-Level Interventions on LLMs_
 - **Advisors:** Prof. Alfio Ferrara & Elisabetta Rocchetti (University of Milan)
-- **Focus:** Investigating representation-level interventions (linear concept erasure, steering) and studying how models encode the absence of a concept versus its opposite on the activation manifold.
-- **Expected defense:** Summer 2027 (July 2027) &bull; **Weighted Average:** **29.22/30** (3.90/4.00)
+- **Focus:** Thesis on concept erasure in large language models: what happens inside a model after a concept is erased, where its representations end up, and whether that state carries any meaning of its own.
+- **Expected defense:** Summer 2027 (July 2027)
+- **Weighted average:** **29.22/30** (3.90/4.00)
 
 <details class="coursework-accordion">
   <summary>M.Sc. Advanced Coursework & Examinations (Weighted Avg: 29.22/30 &bull; GPA: 3.90/4.00)</summary>
@@ -196,11 +197,11 @@ _ITT "G. e M. Montani", Fermo, Italy_ &bull; `Sep 2015 – Jul 2020`
 ## Research Experience
 
 **Independent Research — Representation Geometry of Truth**  
-_ISLab, University of Milan_ (Sole author; Natural Language Processing course)  
+_University of Milan_ (Sole author; Natural Language Processing course)  
 `Dec 2025 – Jul 2026`
 
-- Tested whether propositional truth is mediated by one linear direction or by a $k$-dimensional concept cone. Adapted form Wollschlager et. al (2025), **TDO** and **TCO**: gradient-optimised directions and cones under causal necessity, sufficiency and KL-retention losses.
-- **Result:** A single direction is insufficient for the larger models, and a low-dimensional cone ($k=2$) is the better model of the concept. Its basis is near-orthogonal to the Difference-in-Means probe yet individually causally effective.
+- Tested whether propositional truth is mediated by one linear direction or by a $k$-dimensional concept cone. Adapted from Wollschläger et al. (2025), **TDO** and **TCO**: gradient-optimised directions and cones under causal necessity, sufficiency and KL-retention losses. Evaluated on six instruction-tuned models from three families (Qwen-2.5 1.5/7/14B, Gemma-2 2/9B, Llama-3.1-8B).
+- **Result:** A single direction is insufficient for the larger models, and a low-dimensional cone ($k=2$) is the better model of the concept. Its basis is near-orthogonal to the Difference-in-Means probe yet individually causally effective. For the three larger models, a single direction also exceeded the KL side-effect threshold on unrelated prompts; a 2D cone resolved both effectiveness and side effects for every model.
 - **Manuscript:** _The Multidimensional Geometry of Truth in LLMs: A Concept-Cone Extension of the Linear Representation Hypothesis_ (2026). [[Draft](https://github.com/OUARDI-ILYASS/truth_cones/blob/main/report.pdf)] [[Code](https://github.com/OUARDI-ILYASS/truth_cones)]
 - Techniques: activation patching, directional ablation/addition, Difference-in-Means probes, `nnsight`, PyTorch; single-GPU (A40).
 
@@ -222,12 +223,20 @@ _SESAR Lab, University of Milan_ (With F. Bylyshi & H. El-Khazri, equal contribu
 
 ## Teaching Experience
 
+**Teaching Assistant — Computer Programming (Python)**  
+_University of Milan_ (Lecturer: Prof. Stefano Ferrari)  
+`Oct 2026 – Present`
+
+- Teaching assistant for "Computer Programming", the first-year Python course of the inter-university Bachelor's in Artificial Intelligence (University of Pavia, University of Milan, University of Milano-Bicocca), taught in English. Lecturer: Prof. Stefano Ferrari.
+- Support students during weekly lab sessions on imperative and object-oriented programming in Python; run weekly tutoring hours; assist with computer-based exams.
+
 **Teaching Assistant — Accertamento delle Competenze Informatiche (3 CFU)**  
 _University of Milan_ (Scientific lead: Prof. Stefano Montanelli; delivered by CTU)  
-`Jan 2026 – Present`
+`Jan 2026 – Sep 2026`
 
 - Prepared and delivered lectures to classes of students, authoring the accompanying teaching material.
-- Led lab sessions of a blended-learning course shared across numerous undergraduate degree programmes, and invigilated examinations.
+- Led lab sessions of a blended-learning course shared across numerous undergraduate degree programmes, and supervised examinations.
+
 
 ## Engineering Experience
 
