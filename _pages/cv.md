@@ -26,9 +26,9 @@ The two are connected, since an intervention built on the wrong picture of the g
 
 **M.Sc. in Computer Science** (Laurea Magistrale in Informatica, LM-18)  
 _University of Milan, Italy_ &bull; `Sep 2024 – Present`  
-- **Thesis:** _The Geometry of Absence, Opposite, and the Activation Manifold in Representation-Level Interventions on LLMs_
+- **Thesis (proposal stage):** _What Does Forgetting Look Like? Where activations land after concept erasure, and whether it means anything_
 - **Advisors:** Prof. Alfio Ferrara & Elisabetta Rocchetti (University of Milan)
-- **Focus:** Thesis on concept erasure in large language models: what happens inside a model after a concept is erased, where its representations end up, and whether that state carries any meaning of its own.
+- **Focus:** Thesis on concept erasure in large language models: after an erasure intervention, where the edited activations land relative to the activations the model produces naturally, and whether they carry any meaning (representational vs. semantic absence of a concept).
 - **Expected defense:** Summer 2027 (July 2027)
 - **Weighted average:** **29.22/30** (3.90/4.00)
 

@@ -40,8 +40,8 @@ In [*The Multidimensional Geometry of Truth in LLMs*](https://github.com/OUARDI-
 2. A low-dimensional concept cone ($k=2$) successfully mediates truth judgments while remaining near-orthogonal to naive Difference-in-Means directions.
 3. Higher-dimensional geometry naturally disentangles epistemic confidence from syntactic assertion polarity, which 1D lines conflate.
 
-#### B. The Geometry of Absence vs. Semantic Opposite (M.Sc. Thesis)
-In collaboration with Prof. Alfio Ferrara and Elisabetta Rocchetti at ISLab (University of Milan), my ongoing Master's thesis investigates how language models encode the **absence of a concept** versus its **semantic opposite** on the internal activation manifold. Understanding this topological distinction is essential for reliable concept erasure: erasing a concept must not inadvertently steer the model toward its inverted polarity.
+#### B. What Does Forgetting Look Like? (M.Sc. Thesis)
+In collaboration with Prof. Alfio Ferrara and Elisabetta Rocchetti at ISLab (University of Milan), my Master's thesis (proposal stage), *What Does Forgetting Look Like?*, asks where a model's activations land after a concept is erased and whether that state means anything. It separates **representational absence** (the concept can no longer be recovered) from **semantic absence** (the concept does not apply to the input), and tests whether the first produces the second.
 
 ---
 

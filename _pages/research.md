@@ -36,14 +36,14 @@ The two are connected, since an intervention built on the wrong picture of the g
 ## Ongoing Research & Thesis
 
 <div class="project-card">
-  <h3>The Geometry of Absence, Opposite, and the Activation Manifold in Representation-Level Interventions</h3>
+  <h3>What Does Forgetting Look Like? Where activations land after concept erasure, and whether it means anything</h3>
   <div class="project-meta">
     <span class="authors"><span class="me">Ilyass Ouardi</span>, Elisabetta Rocchetti, Alfio Ferrara</span> &bull; 
     <span class="venue">M.Sc. Thesis / ISLab, University of Milan</span> &bull; 
     <time>Ongoing (Expected 2027)</time>
   </div>
   <div class="project-desc">
-    Investigating how language models encode the absence of a concept versus its semantic opposite on the internal activation manifold. We evaluate representation-level interventions—including linear concept erasure (INLP, LEACE) and directional activation steering—measuring off-target collateral damage and reasoning degradation alongside targeted behavioral modifications.
+    Concept erasure is usually judged by what it removes and how much else it damages. This thesis asks a different question: after an erasure intervention, where do the edited activations end up relative to the activations a model produces naturally, and do they mean anything? It separates representational absence (a concept that can no longer be recovered) from semantic absence (inputs to which the concept does not apply). Proposal stage.
   </div>
   <div class="project-tags">
     <span class="tag">M.Sc. Thesis</span>
