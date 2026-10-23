@@ -26,7 +26,7 @@ The two are connected, since an intervention built on the wrong picture of the g
 
 **M.Sc. in Computer Science** (Laurea Magistrale in Informatica, LM-18)  
 _University of Milan, Italy_ &bull; `Sep 2024 – Present`  
-- **Thesis (proposal stage):** _What Does Forgetting Look Like? Where activations land after concept erasure, and whether it means anything_
+- **Thesis (proposal stage):** _What Does Forgetting Look Like? Where activations land after concept erasure_
 - **Advisors:** Prof. Alfio Ferrara & Elisabetta Rocchetti (University of Milan)
 - **Focus:** Thesis on concept erasure in large language models: after an erasure intervention, where the edited activations land relative to the activations the model produces naturally, and whether they carry any meaning (representational vs. semantic absence of a concept).
 - **Expected defense:** Summer 2027 (July 2027)

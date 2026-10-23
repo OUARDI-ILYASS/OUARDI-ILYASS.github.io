@@ -36,7 +36,7 @@ The two are connected, since an intervention built on the wrong picture of the g
 ## Ongoing Research & Thesis
 
 <div class="project-card">
-  <h3>What Does Forgetting Look Like? Where activations land after concept erasure, and whether it means anything</h3>
+  <h3>What Does Forgetting Look Like? Where activations land after concept erasure</h3>
   <div class="project-meta">
     <span class="authors"><span class="me">Ilyass Ouardi</span>, Elisabetta Rocchetti, Alfio Ferrara</span> &bull; 
     <span class="venue">M.Sc. Thesis / ISLab, University of Milan</span> &bull; 
