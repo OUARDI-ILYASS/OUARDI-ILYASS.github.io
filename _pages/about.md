@@ -49,10 +49,9 @@ More on the [Research](/research) page.
 <ul class="news">
   <li><time>Nov 2026</time><span>I will be at the <a href="https://swissaisafetydays.ch/"><strong>Swiss AI Safety Days</strong></a> in Zurich (7–8 November). Happy to meet if you are there.</span></li>
   <li><time>Oct 2026</time><span>Started as teaching assistant for <em>Computer Programming</em> (Python), the first-year course of the inter-university <a href="https://bai.unipv.it/">Bachelor's in Artificial Intelligence</a> (<a href="https://www.unipv.eu">Pavia</a>, <a href="https://www.unimi.it/en">Milan</a>, <a href="https://www.unimib.it/">Milano-Bicocca</a>), with Prof. Stefano Ferrari.</span></li>
-  <li><time>Oct 2026</time><span>Joined a team working on the <a href="https://steerability.github.io/competition/"><strong>Steerability Challenge</strong></a>.</span></li>
+  <li><time>Oct 2026</time><span>Joined team <strong>steer-fry</strong> with <a href="https://hackmd.io/@letargicus/B1kD4vqns">Enrico Bottazzi</a> in the <a href="https://steerability.github.io/competition/"><strong>Steerability Challenge</strong></a>.</span></li>
   <li><time>Sep 2026</time><span>Started my M.Sc. thesis on concept erasure in LLMs with <a href="https://eliroc98.github.io/">Elisabetta Rocchetti</a> and Prof. Alfio Ferrara at <a href="https://islab.di.unimi.it/">ISLab</a>.</span></li>
   <li><time>Sep 2026</time><span>Joined <a href="https://www.ais4i.it/"><strong>AI Safety for Italy (AIS4I)</strong></a>, the Italian AI safety community, as a member and organizer.</span></li>
-  <li><time>Jul 2026</time><span>Finished drafts of my manuscripts on the <a href="/papers/truth-cones">geometry of truth in LLMs</a>, on <a href="/papers/heart-sounds">what heart-sound classifiers learn</a> and on <a href="/papers/legend-challenge">the Legend Challenge</a>.</span></li>
   <li><time>Jan 2026</time><span>Started as teaching assistant for <em>Accertamento delle Competenze Informatiche</em> at the <a href="https://www.unimi.it/en">University of Milan</a>.</span></li>
   <li><time>Sep 2025</time><span>Joined <a href="https://leadthefuture.tech/"><strong>Lead the Future</strong></a>, a STEM mentorship community, as a mentee.</span></li>
 </ul>
