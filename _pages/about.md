@@ -50,6 +50,8 @@ The two are connected: an intervention built on the wrong picture of the geometr
 
 ### Manuscripts
 
+- _Ongoing:_ [What Does Forgetting Look Like? Where activations land after concept erasure](/research)<br>
+  <span class="me">Ilyass Ouardi</span>, with Elisabetta Rocchetti and Alfio Ferrara. M.Sc. thesis, expected 2027.
 - [The Multidimensional Geometry of Truth in Large Language Models: A Concept-Cone Extension of the Linear Representation Hypothesis](/papers/truth-cones)<br>
   <span class="me">Ilyass Ouardi</span>. Preprint (draft), 2026.
 - [What Does a Heart Sound Classifier Actually Learn? A Controlled Comparison of Cepstral, Spectral and Wavelet-Packet Representations](/papers/heart-sounds)<br>
@@ -58,7 +60,7 @@ The two are connected: an intervention built on the wrong picture of the geometr
   Fatmir Bylyshi\*, Hicham El-Khazri\*, <span class="me">Ilyass Ouardi</span>\*. Preprint (draft), 2026. \*Equal contribution.
 {: .pubs}
 
-Ongoing: _What Does Forgetting Look Like? Where activations land after concept erasure_ (M.Sc. thesis, with Elisabetta Rocchetti and Alfio Ferrara). More on the [Research](/research) page.
+More on the [Research](/research) page.
 
 ### Outside research
 
