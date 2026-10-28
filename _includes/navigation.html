@@ -18,7 +18,8 @@
       <nav role="navigation" style="margin-top: 2rem";">
 <ul>
    {% for item in site.data.navigation.links %}
-      <li><a href="{{ item.url }}" {% if item.url == page.url %} class="active"{% endif %}>{{ item.title }}</a></li>
+      {% assign is_active = false %}{% if item.url == page.url %}{% assign is_active = true %}{% endif %}{% if item.url == '/research' %}{% if page.collection == 'papers' or page.content_type contains 'article' or page.url == '/mech-interp-papers' or page.url == '/articles' %}{% assign is_active = true %}{% endif %}{% endif %}
+      <li><a href="{{ item.url }}"{% if is_active %} class="active"{% endif %}>{{ item.title }}</a></li>
    {% endfor %}
 </ul>
 </nav>
