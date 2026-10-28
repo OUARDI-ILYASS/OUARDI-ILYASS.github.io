@@ -14,10 +14,10 @@ layout: default
 </script>
 
 {% include navigation.html %}
-<article class="post paper-page">
+<section class="post paper-page">
   <a class="paper-back" href="/research">&larr; Research</a>
 
-  <header class="paper-hero">
+  <div class="paper-hero">
     {% if page.status %}<span class="paper-status">{{ page.status }}</span>{% endif %}
     <h1 class="paper-title">{{ page.title }}</h1>
 
@@ -37,20 +37,20 @@ layout: default
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
         Code</a>{% endif %}
     </div>
-  </header>
+  </div>
 
   {% if page.tldr %}
   <div class="paper-tldr"><strong>TL;DR</strong> {{ page.tldr }}</div>
   {% endif %}
 
-  <section class="paper-abstract">
+  <div class="paper-abstract">
     <h2>Abstract</h2>
     {{ content }}
-  </section>
+  </div>
 
   {% if page.tags %}
   <div class="project-tags">
     {% for t in page.tags %}<span class="tag">{{ t }}</span>{% endfor %}
   </div>
   {% endif %}
-</article>
+</section>

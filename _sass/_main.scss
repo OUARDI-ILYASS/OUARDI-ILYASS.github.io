@@ -878,7 +878,24 @@ figcaption {
 
 // Paper pages (_papers collection)
 .paper-page {
-  max-width: 46rem;
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #e2e8f0;
+
+    .tag {
+      font-size: 0.75rem;
+      background: #edf2f7;
+      color: #4a5568;
+      padding: 0.15rem 0.45rem;
+      border-radius: 3px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+  }
 
   .paper-back {
     font-size: 0.85rem;
@@ -957,11 +974,10 @@ figcaption {
 
   .paper-abstract {
     h2 { text-align: center; font-size: 1.2rem; margin: 0 0 0.8rem; }
-    p { text-align: justify; hyphens: auto; line-height: 1.65; margin: 0 0 0.9rem; }
+    p { line-height: 1.65; margin: 0 0 0.9rem; }
   }
 
   @media (max-width: 600px) {
     h1.paper-title { font-size: 1.35rem; }
-    .paper-abstract p { text-align: left; }
   }
 }
