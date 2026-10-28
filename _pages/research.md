@@ -29,8 +29,6 @@ The two are connected, since an intervention built on the wrong picture of the g
   </p>
 </div>
 
-<p class="section-more"><a href="/statement">Read my full research statement &rarr;</a></p>
-
 ## Ongoing: M.Sc. Thesis
 
 <div class="thesis-block">
@@ -38,28 +36,10 @@ The two are connected, since an intervention built on the wrong picture of the g
   <div class="project-meta">
     <span class="authors"><span class="me">Ilyass Ouardi</span>, with <a href="https://eliroc98.github.io/">Elisabetta Rocchetti</a> and <a href="https://www.unimi.it/en/ugov/person/alfio-ferrara">Alfio Ferrara</a></span> &bull;
     <span class="venue"><a href="https://islab.di.unimi.it/">ISLab</a>, University of Milan</span> &bull;
-    <time>Sep 2026 to Jul 2027</time>
+    <time>Expected 2027</time>
   </div>
-
-  <p>Removing undesirable knowledge from language models, from hazardous dual-use information to protected attributes, has motivated a range of concept erasure methods. These are usually judged by two numbers: what they remove, measured by probes or behaviour, and how much else they damage. Neither says <em>where the edited activations end up</em>. An erasure operator maps each activation to a new one, and the result may lie where the model naturally operates, or in regions it never visits on real inputs.</p>
-
-  <p>My thesis studies this <em>post-erasure distribution</em> directly and compares it with the activations the model produces on natural inputs, from three perspectives:</p>
-
-  <div class="thesis-axes">
-    <div><strong>Behavioural</strong><span>Are the outputs from edited activations fluent and free of the concept, or degenerate and evasive?</span></div>
-    <div><strong>Semantic</strong><span>What can still be decoded from them, with linear probes, the J-lens and Natural Language Autoencoders?</span></div>
-    <div><strong>Geometric</strong><span>Do they stay within the distribution of natural activations, or are they pushed outside it?</span></div>
-  </div>
-
-  <h4>Two notions of absence</h4>
-  <p><strong>Representational absence</strong> is a property of a distribution: the concept cannot be statistically recovered from it. It is the success criterion of the erasure literature, and the operator produces it, often by construction. <strong>Semantic absence</strong> is how a model represents a concept it genuinely has no knowledge of, such as an invented entity or an event after its training cut-off. Erasure produces the first by design; whether it also produces the second is the open question, and semantic absence gives a natural reference point for judging what erasure does.</p>
-
-  <h4>Planned contributions</h4>
-  <ul>
-    <li><strong>A benchmark</strong> for concept erasure in the spirit of AxBench: a fixed set of concepts, operators and controls, evaluated uniformly on whether each intervention removes the concept and at what cost to fluency and coherence.</li>
-    <li><strong>An explanatory analysis</strong> of when and why an intervention succeeds or fails, relating the outcome to properties of the concept (linear separability, partial or total, whether neutral and not-applicable inputs exist) and of the edit (layer, displacement, distance from the natural distribution).</li>
-  </ul>
-  <p class="muted">The work starts by reproducing the observation of Rocchetti et al. (2026) that nullspace projection leaves refusal activations between the harmful and harmless clusters, while counterfactual flipping moves them into the opposite one. Proposal stage; preprint in preparation. Related post: <a href="/posts/2026/09/representational-vs-semantic-absence/">Representational Absence vs. Semantic Absence</a>.</p>
+  <p>Concept erasure methods are usually judged by what they remove and how much else they damage, but not by <em>where the edited activations end up</em>. My thesis studies these post-erasure activations directly and compares them with the activations the model produces on natural inputs. A guiding question is whether making a concept unrecoverable (representational absence) also makes the model treat it like a concept it has never known (semantic absence).</p>
+  <p class="muted">Proposal stage. Related post: <a href="/posts/2026/09/representational-vs-semantic-absence/">Representational Absence vs. Semantic Absence</a>.</p>
 </div>
 
 ## Papers & Preprints

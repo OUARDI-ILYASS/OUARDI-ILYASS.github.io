@@ -7,94 +7,74 @@ tags: [Mechanistic Interpretability, Representation Geometry, LLMs, AI Safety, n
 content_type: article
 research: true
 mathjax: true
-excerpt: "The Linear Representation Hypothesis posits that high-level concepts correspond to single 1D directions in activation space. But does truth actually behave linearly when models scale up? Here is why a 2D concept cone provides a much more faithful geometric picture."
+excerpt: "Is truth a single direction in a language model's residual stream, or a small multi-dimensional cone? A short walk through my concept-cone paper: why one direction breaks for the larger models, and what a 2-D cone fixes."
 ---
+When we probe the internal states of large language models, one of the most persistent working assumptions is the **Linear Representation Hypothesis**: high-level concepts are encoded as linear directions in the residual stream, and intervening along such a direction changes the corresponding behaviour.
 
-When we probe the internal states of Large Language Models, one of the most persistent working assumptions is the **Linear Representation Hypothesis (LRH)**: the idea that high-level semantic concepts are represented as one-dimensional linear directions in activation space.
+Under this hypothesis, finding "truth" looks simple:
+1. Collect activations on true and false statements at a chosen layer.
+2. Compute the Difference-in-Means (DIM) direction, $$\boldsymbol{\theta}_{\text{DIM}} = \boldsymbol{\mu}_{+} - \boldsymbol{\mu}_{-}$$, the difference between the mean activations on true and false statements.
+3. Add that direction to make a false statement read as true, or ablate it to make a true statement read as false.
 
-Under this hypothesis, finding "truth" in a model like Llama or Gemma looks conceptually simple:
-1. Collect activations on true vs. false statements: $$(x_{\text{true}}, x_{\text{false}})$$.
-2. Compute the Difference-in-Means (DiM) direction:
-   $$\mathbf{v}_{\text{DiM}} = \mathbb{E}[\mathbf{a}_{\text{true}}] - \mathbb{E}[\mathbf{a}_{\text{false}}]$$
-3. Project an arbitrary statement's activation onto $$\mathbf{v}_{\text{DiM}}$$ to read off its truth value, or intervene along $$\mathbf{v}_{\text{DiM}}$$ to steer the model toward honesty.
-
-It is an elegant picture. But as models scale and the questions become non-trivial, the 1D linear picture begins to fracture.
-
----
-
-### The Cracks in the 1D Linear Picture
-
-If truth were truly a single one-dimensional line in activation space, two things should hold:
-
-1. **Causal Sufficiency:** Intervening along this direction should reliably invert truth judgments across different statement formats without collateral damage.
-2. **Causal Necessity:** Ablating this direction should extinguish the model's ability to discriminate truth, reducing downstream accuracy to chance.
-
-In practice, when you test these conditions on larger models (such as Llama-3-8B or Gemma-2-9B) using causal interchange experiments, the 1D direction struggles:
-- Probing accuracy might look deceptively high ($$>85\%$$), but when you ablate that exact probe vector, the model often retains substantial ability to tell truth from falsehood.
-- Inverting the vector or steering with it frequently induces off-target collapse—degrading unrelated reasoning capabilities or simply turning affirmative sentences into syntactic negations rather than factual updates.
-
-Why? Because human truth-evaluations are not simply scalar values like temperature or brightness. Truth in natural language is intrinsically entangled with semantic topics, polarity (affirming vs. negating), and syntactic framing.
+Recent work on refusal (Wollschläger et al., 2025) suggests that a single direction like this may only be the one-dimensional case of a *concept cone*, a small linear subspace whose interior mediates the behaviour. My [paper](/papers/truth-cones) asks whether truth has the same structure.
 
 ---
 
-### From Lines to Cones: Targeted Cone Optimization (TCO)
+### The test: two causal properties
 
-Rather than forcing representations into a 1D vector $$\mathbf{v} \in \mathbb{R}^d$$, what if concepts inhabit a low-dimensional convex cone?
+I treat truth as a forced binary choice. The model sees a few-shot prompt such as "The city of Chicago is in Canada. This statement is:" and must answer "True" or "False". A candidate direction $$r$$ at layer $$l^{*}$$ *mediates truth* if it passes two tests:
 
-A **concept cone** $$\mathcal{C}_k$$ spanned by a basis $$V = [\mathbf{v}_1, \dots, \mathbf{v}_k] \in \mathbb{R}^{d \times k}$$ defines a subspace where membership is evaluated via conic combinations:
-$$\mathcal{C}_k = \left\{ \sum_{i=1}^k \alpha_i \mathbf{v}_i \;\middle|\; \alpha_i \ge 0 \right\}$$
+1. **Sufficiency.** Adding $$r$$ to the activations of a false statement makes the model answer "True", more often as the scale grows.
+2. **Necessity, surgically.** Ablating $$r$$ (projecting it out at every layer and position) makes the model answer "False" on true statements, while leaving its outputs on unrelated prompts essentially unchanged (KL divergence below 0.1, the threshold used by Arditi et al., 2024).
 
-Following recent formulations by Wollschlager et al. (2025) and our own experiments in [truth_cones](https://github.com/OUARDI-ILYASS/truth_cones), we formulate **Targeted Cone Optimization (TCO)**. Instead of taking passive differences of empirical means, we directly optimize the cone basis $$V$$ end-to-end under three simultaneous causal objectives:
+Two numbers measure this throughout: the **Answer Switching Rate** (ASR), the fraction of prompts whose answer flips under the intervention, and the **KL divergence** on 100 unrelated Alpaca instructions.
 
-1. **Necessity Loss ($$\mathcal{L}_{\text{nec}}$$):** When the subspace $$V$$ is ablated from the model's residual stream at layer $$\ell$$, the probability of predicting the correct truth token must fall to uniform entropy.
-2. **Sufficiency Loss ($$\mathcal{L}_{\text{suff}}$$):** When the subspace activation is patched from a true statement into a false statement, the model's output must invert to the true target.
-3. **KL Retention Loss ($$\mathcal{L}_{\text{KL}}$$):** On unrelated benchmark tokens, the modified model's output distribution must remain minimally perturbed from the base model:
-   $$\mathcal{L}_{\text{KL}} = D_{\text{KL}}\left(P_{\text{base}}(y \mid x_{\text{neutral}}) \;\parallel\; P_{\text{intervened}}(y \mid x_{\text{neutral}})\right)$$
+---
+
+### From a direction to a cone
+
+**Truth Direction Optimization (TDO)** starts from the DIM direction and refines it by gradient descent, with one loss term per property: a cross-entropy term for necessity, one for sufficiency, and a KL term that keeps ablation from disturbing unrelated prompts.
+
+**Truth Cone Optimization (TCO)** extends this to an orthonormal basis $$V = [\mathbf{v}_1, \dots, \mathbf{v}_k]$$ spanning the cone
+
+$$\mathrm{Cone}(V) = \Big\{ \textstyle\sum_{i=1}^{k} \lambda_i \mathbf{v}_i \;:\; \lambda_i \ge 0 \Big\} \setminus \{0\}$$
+
+and asks that *every* direction in it mediates truth. Optimizing only the basis vectors is not enough: the loss can be satisfied at each $$\mathbf{v}_i$$ while the interior stays unconstrained. So at every step the loss is also computed on 16 directions sampled uniformly from inside the cone, and the basis is re-orthonormalized after each update:
 
 ```python
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
 
-class ConceptCone(nn.Module):
-    def __init__(self, d_model: int, k_dim: int = 2):
-        super().__init__()
-        # Orthonormal basis initialized randomly or via SVD of probe residual
-        self.basis = nn.Parameter(torch.randn(d_model, k_dim))
-        
-    def project(self, activations: torch.Tensor) -> torch.Tensor:
-        # Normalize columns to maintain unit basis vectors
-        q, _ = torch.linalg.qr(self.basis)
-        # Projection onto k-dimensional cone subspace
-        return torch.matmul(activations, q) @ q.T
-
-    def ablate(self, activations: torch.Tensor) -> torch.Tensor:
-        return activations - self.project(activations)
+def sample_cone_directions(V: torch.Tensor, n: int = 16) -> torch.Tensor:
+    """V: (d, k) orthonormal basis. Returns n unit directions inside Cone(V)."""
+    c = torch.randn(n, V.shape[1]).abs()     # fold Gaussian mass into the positive orthant
+    u = c / c.norm(dim=1, keepdim=True)      # uniform on the positive part of the unit sphere
+    r = u @ V.T                              # map to the residual stream, (n, d)
+    return r / r.norm(dim=1, keepdim=True)
 ```
 
----
-
-### What the Geometry Actually Shows
-
-When you optimize a 2D cone ($$k=2$$) on Llama-3 residual streams using [`nnsight`](https://nnsight.net), an unexpected geometric phenomenon emerges:
-
-1. **Near-Orthogonality to Difference-in-Means:**  
-   The optimized basis vectors $$\mathbf{v}_1, \mathbf{v}_2$$ are virtually orthogonal to the standard $$\mathbf{v}_{\text{DiM}}$$ probe ($$\cos(\theta) < 0.15$$). 
-2. **Superior Causal Efficiency:**  
-   Despite being nearly orthogonal to the direction that naive classifiers latch onto, intervening on this 2D cone achieves over **90% causal flip rate** with less than half the KL drift on unrelated factual tasks compared to 1D interventions.
-3. **Disentangling Truth from Negation:**  
-   One basis vector roughly corresponds to *epistemic confidence* (whether the assertion is verifiable), while the orthogonal vector captures *semantic assertion polarity*. A 1D line is forced to conflate the two; a 2D cone separates them naturally.
+I ran this on six instruction-tuned models from three families (Qwen-2.5 1.5B/7B/14B, Gemma-2 2B/9B, Llama-3.1-8B) with [`nnsight`](https://nnsight.net), on three True/False datasets (cities, animals, elements).
 
 ---
 
-### Why This Matters for Verifiable AI Safety
+### What the results show
 
-In mechanistic interpretability, our goal cannot simply be discovering passive correlational probes. If we want to use interpretability for **verifiable safety**—monitoring deceptive alignment, abliterating malicious capabilities, or enforcing ethical compliance—our interventions must be surgically precise.
+![Answer Switching Rate and KL divergence as a function of cone dimension k](/assets/images/papers/truth-cones.png)
 
-Intervening on a flawed geometric abstraction is the fastest way to introduce unmeasured vulnerabilities. If a model represents truth or refusal in a 2D or 3D manifold, erasing a single 1D vector leaves the rest of the manifold intact, creating a trivial bypass for adversarial jailbreaks.
+1. **One direction is not enough for the larger models.** TDO improves on DIM for five of six models, but for the three larger ones (Qwen-2.5-7B, Qwen-2.5-14B, Llama-3.1-8B) a single direction fails on two axes at once: ablation flips too few answers (Qwen-2.5-7B: ASR $$= 0.020$$), and it disturbs unrelated prompts beyond the KL threshold (0.29, 0.19 and 0.28).
+2. **A 2-D cone closes both gaps.** At $$k = 2$$, all six models reach a mean ASR of 1.000 in distribution over 32 directions sampled from the cone, and every model's KL drops below 0.05.
+3. **The cone is not a copy of the probe.** At $$k = 4$$ every basis vector is near-orthogonal to the DIM direction ($$\lvert\cos\rvert < 0.1$$, most below 0.05), yet each is causally effective. DIM is only a starting point.
+4. **More dimensions are not always better.** At $$k = 3$$, Llama-3.1-8B and Qwen-2.5-7B rise back above the KL threshold, so $$k = 2$$ looks like the safe operating point.
 
-By grounding our tools in the true geometry of the activation manifold, we move closer to models whose internal safety guarantees are not just empirical hopes, but mathematical guarantees.
+The joint failure is the interesting part: the same three models fail necessity and surgicality at $$k = 1$$, and both recover at $$k = 2$$. That is what you would expect if a single direction were a projection of a multi-dimensional structure, under-specifying the concept and disturbing the components it leaves out.
 
 ---
 
-*Code, datasets, and technical reports for this work are available at the [`truth_cones`](https://github.com/OUARDI-ILYASS/truth_cones) repository.*
+### Why it matters
+
+If we want to use interpretability to make safety measurable, our interventions have to be both effective and precise, and that depends on having the right picture of the geometry. For the models I tested, truth looks like a small multi-dimensional linear subspace rather than a single line. Ablating one direction from a structure like that can leave the rest in place while disturbing things it should not touch.
+
+The results come with limits: three model families, three factual domains, and weaker out-of-distribution generalization for Qwen-2.5-7B at $$k = 2$$. The details are in the paper.
+
+---
+
+*[Paper and abstract](/papers/truth-cones) · code in the [`truth_cones`](https://github.com/OUARDI-ILYASS/truth_cones) repository.*
