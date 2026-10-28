@@ -1015,3 +1015,197 @@ figcaption {
   }
   .me { font-weight: 600; text-decoration: underline; }
 }
+
+// =====================================================================
+// Design system layer: one type pair, one accent, shared components.
+// Sits last so it unifies the older per-page styles above.
+// =====================================================================
+:root {
+  --ink: #16181d;
+  --ink-2: #3b4250;
+  --muted: #6b7280;
+  --rule: #e6e8ec;
+  --rule-2: #d3d7de;
+  --tint: #f6f7f9;
+  --accent: #1f4e8c;
+  --accent-tint: #eef3fa;
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body {
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--ink);
+  background: #fff;
+}
+
+main { max-width: 68rem; margin: 2.5rem auto; gap: 3rem; }
+
+// Links: quiet underline, accent on hover
+a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--rule-2);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color .15s ease, text-decoration-color .15s ease;
+  &:hover { color: var(--accent); text-decoration-color: var(--accent); }
+}
+
+// Headings
+h1, h2, h3, h4 { font-family: var(--serif); font-weight: 600; letter-spacing: -0.01em; line-height: 1.25; color: var(--ink); }
+.post > h2:first-child { font-size: 2rem; margin: 0 0 1.5rem; }
+.post h2 { font-size: 1.55rem; margin: 2.5rem 0 1rem; }
+.post h3 { font-size: 1.25rem; margin: 2.25rem 0 0.75rem; }
+.post h4 { font-size: 1.05rem; }
+.post p { margin: 0 0 0.9rem; }
+.post ul, .post ol { padding-left: 1.2rem; }
+.post li::marker { color: var(--muted); }
+
+// Sidebar
+header[role="banner"] {
+  flex: 0 0 15rem;
+  padding: 0 !important;
+  align-self: flex-start;
+  position: sticky;
+  top: 2.5rem;
+
+  .author__avatar img { width: 96px; height: 96px; object-fit: cover; border-radius: 10px; }
+  .author__name { font-family: var(--serif); font-size: 1.35rem; margin: 1rem 0 0.4rem; }
+  .author__bio { font-size: 0.86rem; line-height: 1.55; color: var(--muted); width: auto !important; max-width: 15rem !important; }
+  nav { margin-top: 1.75rem !important; }
+  nav ul { padding: 0; }
+  nav li { padding: 0 0 0 0.85rem; margin: 0 0 0.15rem; border-left: 2px solid transparent; }
+  nav li:has(> a.active) { border-left-color: var(--accent); }
+  nav a { font-size: 0.92rem; color: var(--ink-2); text-decoration: none; }
+  nav a:hover { color: var(--accent); }
+  nav a.active { color: var(--ink); font-weight: 600; }
+}
+
+section.post { padding: 0; max-width: 44rem; }
+
+@media screen and (max-width: 45rem) {
+  main { margin: 1rem auto; gap: 1.5rem; }
+  header[role="banner"] {
+    position: static;
+    flex-basis: 100%;
+    .author__bio { max-width: none !important; }
+    nav li { display: inline-block; border-left: 0; padding: 0; margin: 0 1rem 0.3rem 0; }
+    nav li:has(> a.active) { border-bottom: 2px solid var(--accent); }
+    nav ul { border-bottom: 1px solid var(--rule); padding-bottom: 1rem; }
+  }
+  .post > h2:first-child { font-size: 1.6rem; }
+}
+
+// Shared pill button (social links, card actions, paper links)
+.about-links a,
+.project-card .project-actions a,
+.paper-page .paper-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.32rem 0.8rem;
+  border: 1px solid var(--rule-2);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--ink-2);
+  font-family: var(--sans);
+  font-size: 0.84rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .15s ease;
+  &:hover { color: #fff; background: var(--ink); border-color: var(--ink); }
+}
+.paper-page .paper-links a { background: var(--ink); color: #fff; border-color: var(--ink); padding: 0.45rem 1.05rem; font-size: 0.9rem; }
+.paper-page .paper-links a:hover { background: var(--accent); border-color: var(--accent); }
+
+// Shared tag chip
+.project-tags .tag {
+  font-family: var(--sans) !important;
+  font-size: 0.74rem !important;
+  font-weight: 500;
+  color: var(--ink-2) !important;
+  background: var(--tint) !important;
+  border: 1px solid var(--rule);
+  border-radius: 999px !important;
+  padding: 0.12rem 0.6rem !important;
+}
+
+// Cards: hairline, no heavy colour bar
+.project-card {
+  border: 1px solid var(--rule);
+  border-left: 1px solid var(--rule);
+  border-radius: 10px;
+  box-shadow: none;
+  padding: 1.35rem 1.5rem;
+  &:hover { border-color: var(--rule-2); box-shadow: 0 6px 20px rgba(17, 24, 39, 0.05); }
+  h3 { font-family: var(--serif); font-size: 1.2rem; margin: 0 0 0.45rem; }
+  .project-meta { color: var(--muted); }
+  .project-meta .me { color: var(--ink); text-decoration-color: var(--rule-2); }
+  .project-desc { color: var(--ink-2); }
+}
+
+// Callout: accent tint, thin accent rule
+.phd-callout {
+  background: var(--accent-tint);
+  border: 0;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 10px 10px 0;
+  padding: 1.1rem 1.35rem;
+  h3, h4 { font-family: var(--serif); color: var(--accent); font-size: 1.1rem; }
+  p { color: var(--ink-2); }
+  a { color: var(--accent); text-decoration-color: rgba(31, 78, 140, .35); font-weight: 500; }
+}
+
+.research-intro { color: var(--ink-2); font-size: 1rem; }
+
+// About page
+.about-post {
+  .about-links { gap: 0.45rem; margin-bottom: 2rem; }
+  h3 {
+    font-size: 1.05rem;
+    font-family: var(--sans);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    margin: 2.25rem 0 1rem;
+  }
+  .about-links + h3 { border-top: 0; padding-top: 0; margin-top: 0; }
+  ul.news {
+    li { font-size: 0.93rem; line-height: 1.55; margin-bottom: 0.6rem; }
+    time { color: var(--muted); font-size: 0.85rem; padding-top: 0.05rem; }
+  }
+  ul.pubs { padding-left: 0; list-style: none; }
+  ul.pubs li { margin-bottom: 1rem; }
+  ul.pubs li p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+  ul.pubs li a:first-child { font-family: var(--serif); font-size: 1.05rem; font-weight: 600; color: var(--ink); }
+  .me { color: var(--ink); font-weight: 600; text-decoration: underline; text-decoration-color: var(--rule-2); }
+}
+
+// Paper pages
+.paper-page {
+  .paper-status { background: var(--accent-tint); color: var(--accent); border-color: transparent; }
+  h1.paper-title { font-family: var(--serif); font-weight: 600; font-size: 1.85rem; }
+  .paper-abstract h2 { font-family: var(--sans); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+  .paper-abstract p { font-family: var(--serif); font-size: 1.08rem; line-height: 1.7; color: var(--ink); }
+  .paper-hero, .project-tags { border-color: var(--rule) !important; }
+}
+
+// Tables and lists used on the CV / archive pages
+.posts li a { color: var(--ink); }
+.posts li time { color: var(--muted); font-size: 0.85rem; }
+hr, .about-post hr { background: var(--rule); }
+blockquote { border-left: 3px solid var(--rule-2); color: var(--ink-2); }
+
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  padding: 0.45rem 1.05rem; border-radius: 999px;
+  background: var(--ink); color: #fff !important; text-decoration: none;
+  font-size: 0.9rem; font-weight: 500;
+  &:hover { background: var(--accent); }
+}
