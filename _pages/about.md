@@ -17,8 +17,6 @@ permalink: "/"
 
 I am an M.Sc. student in Computer Science at the [University of Milan](https://www.unimi.it/en), where I am writing my thesis on concept erasure in large language models with [Elisabetta Rocchetti](https://eliroc98.github.io/) and Prof. [Alfio Ferrara](https://www.unimi.it/en/ugov/person/alfio-ferrara) at [ISLab](https://islab.di.unimi.it/). I received my B.Sc. in Computer Science from the same university in 2024, graduating 110/110 _cum laude_, and I am currently a teaching assistant for the first-year Python course of the [Bachelor's in Artificial Intelligence](https://bai.unipv.it/).
 
-My research is in mechanistic interpretability and AI safety. I study the geometry of representations: how concepts such as truth and refusal are encoded in a model's activation space, and whether interventions built on that picture, like steering and concept erasure, change only what they are meant to change.
-
 <div class="phd-callout">
   <h4>Looking for a PhD</h4>
   <p>
@@ -28,7 +26,7 @@ My research is in mechanistic interpretability and AI safety. I study the geomet
 
 ### Research interests
 
-I work on AI safety, mainly through mechanistic interpretability and representation engineering: understanding how models encode concepts internally, and using that understanding to steer or edit their behaviour in ways we can actually measure.
+I work on AI safety, mainly through mechanistic interpretability and representation engineering. I study the geometry of representations: how concepts such as truth and refusal are encoded in a model's activation space, and whether interventions built on that picture, like steering and concept erasure, change only what they are meant to change.
 
 Looking ahead, I want to study social LLMs and agent behaviour: how models act when they interact with people and with each other.
 
