@@ -5,6 +5,7 @@ toc: true
 permalink: /posts/2026/09/truth-lives-in-a-cone/
 tags: [Mechanistic Interpretability, Representation Geometry, LLMs, AI Safety, nnsight]
 content_type: article
+research: true
 mathjax: true
 excerpt: "The Linear Representation Hypothesis posits that high-level concepts correspond to single 1D directions in activation space. But does truth actually behave linearly when models scale up? Here is why a 2D concept cone provides a much more faithful geometric picture."
 ---

@@ -23,6 +23,10 @@ layout: compress
     {{ content }}
 
   </main>
+  <footer class="site-footer">
+    <span>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}</span>
+    {% for item in site.data.navigation.footer %}<a href="{{ item.url }}">{{ item.title }}</a>{% endfor %}
+  </footer>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       const headings = document.querySelectorAll("h1, h2, h3, h4, h5, h6");

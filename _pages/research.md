@@ -29,11 +29,9 @@ The two are connected, since an intervention built on the wrong picture of the g
   </p>
 </div>
 
+<p class="section-more"><a href="/statement">Read my full research statement &rarr;</a></p>
 
-
-
-
-## Ongoing Research & Thesis
+## Ongoing
 
 <div class="project-card">
   <h3>What Does Forgetting Look Like? Where activations land after concept erasure</h3>
@@ -58,26 +56,24 @@ The two are connected, since an intervention built on the wrong picture of the g
 </div>
 
 
-## Research Papers & Preprints
+## Papers & Preprints
 
 <div class="project-card is-link">
   <img class="card-thumb" src="/assets/images/papers/truth-cones.png" alt="" loading="lazy">
-  <h3><a class="card-link" href="/papers/truth-cones">The Multidimensional Geometry of Truth in LLMs: A Concept-Cone Extension of the Linear Representation Hypothesis</a></h3>
+  <h3><a class="card-link" href="/papers/truth-cones">The Multidimensional Geometry of Truth in Large Language Models: A Concept-Cone Extension of the Linear Representation Hypothesis</a></h3>
   <div class="project-meta">
-    <span class="authors"><span class="me">Ilyass Ouardi</span></span> &bull; 
-    <span class="venue">Research Report / ISLab</span> &bull; 
+    <span class="authors"><span class="me">Ilyass Ouardi</span></span> &bull;
+    <span class="venue">Preprint (draft), University of Milan</span> &bull;
     <time>2026</time>
   </div>
   <div class="project-desc">
-    Investigates whether propositional truth is mediated by a single linear direction or by a $k$-dimensional concept cone. Adapting Targeted Directional Optimization (TDO) and Targeted Cone Optimization (TCO) from Wollschlager et al. (2025) under causal necessity, sufficiency, and KL-retention losses, we demonstrate that in larger models (e.g. Llama-3, Gemma), a single linear probe fails causal interchange tests, whereas a low-dimensional concept cone ($k=2$) successfully mediates truth judgments while remaining near-orthogonal to naive Difference-in-Means directions.
+    Is propositional truth one linear direction in a model's residual stream, or a small <em>concept cone</em>? I optimize a single direction (TDO) and a $k$-dimensional cone (TCO) under two causal axioms and a KL-retention term, on six instruction-tuned models from three families. One direction is enough for the smaller models but fails for the larger ones; a 2-D cone closes the gap for every model, with basis vectors near-orthogonal to the Difference-in-Means probe yet each causally effective.
   </div>
   <div class="project-tags">
     <span class="tag">Mechanistic Interpretability</span>
     <span class="tag">Representation Geometry</span>
     <span class="tag">Concept Cones</span>
     <span class="tag">Causal Mediation</span>
-    <span class="tag">nnsight</span>
-    <span class="tag">PyTorch</span>
   </div>
   <div class="project-actions">
     <a href="/papers/truth-cones">
@@ -97,21 +93,20 @@ The two are connected, since an intervention built on the wrong picture of the g
 
 <div class="project-card is-link">
   <img class="card-thumb" src="/assets/images/papers/heart-sounds.png" alt="" loading="lazy">
-  <h3><a class="card-link" href="/papers/heart-sounds">What Does a Heart-Sound Classifier Actually Learn? A Diagnostic Audit on PhysioNet CinC 2016</a></h3>
+  <h3><a class="card-link" href="/papers/heart-sounds">What Does a Heart Sound Classifier Actually Learn? A Controlled Comparison of Cepstral, Spectral and Wavelet-Packet Representations</a></h3>
   <div class="project-meta">
-    <span class="authors"><span class="me">Ilyass Ouardi</span></span> &bull; 
-    <span class="venue">Research Report / University of Milan</span> &bull; 
+    <span class="authors"><span class="me">Ilyass Ouardi</span></span> &bull;
+    <span class="venue">Preprint (draft), University of Milan</span> &bull;
     <time>2026</time>
   </div>
   <div class="project-desc">
-    A diagnostic refutation of shortcut learning in cardiac murmur classification. Demonstrates that CNN phonocardiogram models trained on PhysioNet CinC 2016 exploit recording-site background acoustic artifacts rather than true cardiac pathological signals, causing macro-accuracy to collapse from 0.866 to 0.457 under leave-site-out cross-validation. Proposes an explicit spectral diagnostic filter to catch spurious feature reliance prior to clinical deployment.
+    Three feature representations and three classifiers on PhysioNet/CinC 2016, with every performance claim paired with a diagnostic that could refute it. The best model reaches a modified accuracy of 0.866, but the recording site is recoverable from the same features and diagnostic performance drops to near chance under leave-one-site-out evaluation: the aggregate metric overstates what the models learned.
   </div>
   <div class="project-tags">
     <span class="tag">Shortcut Learning</span>
-    <span class="tag">Diagnostic Audit</span>
+    <span class="tag">Explainability</span>
     <span class="tag">Audio Pattern Recognition</span>
-    <span class="tag">Healthcare AI Safety</span>
-    <span class="tag">CNNs</span>
+    <span class="tag">Evaluation</span>
   </div>
   <div class="project-actions">
     <a href="/papers/heart-sounds">
@@ -130,24 +125,22 @@ The two are connected, since an intervention built on the wrong picture of the g
 </div>
 
 
-## Applied & Open-Source Projects
-
 <div class="project-card is-link">
   <img class="card-thumb" src="/assets/images/papers/legend-challenge.png" alt="" loading="lazy">
-  <h3><a class="card-link" href="/papers/legend-challenge">The Legend Challenge: Embedding Ethical Compliance into LLMs</a></h3>
+  <h3><a class="card-link" href="/papers/legend-challenge">The Legend Challenge: Embedding Ethical Compliance into LLMs through Champion Narratives</a></h3>
   <div class="project-meta">
-    <span class="authors"><span class="me">Ilyass Ouardi</span></span> &bull; 
-    <span class="venue">Security of Service-Oriented Architectures</span> &bull; 
+    <span class="authors">Fatmir Bylyshi*, Hicham El-Khazri*, <span class="me">Ilyass Ouardi</span>*</span> &bull;
+    <span class="venue">Preprint (draft), SESAR Lab, University of Milan</span> &bull;
     <time>2026</time>
   </div>
   <div class="project-desc">
-    Evaluates regulatory prompting versus narrative exemplars ("champion stories") for debiasing large language models and enforcing normative ethical constraints. Benchmarked systematically on GenderEqGLUE across varying prompt configurations and model scales.
+    Does a model learn a regulation better from stories of it being followed than from the regulation itself? We fine-tune the same backbone on either corpus, holding everything else fixed, and introduce GenderEqGLUE, a five-task benchmark, plus an occlusion-based interpretability analysis. The two regimes teach complementary competences: the regulation text wins on aggregate, the legends win on selecting the compliant action. <span class="muted">*Equal contribution.</span>
   </div>
   <div class="project-tags">
-    <span class="tag">AI Alignment</span>
-    <span class="tag">GenderEqGLUE</span>
-    <span class="tag">Ethical Compliance</span>
-    <span class="tag">Prompt Engineering</span>
+    <span class="tag">LLM Fine-tuning</span>
+    <span class="tag">AI Ethics</span>
+    <span class="tag">Benchmarks</span>
+    <span class="tag">Interpretability</span>
   </div>
   <div class="project-actions">
     <a href="/papers/legend-challenge">
@@ -160,6 +153,37 @@ The two are connected, since an intervention built on the wrong picture of the g
     </a>
   </div>
 </div>
+
+## Writing
+
+<ul class="writing-list">
+{% assign research_posts = site.posts | where: "research", true %}
+{% for post in research_posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %Y" }}</time>
+    {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+  </li>
+{% endfor %}
+</ul>
+<p class="section-more"><a href="/articles">All articles &rarr;</a></p>
+
+## Resources
+
+<div class="project-card is-link">
+  <h3><a class="card-link" href="/mech-interp-papers">Mechanistic Interpretability: A Reading Curriculum</a></h3>
+  <div class="project-desc">
+    A self-study curriculum ordered the way I would teach it: the conceptual vocabulary first, then reverse-engineering small models by hand, causal methods, and current open problems. Starred papers make a one-pass version.
+  </div>
+  <div class="project-actions">
+    <a href="/mech-interp-papers">Open the curriculum</a>
+  </div>
+</div>
+
+## Engineering Projects
+
+
+
 
 <div class="project-card">
   <h3>RecupGPT & Production Donation Infrastructure</h3>

@@ -1233,3 +1233,21 @@ blockquote { border-left: 3px solid var(--rule-2); color: var(--ink-2); }
   &:hover { border-color: var(--accent); }
   &:hover .card-link { color: var(--accent); }
 }
+
+// Research page: writing list, "more" links, footer
+.section-more { margin: 0.25rem 0 0; font-size: 0.9rem; a { color: var(--accent); text-decoration-color: rgba(31, 78, 140, .35); } }
+.muted { color: var(--muted); font-size: 0.85em; }
+ul.writing-list {
+  list-style: none; padding: 0; margin: 0 0 0.5rem;
+  li { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding: 0.7rem 0; border-bottom: 1px solid var(--rule); }
+  li:first-child { border-top: 1px solid var(--rule); }
+  a { font-family: var(--serif); font-size: 1.05rem; font-weight: 600; text-decoration: none; }
+  time { flex-shrink: 0; color: var(--muted); font-size: 0.85rem; }
+}
+.site-footer {
+  max-width: 68rem; margin: 0 auto 2.5rem; padding: 1.25rem 1rem 0;
+  border-top: 1px solid var(--rule);
+  display: flex; flex-wrap: wrap; gap: 0.4rem 1.5rem;
+  font-size: 0.85rem; color: var(--muted);
+  a { color: var(--muted); text-decoration: none; &:hover { color: var(--accent); } }
+}

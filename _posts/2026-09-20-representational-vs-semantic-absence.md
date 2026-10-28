@@ -5,6 +5,7 @@ toc: true
 permalink: /posts/2026/09/representational-vs-semantic-absence/
 tags: [Mechanistic Interpretability, Philosophy of AI, Representation Geometry, Concept Erasure, AI Safety]
 content_type: article
+research: true
 mathjax: true
 excerpt: "If a linear probe cannot decode a concept from an LLM's activations, is that concept genuinely absent from the model? Here is why statistical unrecoverability does not imply semantic absence—and why confusing the two undermines AI safety."
 ---
