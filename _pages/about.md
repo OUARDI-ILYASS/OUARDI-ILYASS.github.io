@@ -19,19 +19,6 @@ I am an M.Sc. student in Computer Science at the [University of Milan](https://w
 
 My research is in mechanistic interpretability and AI safety. I study the geometry of representations: how concepts such as truth and refusal are encoded in a model's activation space, and whether interventions built on that picture, like steering and concept erasure, change only what they are meant to change.
 
-### News
-
-<ul class="news">
-  <li><time>Nov 2026</time><span>I will be at the <a href="https://swissaisafetydays.ch/"><strong>Swiss AI Safety Days</strong></a> in Zurich (7–8 November). Happy to meet if you are there.</span></li>
-  <li><time>Oct 2026</time><span>Started as teaching assistant for <em>Computer Programming</em> (Python), the first-year course of the inter-university <a href="https://bai.unipv.it/">Bachelor's in Artificial Intelligence</a> (<a href="https://www.unipv.eu">Pavia</a>, <a href="https://www.unimi.it/en">Milan</a>, <a href="https://www.unimib.it/">Milano-Bicocca</a>), with Prof. Stefano Ferrari.</span></li>
-  <li><time>Oct 2026</time><span>Joined a team working on the <a href="https://steerability.github.io/competition/"><strong>Steerability Challenge</strong></a>.</span></li>
-  <li><time>Sep 2026</time><span>Started my M.Sc. thesis on concept erasure in LLMs with <a href="https://eliroc98.github.io/">Elisabetta Rocchetti</a> and Prof. Alfio Ferrara at <a href="https://islab.di.unimi.it/">ISLab</a>.</span></li>
-  <li><time>Sep 2026</time><span>Joined <a href="https://www.ais4i.it/"><strong>AI Safety for Italy (AIS4I)</strong></a>, the Italian AI safety community, as a member and organizer.</span></li>
-  <li><time>Jul 2026</time><span>Finished drafts of my manuscripts on the <a href="/papers/truth-cones">geometry of truth in LLMs</a>, on <a href="/papers/heart-sounds">what heart-sound classifiers learn</a> and on <a href="/papers/legend-challenge">the Legend Challenge</a>.</span></li>
-  <li><time>Jan 2026</time><span>Started as teaching assistant for <em>Accertamento delle Competenze Informatiche</em> at the <a href="https://www.unimi.it/en">University of Milan</a>.</span></li>
-  <li><time>Sep 2025</time><span>Joined <a href="https://leadthefuture.tech/"><strong>Lead the Future</strong></a>, a STEM mentorship community, as a mentee.</span></li>
-</ul>
-
 <div class="phd-callout">
   <h4>Looking for a PhD</h4>
   <p>
@@ -41,12 +28,9 @@ My research is in mechanistic interpretability and AI safety. I study the geomet
 
 ### Research interests
 
-I see interpretability as a way to make model safety measurable, so most of my questions are about whether our picture of a model's internals is the right one.
+I work on AI safety, mainly through mechanistic interpretability and representation engineering: understanding how models encode concepts internally, and using that understanding to steer or edit their behaviour in ways we can actually measure.
 
-- **Model biology.** Do concepts live on single linear directions, or on higher-dimensional, possibly non-linear structures? My work on truth suggests that, in larger models, a small multi-dimensional cone describes the concept better than one direction.
-- **Applied interpretability.** Are representation-level edits (steering, abliteration, concept erasure) really surgical? I try to measure their side effects as carefully as the behaviour they are meant to change.
-
-The two are connected: an intervention built on the wrong picture of the geometry is exactly the one whose side effects go unmeasured.
+Looking ahead, I want to study social LLMs and agent behaviour: how models act when they interact with people and with each other.
 
 ### Manuscripts
 
@@ -61,6 +45,19 @@ The two are connected: an intervention built on the wrong picture of the geometr
 {: .pubs}
 
 More on the [Research](/research) page.
+
+### News
+
+<ul class="news">
+  <li><time>Nov 2026</time><span>I will be at the <a href="https://swissaisafetydays.ch/"><strong>Swiss AI Safety Days</strong></a> in Zurich (7–8 November). Happy to meet if you are there.</span></li>
+  <li><time>Oct 2026</time><span>Started as teaching assistant for <em>Computer Programming</em> (Python), the first-year course of the inter-university <a href="https://bai.unipv.it/">Bachelor's in Artificial Intelligence</a> (<a href="https://www.unipv.eu">Pavia</a>, <a href="https://www.unimi.it/en">Milan</a>, <a href="https://www.unimib.it/">Milano-Bicocca</a>), with Prof. Stefano Ferrari.</span></li>
+  <li><time>Oct 2026</time><span>Joined a team working on the <a href="https://steerability.github.io/competition/"><strong>Steerability Challenge</strong></a>.</span></li>
+  <li><time>Sep 2026</time><span>Started my M.Sc. thesis on concept erasure in LLMs with <a href="https://eliroc98.github.io/">Elisabetta Rocchetti</a> and Prof. Alfio Ferrara at <a href="https://islab.di.unimi.it/">ISLab</a>.</span></li>
+  <li><time>Sep 2026</time><span>Joined <a href="https://www.ais4i.it/"><strong>AI Safety for Italy (AIS4I)</strong></a>, the Italian AI safety community, as a member and organizer.</span></li>
+  <li><time>Jul 2026</time><span>Finished drafts of my manuscripts on the <a href="/papers/truth-cones">geometry of truth in LLMs</a>, on <a href="/papers/heart-sounds">what heart-sound classifiers learn</a> and on <a href="/papers/legend-challenge">the Legend Challenge</a>.</span></li>
+  <li><time>Jan 2026</time><span>Started as teaching assistant for <em>Accertamento delle Competenze Informatiche</em> at the <a href="https://www.unimi.it/en">University of Milan</a>.</span></li>
+  <li><time>Sep 2025</time><span>Joined <a href="https://leadthefuture.tech/"><strong>Lead the Future</strong></a>, a STEM mentorship community, as a mentee.</span></li>
+</ul>
 
 ### Outside research
 
