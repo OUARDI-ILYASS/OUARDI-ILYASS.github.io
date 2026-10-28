@@ -65,6 +65,9 @@ collections:
   phrases:
     output: true
     permalink: /:collection/:name
+  papers:
+    output: true
+    permalink: /papers/:name
   
 defaults:
   -
@@ -96,3 +99,10 @@ defaults:
       type: "phrases"
     values:
       layout: "phrase"
+  -
+    scope:
+      path: ""
+      type: "papers"
+    values:
+      layout: "paper"
+      mathjax: true
