@@ -15,7 +15,7 @@ permalink: "/"
 
 ### Short bio
 
-I am an M.Sc. student in Computer Science at the [University of Milan](https://www.unimi.it/en), where I am writing my thesis on concept erasure in large language models with Elisabetta Rocchetti and Prof. [Alfio Ferrara](https://www.unimi.it/en/ugov/person/alfio-ferrara) at [ISLab](https://islab.di.unimi.it/). I received my B.Sc. in Computer Science from the same university in 2024, graduating 110/110 _cum laude_, and I am currently a teaching assistant for the first-year Python course of the Bachelor's in Artificial Intelligence.
+I am an M.Sc. student in Computer Science at the [University of Milan](https://www.unimi.it/en), where I am writing my thesis on concept erasure in large language models with [Elisabetta Rocchetti](https://eliroc98.github.io/) and Prof. [Alfio Ferrara](https://www.unimi.it/en/ugov/person/alfio-ferrara) at [ISLab](https://islab.di.unimi.it/). I received my B.Sc. in Computer Science from the same university in 2024, graduating 110/110 _cum laude_, and I am currently a teaching assistant for the first-year Python course of the Bachelor's in Artificial Intelligence.
 
 My research is in mechanistic interpretability and AI safety. I study the geometry of representations: how concepts such as truth and refusal are encoded in a model's activation space, and whether interventions built on that picture, like steering and concept erasure, change only what they are meant to change.
 
@@ -25,7 +25,7 @@ My research is in mechanistic interpretability and AI safety. I study the geomet
   <li><time>Nov 2026</time><span>I will be at the <a href="https://swissaisafetydays.ch/"><strong>Swiss AI Safety Days</strong></a> in Zurich (7–8 November). Happy to meet if you are there.</span></li>
   <li><time>Oct 2026</time><span>Started as teaching assistant for <em>Computer Programming</em> (Python), the first-year course of the inter-university Bachelor's in Artificial Intelligence (<a href="https://www.unipv.eu">Pavia</a>, <a href="https://www.unimi.it/en">Milan</a>, <a href="https://www.unimib.it/">Milano-Bicocca</a>), with Prof. Stefano Ferrari.</span></li>
   <li><time>Oct 2026</time><span>Joined a team working on the <a href="https://steerability.github.io/"><strong>Steerability Challenge</strong></a>.</span></li>
-  <li><time>Sep 2026</time><span>Started my M.Sc. thesis on concept erasure in LLMs with Elisabetta Rocchetti and Prof. Alfio Ferrara at <a href="https://islab.di.unimi.it/">ISLab</a>.</span></li>
+  <li><time>Sep 2026</time><span>Started my M.Sc. thesis on concept erasure in LLMs with <a href="https://eliroc98.github.io/">Elisabetta Rocchetti</a> and Prof. Alfio Ferrara at <a href="https://islab.di.unimi.it/">ISLab</a>.</span></li>
   <li><time>Sep 2026</time><span>Joined <a href="https://www.ais4i.it/"><strong>AI Safety for Italy (AIS4I)</strong></a>, the Italian AI safety community, as a member and organizer.</span></li>
   <li><time>Jul 2026</time><span>Finished drafts of my manuscripts on the <a href="/papers/truth-cones">geometry of truth in LLMs</a>, on <a href="/papers/heart-sounds">what heart-sound classifiers learn</a> and on <a href="/papers/legend-challenge">the Legend Challenge</a>.</span></li>
   <li><time>Jan 2026</time><span>Started as teaching assistant for <em>Accertamento delle Competenze Informatiche</em> at the <a href="https://www.unimi.it/en">University of Milan</a>.</span></li>
