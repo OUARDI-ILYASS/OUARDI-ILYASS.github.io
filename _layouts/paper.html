@@ -39,6 +39,13 @@ layout: default
     </div>
   </div>
 
+  {% if page.image %}
+  <figure class="paper-figure">
+    <img src="{{ page.image }}" alt="Main figure of {{ page.title | escape }}">
+    {% if page.image_caption %}<figcaption>{{ page.image_caption }}</figcaption>{% endif %}
+  </figure>
+  {% endif %}
+
   {% if page.tldr %}
   <div class="paper-tldr"><strong>TL;DR</strong> {{ page.tldr }}</div>
   {% endif %}

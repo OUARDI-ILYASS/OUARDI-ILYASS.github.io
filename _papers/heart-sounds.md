@@ -9,6 +9,8 @@ year: 2026
 status: Manuscript
 pdf: https://github.com/OUARDI-ILYASS/apr-heart-sounds/blob/main/report.pdf
 code: https://github.com/OUARDI-ILYASS/apr-heart-sounds
+image: /assets/images/papers/heart-sounds.png
+image_caption: "The recording site is recoverable from the same features, and diagnostic skill collapses once site is controlled (leave-one-site-out)."
 tags: [Audio Pattern Recognition, Shortcut Learning, Explainability, PhysioNet/CinC 2016]
 ---
 

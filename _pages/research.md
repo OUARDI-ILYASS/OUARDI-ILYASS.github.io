@@ -60,8 +60,9 @@ The two are connected, since an intervention built on the wrong picture of the g
 
 ## Research Papers & Preprints
 
-<div class="project-card">
-  <h3>The Multidimensional Geometry of Truth in LLMs: A Concept-Cone Extension of the Linear Representation Hypothesis</h3>
+<div class="project-card is-link">
+  <img class="card-thumb" src="/assets/images/papers/truth-cones.png" alt="" loading="lazy">
+  <h3><a class="card-link" href="/papers/truth-cones">The Multidimensional Geometry of Truth in LLMs: A Concept-Cone Extension of the Linear Representation Hypothesis</a></h3>
   <div class="project-meta">
     <span class="authors"><span class="me">Ilyass Ouardi</span></span> &bull; 
     <span class="venue">Research Report / ISLab</span> &bull; 
@@ -94,8 +95,9 @@ The two are connected, since an intervention built on the wrong picture of the g
   </div>
 </div>
 
-<div class="project-card">
-  <h3>What Does a Heart-Sound Classifier Actually Learn? A Diagnostic Audit on PhysioNet CinC 2016</h3>
+<div class="project-card is-link">
+  <img class="card-thumb" src="/assets/images/papers/heart-sounds.png" alt="" loading="lazy">
+  <h3><a class="card-link" href="/papers/heart-sounds">What Does a Heart-Sound Classifier Actually Learn? A Diagnostic Audit on PhysioNet CinC 2016</a></h3>
   <div class="project-meta">
     <span class="authors"><span class="me">Ilyass Ouardi</span></span> &bull; 
     <span class="venue">Research Report / University of Milan</span> &bull; 
@@ -130,8 +132,9 @@ The two are connected, since an intervention built on the wrong picture of the g
 
 ## Applied & Open-Source Projects
 
-<div class="project-card">
-  <h3>The Legend Challenge: Embedding Ethical Compliance into LLMs</h3>
+<div class="project-card is-link">
+  <img class="card-thumb" src="/assets/images/papers/legend-challenge.png" alt="" loading="lazy">
+  <h3><a class="card-link" href="/papers/legend-challenge">The Legend Challenge: Embedding Ethical Compliance into LLMs</a></h3>
   <div class="project-meta">
     <span class="authors"><span class="me">Ilyass Ouardi</span></span> &bull; 
     <span class="venue">Security of Service-Oriented Architectures</span> &bull; 

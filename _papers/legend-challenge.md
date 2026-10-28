@@ -15,6 +15,8 @@ year: 2026
 status: Manuscript
 pdf: https://github.com/OUARDI-ILYASS/SOASEC-project/blob/main/paper/paper_exp.pdf
 code: https://github.com/OUARDI-ILYASS/SOASEC-project
+image: /assets/images/papers/legend-challenge.png
+image_caption: "The two fine-tuning regimes teach complementary competences: tuned-regulation leads on the aggregate score, tuned-legends is strongest on GE-NEXT and GE-NLI."
 tags: [LLM Fine-tuning, AI Ethics, Benchmarks, Interpretability]
 ---
 

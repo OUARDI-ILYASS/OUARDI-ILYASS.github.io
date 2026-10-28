@@ -9,6 +9,8 @@ year: 2026
 status: Manuscript
 pdf: https://github.com/OUARDI-ILYASS/truth_cones/blob/main/report.pdf
 code: https://github.com/OUARDI-ILYASS/truth_cones
+image: /assets/images/papers/truth-cones.png
+image_caption: "$k=2$ resolves both axes simultaneously for larger models: (a) answer switching rate under ablation rises with cone dimension $k$; (b) KL divergence on unrelated prompts falls below the surgicality threshold at $k=2$."
 tags: [Mechanistic Interpretability, Representation Geometry, Concept Cones, Causal Mediation]
 ---
 
