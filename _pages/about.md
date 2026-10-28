@@ -5,38 +5,60 @@ author_profile: true
 permalink: "/"
 ---
 
-<!-- ![profile picture]({{ site.url }}/assets/images/profile1.png#center) -->
+<p class="about-links">
+  <a href="mailto:ilyassouardi@gmail.com">Email</a> &bull;
+  <a href="https://github.com/OUARDI-ILYASS">GitHub</a> &bull;
+  <a href="https://x.com/ouardi_ilyass">X</a> &bull;
+  <a href="https://www.linkedin.com/in/ilyass-ouardi/">LinkedIn</a> &bull;
+  <a href="/cv">CV</a>
+</p>
 
-### **Hey, I’m Ilyass Ouardi!**  
+### Short bio
+
+I am an M.Sc. student in Computer Science at the University of Milan, where I am writing my thesis on concept erasure in large language models with Elisabetta Rocchetti and Prof. Alfio Ferrara at ISLab. I received my B.Sc. in Computer Science from the same university in 2024, graduating 110/110 _cum laude_, and I am currently a teaching assistant for the first-year Python course of the Bachelor's in Artificial Intelligence.
+
+My research is in mechanistic interpretability and AI safety. I study the geometry of representations: how concepts such as truth and refusal are encoded in a model's activation space, and whether interventions built on that picture, like steering and concept erasure, change only what they are meant to change.
+
+### News
+
+<ul class="news">
+  <li><time>Nov 2026</time><span>I will be at the <strong>Swiss AI Safety Days</strong> in Zurich (7–8 November). Happy to meet if you are there.</span></li>
+  <li><time>Oct 2026</time><span>Started as teaching assistant for <em>Computer Programming</em> (Python), the first-year course of the inter-university Bachelor's in Artificial Intelligence (Pavia, Milan, Milano-Bicocca), with Prof. Stefano Ferrari.</span></li>
+  <li><time>Oct 2026</time><span>Joined a team working on the <strong>Steerability Challenge</strong>.</span></li>
+  <li><time>Sep 2026</time><span>Started my M.Sc. thesis on concept erasure in LLMs with Elisabetta Rocchetti and Prof. Alfio Ferrara at ISLab.</span></li>
+  <li><time>Sep 2026</time><span>Joined <strong>AI Safety for Italy (AIS4I)</strong>, the Italian AI safety community, as a member and organizer.</span></li>
+  <li><time>Jul 2026</time><span>Finished drafts of my manuscripts on the <a href="/papers/truth-cones">geometry of truth in LLMs</a>, on <a href="/papers/heart-sounds">what heart-sound classifiers learn</a> and on <a href="/papers/legend-challenge">the Legend Challenge</a>.</span></li>
+  <li><time>Jan 2026</time><span>Started as teaching assistant for <em>Accertamento delle Competenze Informatiche</em> at the University of Milan.</span></li>
+  <li><time>Sep 2025</time><span>Joined <strong>Lead the Future</strong>, a STEM mentorship community, as a mentee.</span></li>
+</ul>
 
 <div class="phd-callout">
-  <h4>Prospective Collaborations & Inquiries</h4>
+  <h4>Looking for a PhD</h4>
   <p>
-    I am actively seeking <strong>PhD positions, pre-doctoral fellowships, and lab collaborations</strong> starting in 2026/2027. If your research group works on mechanistic interpretability, representation geometry, or verifiable AI safety, I welcome the opportunity to discuss shared research directions.
-  </p>
-  <p>
-    <strong>Contact:</strong> <a href="mailto:ilyassouardi@gmail.com">ilyassouardi@gmail.com</a> &bull; <a href="https://github.com/OUARDI-ILYASS">GitHub</a> &bull; <a href="https://www.linkedin.com/in/ilyass-ouardi/">LinkedIn</a> &bull; <a href="/cv">View Curriculum Vitae</a>
+    I am looking for <strong>PhD positions, pre-doctoral fellowships and lab collaborations</strong> starting in 2026/2027. If your group works on mechanistic interpretability, representation geometry or AI safety, I would be glad to talk.
   </p>
 </div>
 
-I've always been drawn to challenges. As a kid, math was my favorite subject, not despite being hard, but because of it. Where others saw something to avoid, I saw a puzzle waiting to be solved. I'd watch movies about geniuses cracking impossible problems and then go look up unsolved math questions, half-dreaming I'd solve one myself. Naive, sure, but that instinct, to chase the hardest open question in the room, is exactly what pulls me toward research today.
+### Research interests
 
-Computer science became the natural playground for that curiosity, and over the last year it has sharpened into a clear direction: I want to understand what actually happens inside large language models. We've built systems that do extraordinary things while barely understanding how they work, and I've decided to spend my energy on closing that gap — the field of mechanistic interpretability, and the broader question of what makes these models reliable, transparent, and safe. What I love is that this sits right where computer science turns razor-thin against math: elegant, formal problems whose solutions read almost like mathematical poetry.
+I see interpretability as a way to make model safety measurable, so most of my questions are about whether our picture of a model's internals is the right one.
 
-For me research isn't just an aspiration I talk about, but something I'm already experimenting with. In the last academic year I've carried three research projects from question to result as projects for my exams, the most important of which studies the internal geometry of "truth" in LLMs and is now becoming my Master's thesis, in collaboration with a PhD student and a professor at my department. That work, and the others, led three different labs to invite me to collaborate. My next goals are simple and ambitious: a strong thesis, a first publication why not at a top venue, and a PhD in mechanistic interpretability.
+- **Model biology.** Do concepts live on single linear directions, or on higher-dimensional, possibly non-linear structures? My work on truth suggests that, in larger models, a small multi-dimensional cone describes the concept better than one direction.
+- **Applied interpretability.** Are representation-level edits (steering, abliteration, concept erasure) really surgical? I try to measure their side effects as carefully as the behaviour they are meant to change.
 
-Outside research, my other great passion is football, I've played since I was a kid, from the streets to semi-pro, and I live for the competition. Basketball is how I switch off after a long day of studying, and I've even done some modeling, which introduced me to great people and a different take on creativity. I think the same thing drives all of it: the thrill of pushing myself and getting better.
+The two are connected: an intervention built on the wrong picture of the geometry is exactly the one whose side effects go unmeasured.
 
-If any of this resonates, mech interp, AI, hard problems, or just the drive to take on something difficult, reach out. I'm always up for a good conversation, a new project, or trading ideas.
+### Manuscripts
 
----
+- **[The Multidimensional Geometry of Truth in Large Language Models: A Concept-Cone Extension of the Linear Representation Hypothesis](/papers/truth-cones)**<br>
+  <span class="me">Ilyass Ouardi</span>. Preprint (draft), 2026.
+- **[What Does a Heart Sound Classifier Actually Learn? A Controlled Comparison of Cepstral, Spectral and Wavelet-Packet Representations](/papers/heart-sounds)**<br>
+  <span class="me">Ilyass Ouardi</span>. Preprint (draft), 2026.
+- **[The Legend Challenge: Embedding Ethical Compliance into LLMs through Champion Narratives](/papers/legend-challenge)**<br>
+  Fatmir Bylyshi\*, Hicham El-Khazri\*, <span class="me">Ilyass Ouardi</span>\*. Preprint (draft), 2026. \*Equal contribution.
 
-### **Connect**
-- **Email:** [ilyassouardi@gmail.com](mailto:ilyassouardi@gmail.com)
-- **GitHub:** [github.com/OUARDI-ILYASS](https://github.com/OUARDI-ILYASS)
-- **LinkedIn:** [linkedin.com/in/ilyass-ouardi](https://www.linkedin.com/in/ilyass-ouardi/)
-- **X / Twitter:** [@ouardi_ilyass](https://x.com/ouardi_ilyass)
-- **Curriculum Vitae:** [View CV](/cv)
+Ongoing: _What Does Forgetting Look Like? Where activations land after concept erasure_ (M.Sc. thesis, with Elisabetta Rocchetti and Alfio Ferrara). More on the [Research](/research) page.
 
+### Outside research
 
-
+I have played football since I was a kid, from the streets up to semi-pro, and basketball is how I switch off after a long day of studying.
