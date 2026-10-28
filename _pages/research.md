@@ -31,30 +31,36 @@ The two are connected, since an intervention built on the wrong picture of the g
 
 <p class="section-more"><a href="/statement">Read my full research statement &rarr;</a></p>
 
-## Ongoing
+## Ongoing: M.Sc. Thesis
 
-<div class="project-card">
+<div class="thesis-block">
   <h3>What Does Forgetting Look Like? Where activations land after concept erasure</h3>
   <div class="project-meta">
-    <span class="authors"><span class="me">Ilyass Ouardi</span>, Elisabetta Rocchetti, Alfio Ferrara</span> &bull; 
-    <span class="venue">M.Sc. Thesis / ISLab, University of Milan</span> &bull; 
-    <time>Ongoing (Expected 2027)</time>
+    <span class="authors"><span class="me">Ilyass Ouardi</span>, with <a href="https://eliroc98.github.io/">Elisabetta Rocchetti</a> and <a href="https://www.unimi.it/en/ugov/person/alfio-ferrara">Alfio Ferrara</a></span> &bull;
+    <span class="venue"><a href="https://islab.di.unimi.it/">ISLab</a>, University of Milan</span> &bull;
+    <time>Sep 2026 to Jul 2027</time>
   </div>
-  <div class="project-desc">
-    Concept erasure is usually judged by what it removes and how much else it damages. This thesis asks a different question: after an erasure intervention, where do the edited activations end up relative to the activations a model produces naturally, and do they mean anything? It separates representational absence (a concept that can no longer be recovered) from semantic absence (inputs to which the concept does not apply). Proposal stage.
-  </div>
-  <div class="project-tags">
-    <span class="tag">M.Sc. Thesis</span>
-    <span class="tag">Representation Manifolds</span>
-    <span class="tag">Concept Erasure</span>
-    <span class="tag">Activation Steering</span>
-    <span class="tag">ISLab</span>
-  </div>
-  <div class="project-actions">
-    <span style="font-size: 0.82rem; color: #718096; font-style: italic;">In Progress &bull; Pre-print in preparation</span>
-  </div>
-</div>
 
+  <p>Removing undesirable knowledge from language models, from hazardous dual-use information to protected attributes, has motivated a range of concept erasure methods. These are usually judged by two numbers: what they remove, measured by probes or behaviour, and how much else they damage. Neither says <em>where the edited activations end up</em>. An erasure operator maps each activation to a new one, and the result may lie where the model naturally operates, or in regions it never visits on real inputs.</p>
+
+  <p>My thesis studies this <em>post-erasure distribution</em> directly and compares it with the activations the model produces on natural inputs, from three perspectives:</p>
+
+  <div class="thesis-axes">
+    <div><strong>Behavioural</strong><span>Are the outputs from edited activations fluent and free of the concept, or degenerate and evasive?</span></div>
+    <div><strong>Semantic</strong><span>What can still be decoded from them, with linear probes, the J-lens and Natural Language Autoencoders?</span></div>
+    <div><strong>Geometric</strong><span>Do they stay within the distribution of natural activations, or are they pushed outside it?</span></div>
+  </div>
+
+  <h4>Two notions of absence</h4>
+  <p><strong>Representational absence</strong> is a property of a distribution: the concept cannot be statistically recovered from it. It is the success criterion of the erasure literature, and the operator produces it, often by construction. <strong>Semantic absence</strong> is how a model represents a concept it genuinely has no knowledge of, such as an invented entity or an event after its training cut-off. Erasure produces the first by design; whether it also produces the second is the open question, and semantic absence gives a natural reference point for judging what erasure does.</p>
+
+  <h4>Planned contributions</h4>
+  <ul>
+    <li><strong>A benchmark</strong> for concept erasure in the spirit of AxBench: a fixed set of concepts, operators and controls, evaluated uniformly on whether each intervention removes the concept and at what cost to fluency and coherence.</li>
+    <li><strong>An explanatory analysis</strong> of when and why an intervention succeeds or fails, relating the outcome to properties of the concept (linear separability, partial or total, whether neutral and not-applicable inputs exist) and of the edit (layer, displacement, distance from the natural distribution).</li>
+  </ul>
+  <p class="muted">The work starts by reproducing the observation of Rocchetti et al. (2026) that nullspace projection leaves refusal activations between the harmful and harmless clusters, while counterfactual flipping moves them into the opposite one. Proposal stage; preprint in preparation. Related post: <a href="/posts/2026/09/representational-vs-semantic-absence/">Representational Absence vs. Semantic Absence</a>.</p>
+</div>
 
 ## Papers & Preprints
 

@@ -16,7 +16,7 @@ permalink: "/mech-interp-papers"
     A self-study curriculum in <strong>mechanistic interpretability</strong>, ordered the way I would teach it: build the conceptual vocabulary, reverse-engineer small models by hand, learn the causal toolkit, move to dictionary learning and frontier-scale circuit tracing, then apply it to representation geometry, steering, and safety.
   </p>
   <p>
-    Each part opens with the question it answers. Within a part, papers are in suggested reading order. If you only have time for one pass, read the <strong>&starf; starred</strong> items.
+    Each part opens with the question it answers. Within a part, papers are in suggested reading order. If you only have time for one pass, read the <strong>★ starred</strong> items.
   </p>
 </div>
 
@@ -36,7 +36,7 @@ permalink: "/mech-interp-papers"
   *Dario Amodei (2025)* &bull; [[Essay](https://www.darioamodei.com/post/the-urgency-of-interpretability)]  
   > The motivating case: why understanding models should mature before they become more capable.
 
-- &starf; **How To Become A Mechanistic Interpretability Researcher**  
+- ★ **How To Become A Mechanistic Interpretability Researcher**  
   *Neel Nanda (2025)* &bull; [[Alignment Forum](https://www.alignmentforum.org/posts/jP9KDyMkchuv6tHwm/how-to-become-a-mechanistic-interpretability-researcher)]  
   > Practical roadmap for entering the field and doing research that holds up.
 
@@ -48,7 +48,7 @@ permalink: "/mech-interp-papers"
 
 *What are the units of computation in a network, and why are they hard to find?*
 
-- &starf; **Zoom In: An Introduction to Circuits**  
+- ★ **Zoom In: An Introduction to Circuits**  
   *Chris Olah et al. (Distill, 2020)* &bull; [[Distill](https://distill.pub/2020/circuits/zoom-in/)]  
   > The founding statement of the research agenda: features are the units of representation, circuits are the weights connecting them.
 
@@ -56,11 +56,11 @@ permalink: "/mech-interp-papers"
   *Tomas Mikolov et al. (2013)* &bull; [[arXiv:1301.3781](https://arxiv.org/abs/1301.3781)]  
   > word2vec: the classic demonstration of linear structure in learned embeddings.
 
-- &starf; **Toy Models of Superposition**  
+- ★ **Toy Models of Superposition**  
   *Nelson Elhage, Tristan Hume, Catherine Olsson, Neel Nanda et al. (Anthropic, 2022)* &bull; [[Transformer Circuits](https://transformer-circuits.pub/2022/toy_model/index.html)]  
   > Networks exploit near-orthogonal geometry to represent more sparse features than they have dimensions, which is why individual neurons are polysemantic.
 
-- &starf; **The Linear Representation Hypothesis and the Geometry of Large Language Models**  
+- ★ **The Linear Representation Hypothesis and the Geometry of Large Language Models**  
   *Kiho Park, Yo Joong Choe, Victor Veitch (2023)* &bull; [[arXiv:2311.03658](https://arxiv.org/abs/2311.03658)]  
   > Formalizes when high-level concepts are linearly decodable in intermediate representations, the mathematical foundation for directional representation.
 
@@ -70,11 +70,11 @@ permalink: "/mech-interp-papers"
 
 *Can we fully explain an algorithm a transformer learned? Start where ground truth exists.*
 
-- &starf; **In-Context Learning and Induction Heads**  
+- ★ **In-Context Learning and Induction Heads**  
   *Catherine Olsson, Nelson Elhage, Neel Nanda et al. (Anthropic, 2022)* &bull; [[arXiv:2209.11895](https://arxiv.org/abs/2209.11895)]  
   > Two-layer attention circuits that implement copy-and-complete, a core mechanism behind in-context learning.
 
-- &starf; **Progress Measures for Grokking via Mechanistic Interpretability**  
+- ★ **Progress Measures for Grokking via Mechanistic Interpretability**  
   *Neel Nanda, Lawrence Chan, Tom Lieberum, Jess Smith, Jacob Steinhardt (ICLR 2023)* &bull; [[arXiv:2301.05217](https://arxiv.org/abs/2301.05217)]  
   > Delayed generalization on modular arithmetic corresponds to the model learning a discrete-Fourier-transform algorithm, tracked with internal progress measures.
 
@@ -90,7 +90,7 @@ permalink: "/mech-interp-papers"
 
 *Does a model trained only on move sequences build an internal world model?*
 
-- &starf; **Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task**  
+- ★ **Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task**  
   *Kenneth Li et al. (2022)* &bull; [[arXiv:2210.13382](https://arxiv.org/abs/2210.13382)]
 - **Interpreting Othello-GPT**  
   *Neel Nanda (2023)* &bull; [[Alignment Forum](https://www.alignmentforum.org/s/nhGNHyJHbrofpPbRG)]
@@ -107,7 +107,7 @@ permalink: "/mech-interp-papers"
 
 *From correlation to falsifiable intervention.*
 
-- &starf; **Locating and Editing Factual Associations in GPT (ROME)**  
+- ★ **Locating and Editing Factual Associations in GPT (ROME)**  
   *Kevin Meng, David Bau, Alex Andonian, Yonatan Belinkov (NeurIPS 2022)* &bull; [[arXiv:2202.05262](https://arxiv.org/abs/2202.05262)]  
   > Causal tracing by corrupting and restoring activations localizes factual recall to mid-layer MLPs, enabling rank-one edits.
 
@@ -131,11 +131,11 @@ permalink: "/mech-interp-papers"
   *Hoagy Cunningham, Aidan Ewart, Logan Riggs, Robert Huben, Lee Sharkey (ICLR 2024)* &bull; [[arXiv:2309.08600](https://arxiv.org/abs/2309.08600)]  
   > $L_1$-regularized SAEs on residual streams resolve polysemantic neurons into more monosemantic, steerable features.
 
-- &starf; **Towards Monosemanticity: Decomposing Language Models with Dictionary Learning**  
+- ★ **Towards Monosemanticity: Decomposing Language Models with Dictionary Learning**  
   *Trenton Bricken et al. (Anthropic, 2023)* &bull; [[Transformer Circuits](https://transformer-circuits.pub/2023/monosemantic-features/index.html)]  
   > On a one-layer transformer, SAE features are more interpretable than neurons and causally active.
 
-- &starf; **Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet**  
+- ★ **Scaling Monosemanticity: Extracting Interpretable Features from Claude 3 Sonnet**  
   *Adly Templeton et al. (Anthropic, 2024)* &bull; [[Transformer Circuits](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html)]  
   > Scales to a production model, extracting abstract features (deception, sycophancy, code vulnerabilities) that steer behavior.
 
@@ -174,11 +174,11 @@ permalink: "/mech-interp-papers"
   *Jack Lindsey et al. (Anthropic, 2024)* &bull; [[Transformer Circuits](https://transformer-circuits.pub/2024/crosscoders/index.html)]  
   > Features shared across layers and models; the basis for cross-layer transcoders and model diffing.
 
-- &starf; **Circuit Tracing: Revealing Computational Graphs in Language Models**  
+- ★ **Circuit Tracing: Revealing Computational Graphs in Language Models**  
   *Emmanuel Ameisen et al. (Anthropic, 2025)* &bull; [[Transformer Circuits](https://transformer-circuits.pub/2025/attribution-graphs/methods.html)]  
   > The methods paper for attribution graphs.
 
-- &starf; **On the Biology of a Large Language Model**  
+- ★ **On the Biology of a Large Language Model**  
   *Jack Lindsey et al. (Anthropic, 2025)* &bull; [[Transformer Circuits](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)]  
   > Attribution graphs applied to case studies in a production model.
 
@@ -191,7 +191,7 @@ permalink: "/mech-interp-papers"
 
 *Where do concepts live in activation space, and when does a single direction fail?*
 
-- &starf; **The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets**  
+- ★ **The Geometry of Truth: Emergent Linear Structure in Large Language Model Representations of True/False Datasets**  
   *Samuel Marks, Max Tegmark (2023)* &bull; [[arXiv:2310.06824](https://arxiv.org/abs/2310.06824)]  
   > Truth judgments project onto low-dimensional linear structure across model scales.
 
@@ -213,7 +213,7 @@ permalink: "/mech-interp-papers"
 
 *Using what we know to read and control model behavior.*
 
-- &starf; **Steering Language Models With Activation Engineering**  
+- ★ **Steering Language Models With Activation Engineering**  
   *Alexander Matt Turner, Lisa Thiergart, David Udell et al. (2023)* &bull; [[arXiv:2308.10248](https://arxiv.org/abs/2308.10248)]  
   > Activation Addition: add concept-difference vectors to hidden states, with no weight optimization.
 
@@ -221,7 +221,7 @@ permalink: "/mech-interp-papers"
   *Andy Zou, Long Phan, Sarah Chen et al. (Center for AI Safety, 2023)* &bull; [[arXiv:2310.01405](https://arxiv.org/abs/2310.01405)]  
   > Top-down reading and steering vectors for honesty, hallucination, and morality.
 
-- &starf; **Refusal in Language Models Is Mediated by a Single Direction**  
+- ★ **Refusal in Language Models Is Mediated by a Single Direction**  
   *Andy Arditi, Oscar Obeso, Aaquib Syed et al. (2024)* &bull; [[arXiv:2406.11717](https://arxiv.org/abs/2406.11717)]  
   > Refusal is bottlenecked through one linear direction, making directional ablation a baseline for removing behavior.
 

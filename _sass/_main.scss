@@ -1251,3 +1251,60 @@ ul.writing-list {
   font-size: 0.85rem; color: var(--muted);
   a { color: var(--muted); text-decoration: none; &:hover { color: var(--accent); } }
 }
+
+// Article pages: TOC in the left gutter on wide screens, hidden on narrow
+.toc { display: none; }
+@media (min-width: 1240px) {
+  .toc {
+    display: block;
+    position: fixed;
+    top: 7rem;
+    left: max(1rem, calc(50% - 34rem));
+    width: 13rem;
+    height: auto;
+    font-size: 0.82rem;
+    line-height: 1.45;
+    background: transparent;
+    ul { padding: 0; }
+    li { margin-bottom: 0.45rem; }
+    a { color: var(--muted); text-decoration: none; }
+    a.active, a:hover { color: var(--accent); font-weight: 500; }
+    b { font-family: var(--sans); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.72rem; color: var(--muted); }
+  }
+}
+
+.article-page h1.title {
+  font-family: var(--serif);
+  font-size: 2.2rem;
+  line-height: 1.2;
+  max-width: none;
+  text-align: left;
+  margin: 1.5rem 0 2rem;
+}
+.article-page > div:first-of-type { font-size: 0.85rem; color: var(--muted); a { color: var(--muted); } }
+
+// Thesis block on the Research page
+.thesis-block {
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  padding: 1.5rem 1.6rem 1.1rem;
+  background: linear-gradient(180deg, var(--accent-tint) 0, #fff 7rem);
+  h3 { font-family: var(--serif); font-size: 1.35rem; margin: 0 0 0.5rem; }
+  h4 { font-family: var(--sans); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 1.5rem 0 0.5rem; }
+  .project-meta { font-size: 0.88rem; color: var(--muted); margin-bottom: 1rem; }
+  .project-meta .me { color: var(--ink); font-weight: 600; }
+  p, li { color: var(--ink-2); font-size: 0.97rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin-bottom: 0.45rem; }
+  .muted { font-size: 0.86rem; margin-top: 1rem; }
+}
+.thesis-axes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+  margin: 0.4rem 0 0.5rem;
+  > div { border: 1px solid var(--rule); border-radius: 8px; padding: 0.75rem 0.85rem; background: #fff; }
+  strong { display: block; font-family: var(--serif); font-size: 1rem; color: var(--accent); margin-bottom: 0.25rem; }
+  span { font-size: 0.86rem; line-height: 1.5; color: var(--ink-2); }
+  @media (max-width: 640px) { grid-template-columns: 1fr; }
+}

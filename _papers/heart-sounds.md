@@ -10,7 +10,7 @@ status: Manuscript
 pdf: https://github.com/OUARDI-ILYASS/apr-heart-sounds/blob/main/report.pdf
 code: https://github.com/OUARDI-ILYASS/apr-heart-sounds
 image: /assets/images/papers/heart-sounds.png
-image_caption: "The recording site is recoverable from the same features, and diagnostic skill collapses once site is controlled (leave-one-site-out)."
+image_caption: "Grad-CAM on a correctly detected abnormal recording, aligned to the cardiac cycle (S1, systole, S2, diastole): waveform, log-Mel spectrogram with attribution contours, and attribution over time against a uniform baseline."
 tags: [Audio Pattern Recognition, Shortcut Learning, Explainability, PhysioNet/CinC 2016]
 ---
 
