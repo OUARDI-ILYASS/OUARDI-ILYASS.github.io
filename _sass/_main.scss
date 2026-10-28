@@ -1328,3 +1328,7 @@ section { min-width: 0; }
   pre { overflow-x: auto; }
   pre code { display: block; width: max-content; min-width: 100%; }
 }
+
+// Articles share the site layout; floating TOC retired
+.toc { display: none !important; }
+.article-page h1.title { margin-top: 1rem; }
