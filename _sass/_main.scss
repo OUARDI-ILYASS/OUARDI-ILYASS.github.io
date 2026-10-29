@@ -1332,3 +1332,7 @@ section { min-width: 0; }
 // Articles share the site layout; floating TOC retired
 .toc { display: none !important; }
 .article-page h1.title { margin-top: 1rem; }
+
+// Paper pages: no sidebar, paper centered
+main:has(> .paper-page) { justify-content: center; }
+.paper-page { flex: 0 1 48rem; max-width: 48rem; margin: 0 auto; }
