@@ -1336,3 +1336,4 @@ section { min-width: 0; }
 // Paper pages: no sidebar, paper centered
 main:has(> .paper-page) { justify-content: center; }
 .paper-page { flex: 0 1 48rem; max-width: 48rem; margin: 0 auto; }
+.paper-page .paper-abstract p { text-align: justify; hyphens: auto; }
