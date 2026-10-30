@@ -8,14 +8,18 @@ hide_title: true
 ---
 
 <header class="cv-header">
+  <img class="cv-seal" src="{{ site.baseurl }}/assets/images/unimi-logo.png" alt="Seal of the University of Milan">
+  <div class="cv-id">
+    <h1 class="cv-name">{{ site.author.name }}</h1>
+    <p class="cv-role">M.Sc. Computer Science &middot; Università degli Studi di Milano</p>
+    <p class="cv-links">
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+      <a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">linkedin.com/in/{{ site.author.linkedin }}</a>
+      <a href="https://x.com/{{ site.author.twitter }}">x.com/{{ site.author.twitter }}</a>
+    </p>
+  </div>
   <a class="cv-download" href="{{ site.baseurl }}/assets/cv-ilyass-ouardi.pdf" target="_blank" rel="noopener">PDF&nbsp;&darr;</a>
-  <h1 class="cv-name">{{ site.author.name }}</h1>
-  <p class="cv-links">
-    <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a> &middot;
-    <a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a> &middot;
-    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">linkedin.com/in/{{ site.author.linkedin }}</a> &middot;
-    <a href="https://x.com/{{ site.author.twitter }}">x.com/{{ site.author.twitter }}</a>
-  </p>
 </header>
 
 ## Research Interests
