@@ -3,9 +3,9 @@ layout: page
 title: Books
 author_profile: true
 permalink: "/books"
+back_url: "/reading-list"
+back_label: "Back to Reading List"
 ---
-
-<a class="back-link" href="/reading-list">&larr; Back to Reading List</a>
 
 I’ve always leaned more towards movies than books, since I often felt that studying already took up most of my reading time. Lately, though, I’ve been trying to read more outside of my studies — as a way to learn, explore new ideas, and take a break from the everyday rush.
 

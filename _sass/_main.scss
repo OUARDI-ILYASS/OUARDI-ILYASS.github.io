@@ -1399,4 +1399,5 @@ main:has(> .cv-page) { justify-content: center; }
 .back-link { display: inline-block; font-family: var(--sans); font-size: 0.85rem; color: var(--muted); text-decoration: none; margin: 0; &:hover { color: var(--accent); } }
 p:has(> .back-link:only-child) { margin: 0 0 0.5rem !important; }
 .back-link + * { margin-top: 0.5rem; }
+p:has(> .back-link:only-child) + h2 { margin-top: 0.25rem; }
 .paper-page .paper-hero { padding-top: 0.5rem; }

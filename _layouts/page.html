@@ -17,6 +17,7 @@ layout: default
 
 {% unless page.hide_sidebar %}{% include navigation.html %}{% endunless %}
 <section class="post {{ page.class }} {% if page.url == '/' or page.title == 'About Me' %}about-post{% endif %}">
+  {% if page.back_url %}<p><a class="back-link" href="{{ page.back_url }}">&larr; {{ page.back_label }}</a></p>{% endif %}
   {% unless page.url == '/' or page.hide_title %}<h2>{{ page.title }}</h2>{% endunless %}
   {{ content }}
 </section>

@@ -7,9 +7,9 @@ description: "Research statement and scientific vision of Ilyass Ouardi on mecha
 author_profile: true
 permalink: "/statement"
 mathjax: true
+back_url: "/research"
+back_label: "Research"
 ---
-
-<a class="back-link" href="/research">&larr; Research</a>
 
 
 <div class="research-intro">

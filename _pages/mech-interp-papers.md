@@ -5,9 +5,9 @@ seo_title: "Mechanistic Interpretability Papers & Syllabus | Ilyass Ouardi"
 description: "Curated syllabus and research bibliography in mechanistic interpretability, representation geometry, sparse autoencoders, and causal alignment by Ilyass Ouardi."
 author_profile: true
 permalink: "/mech-interp-papers"
+back_url: "/research"
+back_label: "Research"
 ---
-
-<a class="back-link" href="/research">&larr; Research</a>
 
 <div class="research-intro">
   <p>
