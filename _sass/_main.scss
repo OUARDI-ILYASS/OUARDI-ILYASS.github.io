@@ -1337,3 +1337,32 @@ section { min-width: 0; }
 main:has(> .paper-page) { justify-content: center; }
 .paper-page { flex: 0 1 48rem; max-width: 48rem; margin: 0 auto; }
 .paper-page .paper-abstract p { text-align: justify; hyphens: auto; }
+
+// CV page: LaTeX-style résumé
+.cv-page {
+  position: relative;
+  font-family: "Latin Modern Roman", "CMU Serif", var(--serif);
+  color: var(--ink);
+  > h2:first-child { font-family: inherit; font-variant: small-caps; font-weight: 600; text-align: center; margin: 0 0 0.75rem; }
+  .cv-download {
+    position: absolute; top: 0.35rem; right: 0;
+    font-size: 0.8rem; font-variant: small-caps; letter-spacing: 0.05em;
+    color: var(--muted); text-decoration: none;
+    border-bottom: 1px solid var(--rule-2);
+    &:hover { color: var(--ink); border-bottom-color: var(--ink); }
+  }
+  h2 {
+    font-family: inherit; font-variant: small-caps; font-weight: 600;
+    font-size: 1.25rem; letter-spacing: 0.03em;
+    margin: 1.6rem 0 0.6rem; padding-bottom: 0.15rem;
+    border-bottom: 0.5px solid var(--ink);
+  }
+  p, li { font-family: inherit; font-size: 1rem; line-height: 1.45; text-align: justify; hyphens: auto; }
+  p { margin: 0.6rem 0 0.25rem; }
+  ul, ol { margin: 0.2rem 0 0.6rem; padding-left: 1.2rem; }
+  li { margin: 0.1rem 0; }
+  // dates: right-aligned, upright, like \hfill in a LaTeX CV
+  p code { float: right; font-family: inherit; font-size: 0.95rem; font-style: italic; background: none; border: 0; padding: 0; color: var(--ink-2); }
+  li code { font-family: inherit; font-style: italic; background: none; border: 0; padding: 0; }
+  .coursework-accordion { border-radius: 0; font-size: 0.9rem; }
+}

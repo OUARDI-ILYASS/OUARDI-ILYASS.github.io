@@ -3,14 +3,10 @@ layout: page
 title: Curriculum Vitae
 author_profile: true
 permalink: "/cv"
+class: cv-page
 ---
 
-<p style="margin-bottom: 1.5rem;">
-  <a href="{{ site.baseurl }}/assets/cv-ilyass-ouardi.pdf" target="_blank" class="btn-primary">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-    Download Academic CV (PDF)
-  </a>
-</p>
+<a class="cv-download" href="{{ site.baseurl }}/assets/cv-ilyass-ouardi.pdf" target="_blank" rel="noopener">PDF&nbsp;&darr;</a>
 
 ## Research Interests
 
@@ -25,7 +21,7 @@ The two are connected, since an intervention built on the wrong picture of the g
 ## Education
 
 **M.Sc. in Computer Science** (Laurea Magistrale in Informatica, LM-18)  
-_University of Milan, Italy_ &bull; `Sep 2024 – Present`  
+_University of Milan, Italy_  `Sep 2024 – Present`  
 - **Thesis (proposal stage):** _What Does Forgetting Look Like? Where activations land after concept erasure_
 - **Advisors:** Prof. Alfio Ferrara & Elisabetta Rocchetti (University of Milan)
 - **Focus:** Thesis on concept erasure in large language models: after an erasure intervention, where the edited activations land relative to the activations the model produces naturally, and whether they carry any meaning (representational vs. semantic absence of a concept).
@@ -97,7 +93,7 @@ _University of Milan, Italy_ &bull; `Sep 2024 – Present`
 </details>
 
 **B.Sc. in Computer Science** (Laurea in Informatica, L-31)  
-_University of Milan, Italy_ &bull; `Sep 2020 – Oct 2024`  
+_University of Milan, Italy_  `Sep 2020 – Oct 2024`  
 - **Final grade:** **110/110 _cum laude_** &bull; **Weighted Average:** **28.55/30** (3.81/4.00)
 - **Thesis:** _Design and development of a donation-tracking system for RECUP APS_ (_Sviluppo di uno strumento di supporto all'associazione Recup_)
 - **Advisor:** Prof. Carlo Maria Bellettini
@@ -191,7 +187,7 @@ _University of Milan, Italy_ &bull; `Sep 2020 – Oct 2024`
 </details>
 
 **Diploma, Computer Science (Perito Informatico)**  
-_ITT "G. e M. Montani", Fermo, Italy_ &bull; `Sep 2015 – Jul 2020`  
+_ITT "G. e M. Montani", Fermo, Italy_  `Sep 2015 – Jul 2020`  
 - **Final grade:** **100/100 _cum laude_** (Focus on Programming and Computer Networks)
 
 ## Research Experience
