@@ -1350,8 +1350,7 @@ main:has(> .cv-page) { justify-content: center; }
 
   .cv-header {
     display: flex; align-items: center; gap: 1.25rem;
-    margin: 0 0 0.25rem; padding: 0 0 0.8rem;
-    border-bottom: 1px solid var(--ink);
+    margin: 0 0 0.25rem; padding: 0;
   }
   .cv-seal { width: 6rem; height: 6rem; flex: none; }
   .cv-id { flex: 1; min-width: 0; }
