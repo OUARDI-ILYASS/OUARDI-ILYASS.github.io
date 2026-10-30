@@ -17,6 +17,6 @@ layout: default
 
 {% include navigation.html %}
 <section class="post {{ page.class }} {% if page.url == '/' or page.title == 'About Me' %}about-post{% endif %}">
-  {% unless page.url == '/' %}<h2>{{ page.title }}</h2>{% endunless %}
+  {% unless page.url == '/' or page.hide_title %}<h2>{{ page.title }}</h2>{% endunless %}
   {{ content }}
 </section>
