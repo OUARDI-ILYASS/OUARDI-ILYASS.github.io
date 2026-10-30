@@ -15,7 +15,7 @@ layout: default
 }
 </script>
 
-{% include navigation.html %}
+{% unless page.hide_sidebar %}{% include navigation.html %}{% endunless %}
 <section class="post {{ page.class }} {% if page.url == '/' or page.title == 'About Me' %}about-post{% endif %}">
   {% unless page.url == '/' or page.hide_title %}<h2>{{ page.title }}</h2>{% endunless %}
   {{ content }}
