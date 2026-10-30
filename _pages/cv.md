@@ -18,7 +18,6 @@ hide_sidebar: true
       <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
       <a href="https://github.com/{{ site.author.github }}">github.com/{{ site.author.github }}</a>
       <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">linkedin.com/in/{{ site.author.linkedin }}</a>
-      <a href="https://x.com/{{ site.author.twitter }}">x.com/{{ site.author.twitter }}</a>
       <a class="cv-download" href="{{ site.baseurl }}/assets/cv-ilyass-ouardi.pdf" target="_blank" rel="noopener">PDF&nbsp;&darr;</a>
     </p>
   </div>

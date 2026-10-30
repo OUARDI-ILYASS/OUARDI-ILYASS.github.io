@@ -1346,11 +1346,11 @@ main:has(> .cv-page) { justify-content: center; }
   font-family: "Latin Modern Roman", "CMU Serif", var(--serif);
   color: var(--ink);
 
-  .cv-back { display: inline-block; font-family: var(--sans); font-size: 0.85rem; color: var(--muted); text-decoration: none; margin-bottom: 1.5rem; &:hover { color: var(--accent); } }
+  .cv-back { display: inline-block; font-family: var(--sans); font-size: 0.85rem; color: var(--muted); text-decoration: none; margin: 0; &:hover { color: var(--accent); } }
 
   .cv-header {
     display: flex; align-items: center; gap: 1.25rem;
-    margin: 0 0 1.5rem; padding-bottom: 1rem;
+    margin: 0 0 0.25rem; padding-bottom: 0.8rem;
     border-bottom: 1px solid var(--ink);
   }
   .cv-seal { width: 4.25rem; height: 4.25rem; flex: none; }
@@ -1378,6 +1378,8 @@ main:has(> .cv-page) { justify-content: center; }
   p code { float: right; font-family: inherit; font-size: 0.95rem; font-style: italic; background: none; border: 0; padding: 0; color: var(--ink-2); }
   li code { font-family: inherit; font-style: italic; background: none; border: 0; padding: 0; }
   .coursework-accordion { border-radius: 0; font-size: 0.9rem; }
+  p:has(> .cv-back) { margin: 0 0 0.9rem; }
+  .cv-header + h2 { margin-top: 1rem; }
 
   @media (max-width: 40rem) {
     .cv-header { flex-direction: column; text-align: center; gap: 0.7rem; }
