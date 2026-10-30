@@ -1353,7 +1353,7 @@ main:has(> .cv-page) { justify-content: center; margin-top: 0.75rem; }
     margin: 0 0 0.25rem; padding: 0 0 0.8rem;
     border-bottom: 1px solid var(--ink);
   }
-  .cv-seal { width: 4.25rem; height: 4.25rem; flex: none; }
+  .cv-seal { width: 6rem; height: 6rem; flex: none; }
   .cv-id { flex: 1; min-width: 0; }
   .cv-name { font-family: inherit; font-variant: small-caps; font-weight: 600; font-size: 2.3rem; line-height: 1.1; letter-spacing: 0.02em; margin: 0; }
   .cv-role { font-style: italic; font-size: 1rem; color: var(--ink-2); margin: 0.2rem 0 0.5rem; text-align: left; }
