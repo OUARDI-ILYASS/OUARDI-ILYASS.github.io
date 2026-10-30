@@ -7,9 +7,7 @@ author_profile: true
 permalink: "/mech-interp-papers"
 ---
 
-<p style="margin-bottom: 1.5rem;">
-  <a href="/research" style="text-decoration: none; font-size: 0.9rem; color: #6b7280;">&larr; Research</a>
-</p>
+<a class="back-link" href="/research">&larr; Research</a>
 
 <div class="research-intro">
   <p>

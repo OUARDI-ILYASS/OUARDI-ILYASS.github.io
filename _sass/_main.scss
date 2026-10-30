@@ -1339,14 +1339,14 @@ main:has(> .paper-page) { justify-content: center; }
 .paper-page .paper-abstract p { text-align: justify; hyphens: auto; }
 
 // CV page: standalone LaTeX-style document (no sidebar, centered like paper pages)
-main:has(> .cv-page) { justify-content: center; margin-top: 0.75rem; }
+main:has(> .cv-page), main:has(> .paper-page) { margin-top: 0.75rem; }
+main:has(> .cv-page) { justify-content: center; }
 .cv-page {
   position: relative;
   flex: 0 1 50rem; max-width: 50rem; margin: 0 auto;
   font-family: "Latin Modern Roman", "CMU Serif", var(--serif);
   color: var(--ink);
 
-  .cv-back { display: inline-block; font-family: var(--sans); font-size: 0.85rem; color: var(--muted); text-decoration: none; margin: 0; &:hover { color: var(--accent); } }
 
   .cv-header {
     display: flex; align-items: center; gap: 1.25rem;
@@ -1383,7 +1383,6 @@ main:has(> .cv-page) { justify-content: center; margin-top: 0.75rem; }
   p code { float: right; font-family: inherit; font-size: 0.95rem; font-style: italic; background: none; border: 0; padding: 0; color: var(--ink-2); }
   li code { font-family: inherit; font-style: italic; background: none; border: 0; padding: 0; }
   .coursework-accordion { border-radius: 0; font-size: 0.9rem; }
-  p:has(> .cv-back) { margin: 0 0 0.5rem; }
   .cv-header + h2 { margin-top: 1rem; }
 
   @media (max-width: 40rem) {
@@ -1395,3 +1394,9 @@ main:has(> .cv-page) { justify-content: center; margin-top: 0.75rem; }
     p, li { text-align: left; hyphens: manual; }
   }
 }
+
+// Shared "← Back" link (CV, papers, sub-pages): same spacing everywhere
+.back-link { display: inline-block; font-family: var(--sans); font-size: 0.85rem; color: var(--muted); text-decoration: none; margin: 0; &:hover { color: var(--accent); } }
+p:has(> .back-link:only-child) { margin: 0 0 0.5rem !important; }
+.back-link + * { margin-top: 0.5rem; }
+.paper-page .paper-hero { padding-top: 0.5rem; }

@@ -8,7 +8,7 @@ hide_title: true
 hide_sidebar: true
 ---
 
-<a class="cv-back" href="{{ site.baseurl }}/">&larr; Home</a>
+<a class="back-link" href="{{ site.baseurl }}/">&larr; Home</a>
 <header class="cv-header">
   <img class="cv-seal" src="{{ site.baseurl }}/assets/images/unimi-logo.png" alt="Seal of the University of Milan">
   <div class="cv-id">
