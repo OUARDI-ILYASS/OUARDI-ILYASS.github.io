@@ -40,7 +40,7 @@ _University of Milan, Italy_  `Sep 2024 – Present`
 - **Thesis (proposal stage):** _What Does Forgetting Look Like? Where activations land after concept erasure_
 - **Advisors:** Prof. Alfio Ferrara & Elisabetta Rocchetti (University of Milan)
 - **Focus:** Thesis on concept erasure in large language models: after an erasure intervention, where the edited activations land relative to the activations the model produces naturally, and whether they carry any meaning (representational vs. semantic absence of a concept).
-- **Expected defense:** Summer 2027 (July 2027)
+- **Expected defense:** October 2027
 - **Weighted average:** **29.22/30** (3.90/4.00)
 
 <details class="coursework-accordion">
@@ -207,6 +207,13 @@ _ITT "G. e M. Montani", Fermo, Italy_  `Sep 2015 – Jul 2020`
 
 ## Research Experience
 
+**Competition — Steerability Challenge: Reducing LLM Dishonesty**  
+_Team steer-fry_ (With E. Bottazzi)  
+`Oct 2026 – Present`
+
+- Competition on steering pipelines that reduce model dishonesty (lying, sycophancy) while preserving general capabilities, submitted as frozen pipelines for three competition models. Final submission: November 2026.
+- Built a GEPA pipeline that evolves the honest-persona system prompt, and implemented probe-gated activation steering (StMP, Herbster et al.) on answer tokens, evaluated on a Qwen3.5-9B proxy model.
+
 **Independent Research — Representation Geometry of Truth**  
 _University of Milan_ (Sole author; Natural Language Processing course)  
 `Dec 2025 – Jul 2026`
@@ -272,12 +279,13 @@ _PC & Informatica SRL_
 
 ## Fellowships, Awards, and Honours
 
-- **Full academic + merit scholarships** (tuition and housing), University of Milan (`Sep 2020 – Sep 2026`)
+- **Full academic + merit scholarships** (tuition and housing), University of Milan (`Sep 2020 – Present`)
 - **Lead the Future** — STEM mentorship community, Mentee (`Sep 2025 – Present`)
+- **AI Safety for Italy (AIS4I)** — Italian AI safety community, Member and Organizer (`Sep 2026 – Present`)
 - **BOOST '24** — Selected for the Bologna Orthogonal Summer Term for outstanding B.Sc./M.Sc. CS students (`Aug 2024`)
 - **Futuro Annunciato '24** — Selected for the event, for outstanding students (`Jul 2024`)
 - **Nomination, "Alfieri del Lavoro" Award** — Presidency of the Italian Republic (`Jul 2020`)
-- **Participant, National Olympiads in Informatics & Mathematics** (`2017 – 2020`)
+- **Participant, Olympiads in Informatics & Mathematics** — multiple participations, reaching different competition stages (`2017 – 2020`)
 
 ## Technical Skills
 
