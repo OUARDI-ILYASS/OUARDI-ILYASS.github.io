@@ -207,12 +207,11 @@ _ITT "G. e M. Montani", Fermo, Italy_  `Sep 2015 – Jul 2020`
 
 ## Research Experience
 
-**Competition — Steerability Challenge: Reducing LLM Dishonesty**  
+**Competition — Steerability Challenge**  
 _Team steer-fry_ (With E. Bottazzi)  
 `Oct 2026 – Present`
 
-- Competition on steering pipelines that reduce model dishonesty (lying, sycophancy) while preserving general capabilities, submitted as frozen pipelines for three competition models. Final submission: November 2026.
-- Built a GEPA pipeline that evolves the honest-persona system prompt, and implemented probe-gated activation steering (StMP, Herbster et al.) on answer tokens, evaluated on a Qwen3.5-9B proxy model.
+- Reducing LLM dishonesty without losing capabilities: built GEPA prompt optimisation and probe-gated activation steering (StMP).
 
 **Independent Research — Representation Geometry of Truth**  
 _University of Milan_ (Sole author; Natural Language Processing course)  
